@@ -19,11 +19,11 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/x86/asm.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/utvideodsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/x86/asm.h>
+#include <ffmpeg/libavutil/x86/cpu.h>
+#include <ffmpeg/libavcodec/utvideodsp.h>
 
 void ff_restore_rgb_planes_sse2(uint8_t *src_r, uint8_t *src_g, uint8_t *src_b,
                                 ptrdiff_t linesize_r, ptrdiff_t linesize_g,

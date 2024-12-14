@@ -24,8 +24,8 @@
  * Context Adaptive Binary Arithmetic Coder.
  */
 
-#include "libavutil/error.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #include "cabac.h"
 

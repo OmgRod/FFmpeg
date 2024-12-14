@@ -18,10 +18,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/imgutils.h"
-#include "libavutil/pixdesc.h"
-#include "libavformat/avformat.h"
-#include "libavformat/mux.h"
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavformat/avformat.h>
+#include <ffmpeg/libavformat/mux.h>
 #include "v4l2-common.h"
 
 typedef struct {

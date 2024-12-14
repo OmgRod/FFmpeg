@@ -16,13 +16,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/eval.h"
-#include "libavutil/fifo.h"
-#include "libavutil/file.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/eval.h>
+#include <ffmpeg/libavutil/fifo.h>
+#include <ffmpeg/libavutil/file.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/parseutils.h>
 #include "formats.h"
 #include "filters.h"
 #include "video.h"

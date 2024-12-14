@@ -19,10 +19,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/arm/cpu.h"
-#include "libavcodec/vorbisdsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/arm/cpu.h>
+#include <ffmpeg/libavcodec/vorbisdsp.h>
 
 void ff_vorbis_inverse_coupling_neon(float *mag, float *ang,
                                      ptrdiff_t blocksize);

@@ -24,11 +24,11 @@
  * resampling audio filter
  */
 
-#include "libavutil/avstring.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/opt.h"
-#include "libavutil/samplefmt.h"
-#include "libavutil/avassert.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/samplefmt.h>
+#include <ffmpeg/libavutil/avassert.h>
 #include "libswresample/swresample.h"
 #include "avfilter.h"
 #include "audio.h"

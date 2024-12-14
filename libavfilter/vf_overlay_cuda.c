@@ -23,13 +23,13 @@
  * Overlay one video on top of another using cuda hardware acceleration
  */
 
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/hwcontext_cuda_internal.h"
-#include "libavutil/cuda_check.h"
-#include "libavutil/eval.h"
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/hwcontext.h>
+#include <ffmpeg/libavutil/hwcontext_cuda_internal.h>
+#include <ffmpeg/libavutil/cuda_check.h>
+#include <ffmpeg/libavutil/eval.h>
 
 #include "avfilter.h"
 #include "filters.h"

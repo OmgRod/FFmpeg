@@ -27,7 +27,7 @@
 #undef DECLARE_ALIGNED
 #define DECLARE_ALIGNED(align, type, name) type name
 #else
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/mem_internal.h>
 #endif
 
 #define SINETABLE(size) \
@@ -36,12 +36,12 @@
 #if CONFIG_HARDCODED_TABLES
 #define init_sine_windows_fixed()
 #define SINETABLE_CONST const
-#include "libavcodec/sinewin_fixed_tables.h"
+#include <ffmpeg/libavcodec/sinewin_fixed_tables.h>
 #else
 // do not use libavutil/libm.h since this is compiled both
 // for the host and the target and config.h is only valid for the target
 #include <math.h>
-#include "libavutil/attributes.h"
+#include <ffmpeg/libavutil/attributes.h>
 
 #define SINETABLE_CONST
 SINETABLE( 96);

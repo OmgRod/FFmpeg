@@ -21,9 +21,9 @@
 
 #include "config_components.h"
 
-#include "libavutil/common.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/opt.h>
 
 #include "avfilter.h"
 #include "filters.h"

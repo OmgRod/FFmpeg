@@ -21,13 +21,13 @@
 
 #include "config_components.h"
 
-#include "libavutil/avstring.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/mem_internal.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 #include "avfilter.h"
 #include "convolution.h"
 #include "filters.h"

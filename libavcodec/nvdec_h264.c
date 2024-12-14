@@ -23,7 +23,7 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/mem.h>
 #include "avcodec.h"
 #include "nvdec.h"
 #include "decode.h"

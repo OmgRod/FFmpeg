@@ -22,14 +22,14 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/ppc/cpu.h"
-#include "libavutil/ppc/util_altivec.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/ppc/cpu.h>
+#include <ffmpeg/libavutil/ppc/util_altivec.h>
 
-#include "libavcodec/avcodec.h"
-#include "libavcodec/mpegvideo.h"
-#include "libavcodec/me_cmp.h"
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavcodec/mpegvideo.h>
+#include <ffmpeg/libavcodec/me_cmp.h>
 
 #if HAVE_ALTIVEC
 

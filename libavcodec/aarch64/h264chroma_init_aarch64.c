@@ -21,10 +21,10 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/aarch64/cpu.h"
-#include "libavcodec/h264chroma.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/aarch64/cpu.h>
+#include <ffmpeg/libavcodec/h264chroma.h>
 
 #include "config.h"
 

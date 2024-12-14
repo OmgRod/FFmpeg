@@ -23,9 +23,9 @@
 #include <unistd.h>
 #endif
 
-#include "libavutil/avassert.h"
-#include "libavutil/mem.h"
-#include "libavutil/ppc/util_altivec.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/ppc/util_altivec.h>
 
 #define ASSERT_ALIGNED(ptr) av_assert2(!((uintptr_t)ptr&0x0000000F));
 

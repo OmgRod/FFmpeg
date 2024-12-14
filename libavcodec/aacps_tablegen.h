@@ -29,12 +29,12 @@
 #if CONFIG_HARDCODED_TABLES
 #define ps_tableinit()
 #define TABLE_CONST const
-#include "libavcodec/aacps_tables.h"
+#include <ffmpeg/libavcodec/aacps_tables.h>
 #else
-#include "libavutil/common.h"
-#include "libavutil/libm.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/libm.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 #define NR_ALLPASS_BANDS20 30
 #define NR_ALLPASS_BANDS34 50
 #define PS_AP_LINKS 3

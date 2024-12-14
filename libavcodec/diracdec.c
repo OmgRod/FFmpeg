@@ -26,10 +26,10 @@
  * @author Marco Gerards <marco@gnu.org>, David Conrad, Jordi Ortiz <nenjordi@gmail.com>
  */
 
-#include "libavutil/mem.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/mem_internal.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/thread.h>
 #include "avcodec.h"
 #include "get_bits.h"
 #include "codec_internal.h"

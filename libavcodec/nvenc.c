@@ -28,13 +28,13 @@
 #include "av1.h"
 #endif
 
-#include "libavutil/hwcontext_cuda.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/cuda_check.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/mem.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/mathematics.h"
+#include <ffmpeg/libavutil/hwcontext_cuda.h>
+#include <ffmpeg/libavutil/hwcontext.h>
+#include <ffmpeg/libavutil/cuda_check.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/mathematics.h>
 #include "atsc_a53.h"
 #include "codec_desc.h"
 #include "encode.h"

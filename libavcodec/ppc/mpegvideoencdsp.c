@@ -20,12 +20,12 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/ppc/cpu.h"
-#include "libavutil/ppc/util_altivec.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/ppc/cpu.h>
+#include <ffmpeg/libavutil/ppc/util_altivec.h>
 
-#include "libavcodec/mpegvideoencdsp.h"
+#include <ffmpeg/libavcodec/mpegvideoencdsp.h>
 
 #if HAVE_ALTIVEC
 

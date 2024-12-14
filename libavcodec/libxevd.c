@@ -25,12 +25,12 @@
 
 #include <xevd.h>
 
-#include "libavutil/internal.h"
-#include "libavutil/common.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/pixfmt.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/cpu.h"
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/pixfmt.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/cpu.h>
 
 #include "avcodec.h"
 #include "codec_internal.h"

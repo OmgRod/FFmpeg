@@ -19,13 +19,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/x86/asm.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/avcodec.h"
-#include "libavcodec/mpegvideo.h"
-#include "libavcodec/mpegvideodata.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/x86/asm.h>
+#include <ffmpeg/libavutil/x86/cpu.h>
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavcodec/mpegvideo.h>
+#include <ffmpeg/libavcodec/mpegvideodata.h>
 
 #if HAVE_MMX_INLINE
 

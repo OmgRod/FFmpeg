@@ -32,8 +32,8 @@
 #include "mpegutils.h"
 #include "rectangle.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 
 /**

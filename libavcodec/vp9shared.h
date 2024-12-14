@@ -27,7 +27,7 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #include "progressframe.h"
 #include "vp9.h"

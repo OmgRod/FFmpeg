@@ -24,10 +24,10 @@
  * See also https://en.wikipedia.org/wiki/Vertical_interval_timecode
  */
 
-#include "libavutil/common.h"
-#include "libavutil/internal.h"
-#include "libavutil/opt.h"
-#include "libavutil/timecode.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/timecode.h>
 #include "avfilter.h"
 #include "filters.h"
 #include "video.h"

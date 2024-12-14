@@ -19,21 +19,21 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/bprint.h"
-#include "libavutil/buffer.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/common.h"
-#include "libavutil/eval.h"
-#include "libavutil/frame.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/internal.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/rational.h"
-#include "libavutil/samplefmt.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/bprint.h>
+#include <ffmpeg/libavutil/buffer.h>
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/eval.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/hwcontext.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/rational.h>
+#include <ffmpeg/libavutil/samplefmt.h>
 
 #include "audio.h"
 #include "avfilter.h"

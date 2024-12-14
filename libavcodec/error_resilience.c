@@ -27,7 +27,7 @@
 
 #include <limits.h>
 
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/mem.h>
 #include "avcodec.h"
 #include "error_resilience.h"
 #include "me_cmp.h"

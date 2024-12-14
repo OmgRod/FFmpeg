@@ -22,7 +22,7 @@
 
 #include "config_components.h"
 
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/opt.h>
 #include "avformat.h"
 #include "demux.h"
 

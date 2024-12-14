@@ -22,7 +22,7 @@
  */
 
 
-#include "libavutil/aarch64/asm.S"
+#include <ffmpeg/libavutil/aarch64/asm.S>
 #include "neon.S"
 
 .macro hevc_loop_filter_chroma_start bitdepth

@@ -30,10 +30,10 @@
 
 #include <stdint.h>
 
-#include "libavcodec/vlc.h"
+#include <ffmpeg/libavcodec/vlc.h>
 
-#include "libavutil/attributes_internal.h"
-#include "libavutil/channel_layout.h"
+#include <ffmpeg/libavutil/attributes_internal.h>
+#include <ffmpeg/libavutil/channel_layout.h>
 
 FF_VISIBILITY_PUSH_HIDDEN
 void ff_aacdec_common_init_once(void);

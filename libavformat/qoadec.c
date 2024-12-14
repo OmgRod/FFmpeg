@@ -22,7 +22,7 @@
 #include "avio_internal.h"
 #include "demux.h"
 #include "internal.h"
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
 
 static int qoa_probe(const AVProbeData *p)
 {

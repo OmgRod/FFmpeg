@@ -28,14 +28,14 @@
 #include <stdint.h>
 
 #include "config_components.h"
-#include "libavutil/avassert.h"
-#include "libavutil/dict.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/log.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavcodec/internal.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavcodec/internal.h>
 #include "avformat.h"
 #include "avio.h"
 #include "avio_internal.h"

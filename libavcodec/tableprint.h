@@ -26,7 +26,7 @@
 #include <inttypes.h>
 #include <stdio.h>
 
-#include "libavutil/common.h"
+#include <ffmpeg/libavutil/common.h>
 
 #define WRITE_1D_FUNC_ARGV(type, linebrk, fmtstr, ...)\
 void write_##type##_array(const type *data, int len)\

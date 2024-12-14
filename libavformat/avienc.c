@@ -29,17 +29,17 @@
 #include "mpegts.h"
 #include "mux.h"
 #include "rawutils.h"
-#include "libavformat/avlanguage.h"
-#include "libavutil/avstring.h"
-#include "libavutil/avutil.h"
-#include "libavutil/internal.h"
-#include "libavutil/dict.h"
-#include "libavutil/avassert.h"
-#include "libavutil/mem.h"
-#include "libavutil/timestamp.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavcodec/raw.h"
+#include <ffmpeg/libavformat/avlanguage.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/avutil.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/timestamp.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavcodec/raw.h>
 
 /*
  * TODO:

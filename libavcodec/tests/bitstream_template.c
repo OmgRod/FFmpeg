@@ -21,17 +21,17 @@
 
 #define ASSERT_LEVEL 2
 
-#include "libavutil/avassert.h"
-#include "libavutil/lfg.h"
-#include "libavutil/random_seed.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/lfg.h>
+#include <ffmpeg/libavutil/random_seed.h>
 
-#include "libavcodec/bitstream.h"
-#include "libavcodec/defs.h"
+#include <ffmpeg/libavcodec/bitstream.h>
+#include <ffmpeg/libavcodec/defs.h>
 
 #ifdef BITSTREAM_LE
 #define BITSTREAM_WRITER_LE
 #endif
-#include "libavcodec/put_bits.h"
+#include <ffmpeg/libavcodec/put_bits.h>
 
 #define SIZE 157
 

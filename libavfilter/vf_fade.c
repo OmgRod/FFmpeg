@@ -25,12 +25,12 @@
  * based heavily on vf_negate.c by Bobby Bingham
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/common.h"
-#include "libavutil/eval.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/eval.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 #include "avfilter.h"
 #include "drawutils.h"
 #include "filters.h"

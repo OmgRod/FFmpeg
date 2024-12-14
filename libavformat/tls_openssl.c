@@ -23,7 +23,7 @@
 #include "os_support.h"
 #include "url.h"
 #include "tls.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/opt.h>
 
 #include <openssl/bio.h>
 #include <openssl/ssl.h>
@@ -46,7 +46,7 @@ typedef struct TLSContext {
  * https://wiki.openssl.org/index.php/Library_Initialization
  */
 #if OPENSSL_VERSION_NUMBER < 0x10100000L
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/thread.h>
 
 static AVMutex openssl_mutex = AV_MUTEX_INITIALIZER;
 
@@ -54,7 +54,7 @@ static int openssl_init;
 
 #if HAVE_THREADS
 #include <openssl/crypto.h>
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/mem.h>
 
 pthread_mutex_t *openssl_mutexes;
 static void openssl_lock(int mode, int type, const char *file, int line)

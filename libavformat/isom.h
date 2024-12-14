@@ -27,11 +27,11 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "libavutil/encryption_info.h"
-#include "libavutil/mastering_display_metadata.h"
-#include "libavutil/ambient_viewing_environment.h"
-#include "libavutil/spherical.h"
-#include "libavutil/stereo3d.h"
+#include <ffmpeg/libavutil/encryption_info.h>
+#include <ffmpeg/libavutil/mastering_display_metadata.h>
+#include <ffmpeg/libavutil/ambient_viewing_environment.h>
+#include <ffmpeg/libavutil/spherical.h>
+#include <ffmpeg/libavutil/stereo3d.h>
 
 #include "avio.h"
 #include "internal.h"

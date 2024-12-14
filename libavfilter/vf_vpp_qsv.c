@@ -25,13 +25,13 @@
 
 #include "config_components.h"
 
-#include "libavutil/opt.h"
-#include "libavutil/eval.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/hwcontext_qsv.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mastering_display_metadata.h"
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/eval.h>
+#include <ffmpeg/libavutil/hwcontext.h>
+#include <ffmpeg/libavutil/hwcontext_qsv.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/mastering_display_metadata.h>
 
 #include "formats.h"
 #include "avfilter.h"

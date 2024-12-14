@@ -34,9 +34,9 @@
 #include "config.h"
 
 #include "bwdifdsp.h"
-#include "libavutil/attributes.h"
-#include "libavutil/common.h"
-#include "libavutil/macros.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/macros.h>
 
 /*
  * Filter coefficients coef_lf and coef_hf taken from BBC PH-2071 (Weston 3 Field Deinterlacer).

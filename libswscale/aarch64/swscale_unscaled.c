@@ -19,7 +19,7 @@
 #include "config.h"
 #include "libswscale/swscale.h"
 #include "libswscale/swscale_internal.h"
-#include "libavutil/aarch64/cpu.h"
+#include <ffmpeg/libavutil/aarch64/cpu.h>
 
 #define YUV_TO_RGB_TABLE                                                                    \
         c->yuv2rgb_v2r_coeff,                                                               \

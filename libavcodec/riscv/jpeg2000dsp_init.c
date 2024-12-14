@@ -19,9 +19,9 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavcodec/jpeg2000dsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavcodec/jpeg2000dsp.h>
 
 void ff_ict_float_rvv(void *src0, void *src1, void *src2, int csize);
 void ff_rct_int_rvv(void *src0, void *src1, void *src2, int csize);

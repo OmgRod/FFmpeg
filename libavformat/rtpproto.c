@@ -24,10 +24,10 @@
  * RTP protocol
  */
 
-#include "libavutil/mem.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/avstring.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/parseutils.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/opt.h>
 #include "avformat.h"
 #include "rtp.h"
 #include "rtpproto.h"

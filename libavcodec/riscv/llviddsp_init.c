@@ -20,9 +20,9 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavcodec/lossless_videodsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavcodec/lossless_videodsp.h>
 
 void ff_llvid_add_bytes_rvv(uint8_t *, uint8_t *src, ptrdiff_t w);
 

@@ -23,10 +23,10 @@
  * audio to video multimedia vectorscope filter
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/parseutils.h>
 #include "avfilter.h"
 #include "filters.h"
 #include "formats.h"

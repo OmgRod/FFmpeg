@@ -35,14 +35,14 @@
 
 #include <stdint.h>
 
-#include "libavutil/emms.h"
-#include "libavutil/internal.h"
-#include "libavutil/intmath.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/opt.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/emms.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/intmath.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/mem_internal.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/thread.h>
 #include "avcodec.h"
 #include "encode.h"
 #include "idctdsp.h"

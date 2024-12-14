@@ -19,4 +19,4 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/jpegxl_parse.c"
+#include <ffmpeg/libavcodec/jpegxl_parse.c>

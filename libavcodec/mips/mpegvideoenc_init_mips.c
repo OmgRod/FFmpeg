@@ -18,9 +18,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/mips/cpu.h"
-#include "libavcodec/mpegvideoenc.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/mips/cpu.h>
+#include <ffmpeg/libavcodec/mpegvideoenc.h>
 #include "mpegvideo_mips.h"
 
 av_cold void ff_mpvenc_dct_init_mips(MpegEncContext *s)

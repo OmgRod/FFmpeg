@@ -19,8 +19,8 @@
  */
 
 #include <limits.h>
-#include "libavutil/error.h"
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
 #include "xiph.h"
 
 int avpriv_split_xiph_headers(const uint8_t *extradata, int extradata_size,

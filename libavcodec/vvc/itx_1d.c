@@ -59,7 +59,7 @@
 
 #include "data.h"
 #include "itx_1d.h"
-#include "libavutil/avutil.h"
+#include <ffmpeg/libavutil/avutil.h>
 
 #define G2(m)  ((nz >  2) ? (m) : 0)
 #define G4(m)  ((nz >  4) ? (m) : 0)

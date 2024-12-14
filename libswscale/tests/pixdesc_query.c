@@ -20,7 +20,7 @@
 
 #include <stdlib.h>
 
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/mem.h>
 #include "libswscale/swscale_internal.h"
 
 static const struct {

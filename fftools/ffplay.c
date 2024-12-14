@@ -30,21 +30,21 @@
 #include <signal.h>
 #include <stdint.h>
 
-#include "libavutil/avstring.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/dict.h"
-#include "libavutil/fifo.h"
-#include "libavutil/samplefmt.h"
-#include "libavutil/time.h"
-#include "libavutil/bprint.h"
-#include "libavformat/avformat.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/fifo.h>
+#include <ffmpeg/libavutil/samplefmt.h>
+#include <ffmpeg/libavutil/time.h>
+#include <ffmpeg/libavutil/bprint.h>
+#include <ffmpeg/libavformat/avformat.h>
 #include "libavdevice/avdevice.h"
 #include "libswscale/swscale.h"
-#include "libavutil/opt.h"
-#include "libavutil/tx.h"
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/tx.h>
 #include "libswresample/swresample.h"
 
 #include "libavfilter/avfilter.h"

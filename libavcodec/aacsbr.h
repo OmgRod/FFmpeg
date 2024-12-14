@@ -32,7 +32,7 @@
 #include "get_bits.h"
 #include "aac/aacdec.h"
 
-#include "libavutil/attributes_internal.h"
+#include <ffmpeg/libavutil/attributes_internal.h>
 
 #define ENVELOPE_ADJUSTMENT_OFFSET 2
 #define NOISE_FLOOR_OFFSET 6

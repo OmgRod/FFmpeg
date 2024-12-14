@@ -24,9 +24,9 @@
 #include <limits.h>
 #include <stdint.h>
 
-#include "libavutil/error.h"
-#include "libavutil/intmath.h"
-#include "libavutil/macros.h"
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/intmath.h>
+#include <ffmpeg/libavutil/macros.h>
 
 #include "av1.h"
 #include "get_bits.h"

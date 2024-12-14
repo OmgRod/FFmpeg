@@ -20,8 +20,8 @@
 #define AVCODEC_HW_BASE_ENCODE_H
 
 #include "avcodec.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/fifo.h"
+#include <ffmpeg/libavutil/hwcontext.h>
+#include <ffmpeg/libavutil/fifo.h>
 
 #define MAX_DPB_SIZE 16
 #define MAX_PICTURE_REFERENCES 2

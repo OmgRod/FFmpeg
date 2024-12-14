@@ -16,11 +16,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/aarch64/cpu.h"
-#include "libavcodec/avcodec.h"
-#include "libavcodec/fdctdsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/aarch64/cpu.h>
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavcodec/fdctdsp.h>
 #include "fdct.h"
 
 av_cold void ff_fdctdsp_init_aarch64(FDCTDSPContext *c, AVCodecContext *avctx,

@@ -26,27 +26,27 @@
 #include "ffmpeg_sched.h"
 #include "fopen_utf8.h"
 
-#include "libavformat/avformat.h"
-#include "libavformat/avio.h"
+#include <ffmpeg/libavformat/avformat.h>
+#include <ffmpeg/libavformat/avio.h>
 
-#include "libavcodec/avcodec.h"
+#include <ffmpeg/libavcodec/avcodec.h>
 
 #include "libavfilter/avfilter.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/avutil.h"
-#include "libavutil/bprint.h"
-#include "libavutil/dict.h"
-#include "libavutil/display.h"
-#include "libavutil/getenv_utf8.h"
-#include "libavutil/iamf.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/avutil.h>
+#include <ffmpeg/libavutil/bprint.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/display.h>
+#include <ffmpeg/libavutil/getenv_utf8.h>
+#include <ffmpeg/libavutil/iamf.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/parseutils.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 
 #define DEFAULT_PASS_LOGFILENAME_PREFIX "ffmpeg2pass"
 

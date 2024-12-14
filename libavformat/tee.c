@@ -20,11 +20,11 @@
  */
 
 
-#include "libavutil/avutil.h"
-#include "libavutil/avstring.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavcodec/bsf.h"
+#include <ffmpeg/libavutil/avutil.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavcodec/bsf.h>
 #include "internal.h"
 #include "avformat.h"
 #include "mux.h"

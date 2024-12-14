@@ -23,7 +23,7 @@
  * Daniele Fornighieri <guru AT digitalfantasy it>.
  */
 
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/opt.h>
 #include "avfilter.h"
 #include "filters.h"
 #include "video.h"

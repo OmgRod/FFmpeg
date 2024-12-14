@@ -23,7 +23,7 @@
 #include "avcodec.h"
 #include "ass.h"
 #include "codec_internal.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/opt.h>
 
 #define SCREEN_ROWS 15
 #define SCREEN_COLUMNS 32

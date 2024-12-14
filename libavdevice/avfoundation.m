@@ -28,17 +28,17 @@
 #import <AVFoundation/AVFoundation.h>
 #include <pthread.h>
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/mem.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/opt.h"
-#include "libavutil/avstring.h"
-#include "libavformat/demux.h"
-#include "libavformat/internal.h"
-#include "libavutil/internal.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/time.h"
-#include "libavutil/imgutils.h"
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavformat/demux.h>
+#include <ffmpeg/libavformat/internal.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/parseutils.h>
+#include <ffmpeg/libavutil/time.h>
+#include <ffmpeg/libavutil/imgutils.h>
 #include "avdevice.h"
 
 static const int avf_time_base = 1000000;

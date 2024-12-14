@@ -28,9 +28,9 @@
 #include "demux.h"
 #include "internal.h"
 #include "subtitles.h"
-#include "libavutil/bprint.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/bprint.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/opt.h>
 
 typedef struct {
     const AVClass *class;

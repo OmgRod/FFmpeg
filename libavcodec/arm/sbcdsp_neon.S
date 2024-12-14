@@ -29,7 +29,7 @@
  * SBC ARM NEON optimizations
  */
 
-#include "libavutil/arm/asm.S"
+#include <ffmpeg/libavutil/arm/asm.S>
 #include "neon.S"
 
 #define SBC_PROTO_FIXED_SCALE 16

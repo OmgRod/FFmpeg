@@ -20,10 +20,10 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/riscv/cpu.h"
-#include "libavcodec/opus/dsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/riscv/cpu.h>
+#include <ffmpeg/libavcodec/opus/dsp.h>
 
 void ff_opus_postfilter_rvv(float *data, int period, float *g, int len);
 

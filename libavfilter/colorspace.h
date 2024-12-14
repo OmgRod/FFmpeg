@@ -20,9 +20,9 @@
 #ifndef AVFILTER_COLORSPACE_H
 #define AVFILTER_COLORSPACE_H
 
-#include "libavutil/csp.h"
-#include "libavutil/frame.h"
-#include "libavutil/pixfmt.h"
+#include <ffmpeg/libavutil/csp.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/pixfmt.h>
 
 #define REFERENCE_WHITE 100.0f
 

@@ -25,9 +25,9 @@
  * ISO/IEC 14496-3 Part 3 Subpart 10: Technical description of lossless coding of oversampled audio
  */
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/reverse.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem_internal.h>
+#include <ffmpeg/libavutil/reverse.h>
 #include "codec_internal.h"
 #include "decode.h"
 #include "get_bits.h"

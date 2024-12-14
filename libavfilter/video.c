@@ -23,10 +23,10 @@
 #include <string.h>
 #include <stdio.h>
 
-#include "libavutil/buffer.h"
-#include "libavutil/cpu.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/pixfmt.h"
+#include <ffmpeg/libavutil/buffer.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/hwcontext.h>
+#include <ffmpeg/libavutil/pixfmt.h>
 
 #include "avfilter.h"
 #include "avfilter_internal.h"

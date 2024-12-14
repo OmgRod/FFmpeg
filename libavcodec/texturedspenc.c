@@ -26,9 +26,9 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/common.h"
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
 
 #include "texturedsp.h"
 

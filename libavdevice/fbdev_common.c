@@ -25,9 +25,9 @@
 #include <sys/ioctl.h>
 #include <stdlib.h>
 #include "fbdev_common.h"
-#include "libavutil/common.h"
-#include "libavutil/file_open.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/file_open.h>
+#include <ffmpeg/libavutil/mem.h>
 #include "avdevice.h"
 
 struct rgb_pixfmt_map_entry {

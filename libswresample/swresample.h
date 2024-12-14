@@ -121,9 +121,9 @@
  */
 
 #include <stdint.h>
-#include "libavutil/channel_layout.h"
-#include "libavutil/frame.h"
-#include "libavutil/samplefmt.h"
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/samplefmt.h>
 
 #include "libswresample/version_major.h"
 #ifndef HAVE_AV_CONFIG_H

@@ -31,7 +31,7 @@
 
 #include "config.h"
 
-#include "libavutil/attributes_internal.h"
+#include <ffmpeg/libavutil/attributes_internal.h>
 #include "vlc.h"
 
 #define MODE_EXT_MS_STEREO 2

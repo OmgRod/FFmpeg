@@ -20,11 +20,11 @@
 
 #include <float.h>
 
-#include "libavutil/eval.h"
-#include "libavutil/ffmath.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/tx.h"
+#include <ffmpeg/libavutil/eval.h>
+#include <ffmpeg/libavutil/ffmath.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/tx.h>
 #include "audio.h"
 #include "avfilter.h"
 #include "filters.h"

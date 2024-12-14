@@ -68,12 +68,12 @@
 #include <conio.h>
 #endif
 
-#include "libavutil/bprint.h"
-#include "libavutil/dict.h"
-#include "libavutil/mem.h"
-#include "libavutil/time.h"
+#include <ffmpeg/libavutil/bprint.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/time.h>
 
-#include "libavformat/avformat.h"
+#include <ffmpeg/libavformat/avformat.h>
 
 #include "libavdevice/avdevice.h"
 

@@ -19,8 +19,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/avcodec.h"
-#include "libavutil/arm/neontest.h"
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavutil/arm/neontest.h>
 
 wrap(avcodec_open2(AVCodecContext *avctx,
                    const AVCodec *codec,

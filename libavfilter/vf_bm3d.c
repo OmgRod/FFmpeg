@@ -31,12 +31,12 @@
 
 #include <float.h>
 
-#include "libavutil/cpu.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/tx.h"
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/tx.h>
 #include "avfilter.h"
 #include "filters.h"
 #include "framesync.h"

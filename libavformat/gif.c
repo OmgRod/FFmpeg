@@ -24,11 +24,11 @@
 #include "avformat.h"
 #include "internal.h"
 #include "mux.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
-#include "libavcodec/bytestream.h"
-#include "libavcodec/gif.h"
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavcodec/bytestream.h>
+#include <ffmpeg/libavcodec/gif.h>
 
 typedef struct GIFContext {
     AVClass *class;

@@ -24,10 +24,10 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/riscv/cpu.h"
-#include "libavcodec/h264dsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/riscv/cpu.h>
+#include <ffmpeg/libavcodec/h264dsp.h>
 
 extern const struct {
     const h264_weight_func weight;

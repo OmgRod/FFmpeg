@@ -19,13 +19,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/mem.h>
 #include "avformat.h"
 #include "avio_internal.h"
 #include "isom.h"
 #include "movenc.h"
 #include "movenc_ttml.h"
-#include "libavcodec/packet_internal.h"
+#include <ffmpeg/libavcodec/packet_internal.h>
 
 static const unsigned char empty_ttml_document[] =
     "<tt xml:lang=\"\" xmlns=\"http://www.w3.org/ns/ttml\" />";

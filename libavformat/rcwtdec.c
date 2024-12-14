@@ -33,7 +33,7 @@
 #include "demux.h"
 #include "internal.h"
 #include "subtitles.h"
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
 
 #define RCWT_HEADER_SIZE                    11
 

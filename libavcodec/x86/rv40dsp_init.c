@@ -26,10 +26,10 @@
  * 3,3 is bugged in the rv40 format and maps to _xy2 version
  */
 
-#include "libavcodec/rv34dsp.h"
-#include "libavutil/attributes.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/x86/cpu.h"
+#include <ffmpeg/libavcodec/rv34dsp.h>
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/mem_internal.h>
+#include <ffmpeg/libavutil/x86/cpu.h>
 #include "hpeldsp.h"
 
 #define DEFINE_FN(op, size, insn) \

@@ -27,8 +27,8 @@
 
 #define BITSTREAM_READER_LE
 
-#include "libavutil/intfloat.h"
-#include "libavutil/display.h"
+#include <ffmpeg/libavutil/intfloat.h>
+#include <ffmpeg/libavutil/display.h>
 #include "avcodec.h"
 #include "bytestream.h"
 #include "codec_internal.h"

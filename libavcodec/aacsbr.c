@@ -33,11 +33,11 @@
 #include "aacsbrdata.h"
 #include "aacps.h"
 #include "sbrdsp.h"
-#include "libavutil/internal.h"
-#include "libavutil/intfloat.h"
-#include "libavutil/libm.h"
-#include "libavutil/avassert.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/intfloat.h>
+#include <ffmpeg/libavutil/libm.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #include <stdint.h>
 #include <float.h>

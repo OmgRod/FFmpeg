@@ -19,9 +19,9 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/x86/cpu.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/x86/cpu.h>
 #include "libavfilter/convolution.h"
 
 void ff_filter_3x3_sse4(uint8_t *dst, int width,

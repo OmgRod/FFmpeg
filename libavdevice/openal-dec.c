@@ -24,10 +24,10 @@
 #include <AL/al.h>
 #include <AL/alc.h>
 
-#include "libavutil/opt.h"
-#include "libavutil/time.h"
-#include "libavformat/demux.h"
-#include "libavformat/internal.h"
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/time.h>
+#include <ffmpeg/libavformat/demux.h>
+#include <ffmpeg/libavformat/internal.h>
 #include "avdevice.h"
 
 typedef struct {

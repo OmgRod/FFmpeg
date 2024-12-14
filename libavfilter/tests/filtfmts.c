@@ -20,10 +20,10 @@
 
 #include <stdio.h>
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/mem.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/samplefmt.h"
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/samplefmt.h>
 
 #include "libavfilter/avfilter.h"
 #include "libavfilter/avfilter_internal.h"

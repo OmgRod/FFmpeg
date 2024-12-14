@@ -19,7 +19,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/riscv/asm.S"
+#include <ffmpeg/libavutil/riscv/asm.S>
 
 .macro  inv_trans_dc rows, cols, w, mat_lmul, row_lmul
 func ff_vc1_inv_trans_\cols\()x\rows\()_dc_rvv, zve64x, zba

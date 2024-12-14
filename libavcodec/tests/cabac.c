@@ -18,13 +18,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/cabac_functions.h"
-#include "libavcodec/cabac.c"
+#include <ffmpeg/libavcodec/cabac_functions.h>
+#include <ffmpeg/libavcodec/cabac.c>
 
 #define SIZE 10240
 
-#include "libavutil/lfg.h"
-#include "libavcodec/put_bits.h"
+#include <ffmpeg/libavutil/lfg.h>
+#include <ffmpeg/libavcodec/put_bits.h>
 
 typedef struct CABACTestContext {
     CABACContext dec;

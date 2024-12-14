@@ -23,13 +23,13 @@
 #include <string.h>
 #include <initguid.h>
 
-#include "libavutil/common.h"
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
-#include "libavutil/time.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/hwcontext_d3d12va_internal.h"
-#include "libavutil/hwcontext_d3d12va.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/time.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/hwcontext_d3d12va_internal.h>
+#include <ffmpeg/libavutil/hwcontext_d3d12va.h>
 #include "avcodec.h"
 #include "decode.h"
 #include "d3d12va_decode.h"

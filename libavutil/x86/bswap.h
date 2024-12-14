@@ -30,7 +30,7 @@
 #include <intrin.h>
 #endif
 #include "config.h"
-#include "libavutil/attributes.h"
+#include <ffmpeg/libavutil/attributes.h>
 
 #if defined(_MSC_VER)
 

@@ -20,9 +20,9 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavcodec/lossless_audiodsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavcodec/lossless_audiodsp.h>
 
 int32_t ff_scalarproduct_and_madd_int16_rvv(int16_t *v1, const int16_t *v2,
                                             const int16_t *v3, int len,

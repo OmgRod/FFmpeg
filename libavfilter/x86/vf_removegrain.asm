@@ -25,7 +25,7 @@
 ; row  0: a4  c a5
 ; row +1: a6 a7 a8
 
-%include "libavutil/x86/x86util.asm"
+%include <ffmpeg/libavutil/x86/x86util.asm>
 
 SECTION_RODATA 32
 

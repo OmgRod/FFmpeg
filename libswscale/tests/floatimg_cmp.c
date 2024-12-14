@@ -23,14 +23,14 @@
 #include <inttypes.h>
 #include <float.h>
 
-#include "libavutil/avutil.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/intfloat.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/lfg.h"
-#include "libavutil/mem.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/avutil.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/intfloat.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/lfg.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/parseutils.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 
 #include "libswscale/swscale.h"
 

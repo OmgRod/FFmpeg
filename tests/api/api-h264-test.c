@@ -24,12 +24,12 @@
  * H264 codec test.
  */
 
-#include "libavutil/adler32.h"
-#include "libavutil/mem.h"
-#include "libavcodec/avcodec.h"
-#include "libavformat/avformat.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/timestamp.h"
+#include <ffmpeg/libavutil/adler32.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavformat/avformat.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/timestamp.h>
 
 static int video_decode_example(const char *input_filename)
 {

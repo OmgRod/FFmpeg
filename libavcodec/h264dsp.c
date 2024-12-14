@@ -27,13 +27,13 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/avassert.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/avassert.h>
 
 #include "h264dsp.h"
 #include "h264idct.h"
 #include "startcode.h"
-#include "libavutil/common.h"
+#include <ffmpeg/libavutil/common.h>
 
 #define BIT_DEPTH 8
 #include "h264dsp_template.c"

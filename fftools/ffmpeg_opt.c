@@ -32,21 +32,21 @@
 #include "cmdutils.h"
 #include "opt_common.h"
 
-#include "libavformat/avformat.h"
+#include <ffmpeg/libavformat/avformat.h>
 
-#include "libavcodec/avcodec.h"
-#include "libavcodec/bsf.h"
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavcodec/bsf.h>
 
 #include "libavfilter/avfilter.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/avutil.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/stereo3d.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/avutil.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/parseutils.h>
+#include <ffmpeg/libavutil/stereo3d.h>
 
 HWDevice *filter_hw_device;
 

@@ -20,7 +20,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/loongarch/cpu.h"
+#include <ffmpeg/libavutil/loongarch/cpu.h>
 #include "hevcdsp_lsx.h"
 #include "hevcdsp_lasx.h"
 

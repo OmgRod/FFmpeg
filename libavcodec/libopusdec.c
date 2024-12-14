@@ -22,10 +22,10 @@
 #include <opus.h>
 #include <opus_multistream.h>
 
-#include "libavutil/internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/ffmath.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/ffmath.h>
+#include <ffmpeg/libavutil/opt.h>
 
 #include "avcodec.h"
 #include "codec_internal.h"

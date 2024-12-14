@@ -20,10 +20,10 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/riscv/cpu.h"
-#include "libavcodec/h263dsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/riscv/cpu.h>
+#include <ffmpeg/libavcodec/h263dsp.h>
 
 void ff_h263_h_loop_filter_rvv(uint8_t *src, int stride, int q);
 void ff_h263_v_loop_filter_rvv(uint8_t *src, int stride, int q);

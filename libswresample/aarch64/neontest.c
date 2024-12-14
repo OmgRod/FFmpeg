@@ -20,7 +20,7 @@
  */
 
 #include "libswresample/swresample.h"
-#include "libavutil/aarch64/neontest.h"
+#include <ffmpeg/libavutil/aarch64/neontest.h>
 
 wrap(swr_convert(struct SwrContext *s, uint8_t **out, int out_count,
                  const uint8_t **in , int in_count))

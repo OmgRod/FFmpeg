@@ -26,12 +26,12 @@
 
 #include "avformat.h"
 #include "demux.h"
-#include "libavutil/bprint.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/bprint.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/opt.h>
 #include "avio_internal.h"
 #include "internal.h"
-#include "libavcodec/gif.h"
+#include <ffmpeg/libavcodec/gif.h>
 
 #define GIF_PACKET_SIZE 1024
 

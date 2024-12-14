@@ -25,9 +25,9 @@
 #ifndef AVCODEC_MIPS_CABAC_H
 #define AVCODEC_MIPS_CABAC_H
 
-#include "libavutil/attributes.h"
-#include "libavcodec/cabac.h"
-#include "libavutil/mips/mmiutils.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavcodec/cabac.h>
+#include <ffmpeg/libavutil/mips/mmiutils.h>
 #include "config.h"
 
 #if !HAVE_MIPS32R6 && !HAVE_MIPS64R6

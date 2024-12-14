@@ -19,10 +19,10 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/aarch64/cpu.h"
-#include "libavutil/cpu.h"
-#include "libavutil/bswap.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/aarch64/cpu.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/bswap.h>
 #include "libswscale/rgb2rgb.h"
 #include "libswscale/swscale.h"
 #include "libswscale/swscale_internal.h"

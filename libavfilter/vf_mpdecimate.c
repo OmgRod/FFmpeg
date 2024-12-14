@@ -24,10 +24,10 @@
  * Rich Felker.
  */
 
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/pixelutils.h"
-#include "libavutil/timestamp.h"
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/pixelutils.h>
+#include <ffmpeg/libavutil/timestamp.h>
 #include "avfilter.h"
 #include "filters.h"
 #include "video.h"

@@ -20,13 +20,13 @@
  */
 
 #include "avformat.h"
-#include "libavutil/mem.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/random_seed.h"
-#include "libavutil/avstring.h"
-#include "libavutil/dict.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/time.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/parseutils.h>
+#include <ffmpeg/libavutil/random_seed.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/time.h>
 #include "internal.h"
 #include "mux.h"
 #include "network.h"

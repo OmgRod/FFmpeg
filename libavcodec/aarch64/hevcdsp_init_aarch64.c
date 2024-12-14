@@ -21,11 +21,11 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/aarch64/cpu.h"
-#include "libavcodec/aarch64/h26x/dsp.h"
-#include "libavcodec/hevc/dsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/aarch64/cpu.h>
+#include <ffmpeg/libavcodec/aarch64/h26x/dsp.h>
+#include <ffmpeg/libavcodec/hevc/dsp.h>
 
 void ff_hevc_v_loop_filter_chroma_8_neon(uint8_t *_pix, ptrdiff_t _stride,
                                          const int *_tc, const uint8_t *_no_p, const uint8_t *_no_q);

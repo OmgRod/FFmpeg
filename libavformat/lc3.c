@@ -34,8 +34,8 @@
 
 #include "config_components.h"
 
-#include "libavcodec/packet.h"
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavcodec/packet.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
 
 #include "avformat.h"
 #include "avio.h"

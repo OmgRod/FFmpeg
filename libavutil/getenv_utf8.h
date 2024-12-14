@@ -26,7 +26,7 @@
 
 #if HAVE_GETENV && defined(_WIN32)
 
-#include "libavutil/wchar_filename.h"
+#include <ffmpeg/libavutil/wchar_filename.h>
 
 static inline char *getenv_utf8(const char *varname)
 {

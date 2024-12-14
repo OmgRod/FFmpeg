@@ -25,10 +25,10 @@
  * @author Michael Niedermayer <michaelni@gmx.at>
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/libm.h"
-#include "libavutil/mem.h"
-#include "libavutil/samplefmt.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/libm.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/samplefmt.h>
 #include "audioconvert.h"
 
 

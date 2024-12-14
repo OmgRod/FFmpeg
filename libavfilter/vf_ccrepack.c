@@ -33,7 +33,7 @@
 #include "filters.h"
 #include "ccfifo.h"
 #include "video.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/opt.h>
 
 typedef struct CCRepackContext
 {

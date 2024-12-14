@@ -29,9 +29,9 @@
 
 #include "config.h"
 
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/thread.h>
 #if ARCH_X86
-#include "libavutil/x86/asm.h"
+#include <ffmpeg/libavutil/x86/asm.h>
 #endif
 
 #include "avcodec.h"

@@ -26,9 +26,9 @@
  */
 
 #include "faandct.h"
-#include "libavutil/emms.h"
-#include "libavutil/internal.h"
-#include "libavutil/libm.h"
+#include <ffmpeg/libavutil/emms.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/libm.h>
 
 typedef float FLOAT;
 

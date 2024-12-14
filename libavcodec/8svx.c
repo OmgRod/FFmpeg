@@ -39,12 +39,12 @@
 
 #include "config_components.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/mem.h>
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "decode.h"
-#include "libavutil/common.h"
+#include <ffmpeg/libavutil/common.h>
 
 /** decoder context */
 typedef struct EightSvxContext {

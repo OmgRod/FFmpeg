@@ -21,7 +21,7 @@
 
 #include "avio.h"
 
-#include "libavutil/log.h"
+#include <ffmpeg/libavutil/log.h>
 
 extern const AVClass ff_avio_class;
 

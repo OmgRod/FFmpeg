@@ -24,7 +24,7 @@
 #include <stdint.h>
 #include <time.h>
 
-#include "libavutil/time_internal.h"
+#include <ffmpeg/libavutil/time_internal.h>
 
 #include "avformat.h"
 #include "hlsplaylist.h"

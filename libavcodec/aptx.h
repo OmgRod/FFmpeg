@@ -23,7 +23,7 @@
 #ifndef AVCODEC_APTX_H
 #define AVCODEC_APTX_H
 
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
 #include "avcodec.h"
 #include "mathops.h"
 

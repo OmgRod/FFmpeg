@@ -26,15 +26,15 @@
 
 #include <stdint.h>
 
-#include "libavcodec/avcodec.h"
+#include <ffmpeg/libavcodec/avcodec.h>
 
 #include "dsp.h"
 #include "rc.h"
 
-#include "libavutil/float_dsp.h"
-#include "libavutil/libm.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/tx.h"
+#include <ffmpeg/libavutil/float_dsp.h>
+#include <ffmpeg/libavutil/libm.h>
+#include <ffmpeg/libavutil/mem_internal.h>
+#include <ffmpeg/libavutil/tx.h>
 
 #define CELT_SHORT_BLOCKSIZE         120
 #define CELT_OVERLAP                 CELT_SHORT_BLOCKSIZE

@@ -20,11 +20,11 @@
 ;* Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
 ;******************************************************************************
 
-%include "libavutil/x86/x86util.asm"
+%include <ffmpeg/libavutil/x86/x86util.asm>
 
 SECTION .text
 
-%include "libavcodec/x86/huffyuvdsp_template.asm"
+%include <ffmpeg/libavcodec/x86/huffyuvdsp_template.asm>
 
 ;------------------------------------------------------------------------------
 ; void (*add_int16)(uint16_t *dst, const uint16_t *src, unsigned mask, int w);

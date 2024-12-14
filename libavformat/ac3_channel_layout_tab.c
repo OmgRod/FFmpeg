@@ -19,4 +19,4 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/ac3_channel_layout_tab.h"
+#include <ffmpeg/libavcodec/ac3_channel_layout_tab.h>

@@ -20,11 +20,11 @@
 
 #include <string.h>
 #include "checkasm.h"
-#include "libavcodec/alacdsp.h"
-#include "libavcodec/mathops.h"
-#include "libavutil/common.h"
-#include "libavutil/internal.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavcodec/alacdsp.h>
+#include <ffmpeg/libavcodec/mathops.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #define BUF_SIZE 256
 #define MAX_CHANNELS 2

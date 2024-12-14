@@ -19,7 +19,7 @@
 #ifndef AVCODEC_AVFFT_H
 #define AVCODEC_AVFFT_H
 
-#include "libavutil/attributes.h"
+#include <ffmpeg/libavutil/attributes.h>
 #include "version_major.h"
 #if FF_API_AVFFT
 

@@ -19,11 +19,11 @@
  * License along with FFmpeg; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
-#include "libavutil/opt.h"
-#include "libavutil/common.h"
-#include "libavutil/mem.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/hwcontext_d3d12va_internal.h"
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/hwcontext_d3d12va_internal.h>
 
 #include "avcodec.h"
 #include "cbs.h"

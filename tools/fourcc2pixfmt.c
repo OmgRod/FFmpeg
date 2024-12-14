@@ -23,10 +23,10 @@
 #include <unistd.h>             /* getopt */
 #endif
 
-#include "libavutil/pixdesc.h"
-#include "libavcodec/avcodec.h"
-#include "libavutil/common.h"
-#include "libavcodec/raw.h"
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavcodec/raw.h>
 
 #undef printf
 #undef fprintf

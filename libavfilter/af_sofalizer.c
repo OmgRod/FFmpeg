@@ -28,13 +28,13 @@
 #include <math.h>
 #include <mysofa.h>
 
-#include "libavutil/mem.h"
-#include "libavutil/tx.h"
-#include "libavutil/avstring.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/float_dsp.h"
-#include "libavutil/intmath.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/tx.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/float_dsp.h>
+#include <ffmpeg/libavutil/intmath.h>
+#include <ffmpeg/libavutil/opt.h>
 #include "avfilter.h"
 #include "filters.h"
 #include "formats.h"

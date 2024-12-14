@@ -33,8 +33,8 @@
 
 #include <stdlib.h>
 
-#include "libavutil/intmath.h"
-#include "libavutil/common.h"
+#include <ffmpeg/libavutil/intmath.h>
+#include <ffmpeg/libavutil/common.h>
 
 #include "nellymoser.h"
 

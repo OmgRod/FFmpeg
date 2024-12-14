@@ -22,7 +22,7 @@
 #include "mem.h"
 
 #include "vulkan.h"
-#include "libavutil/vulkan_loader.h"
+#include <ffmpeg/libavutil/vulkan_loader.h>
 
 const VkComponentMapping ff_comp_identity_map = {
     .r = VK_COMPONENT_SWIZZLE_IDENTITY,

@@ -19,7 +19,7 @@
  */
 
 #include "rv60dsp.h"
-#include "libavutil/common.h"
+#include <ffmpeg/libavutil/common.h>
 
 void ff_rv60_idct4x4_add(const int16_t * block, uint8_t * dst, int dst_stride)
 {

@@ -24,13 +24,13 @@
  */
 
 #include "dnn_io_proc.h"
-#include "libavformat/avio.h"
-#include "libavutil/avassert.h"
-#include "libavutil/cpu.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/avstring.h"
-#include "libavutil/detection_bbox.h"
+#include <ffmpeg/libavformat/avio.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/detection_bbox.h>
 #include "safe_queue.h"
 #if HAVE_OPENVINO2
 #include <openvino/c/openvino.h>

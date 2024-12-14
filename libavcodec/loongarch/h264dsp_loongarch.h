@@ -23,7 +23,7 @@
 #ifndef AVCODEC_LOONGARCH_H264DSP_LOONGARCH_H
 #define AVCODEC_LOONGARCH_H264DSP_LOONGARCH_H
 
-#include "libavcodec/h264dec.h"
+#include <ffmpeg/libavcodec/h264dec.h>
 #include "config.h"
 
 void ff_h264_idct_add_8_lsx(uint8_t *dst, int16_t *src, int dst_stride);

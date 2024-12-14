@@ -20,13 +20,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/ppc/cpu.h"
-#include "libavutil/ppc/util_altivec.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/mem_internal.h>
+#include <ffmpeg/libavutil/ppc/cpu.h>
+#include <ffmpeg/libavutil/ppc/util_altivec.h>
 
-#include "libavcodec/mpeg4videodsp.h"
+#include <ffmpeg/libavcodec/mpeg4videodsp.h>
 
 #if HAVE_ALTIVEC
 /* AltiVec-enhanced gmc1. ATM this code assumes stride is a multiple of 8

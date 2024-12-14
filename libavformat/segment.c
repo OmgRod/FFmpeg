@@ -32,18 +32,18 @@
 #include "internal.h"
 #include "mux.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/internal.h"
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/avstring.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/time.h"
-#include "libavutil/timecode.h"
-#include "libavutil/time_internal.h"
-#include "libavutil/timestamp.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/parseutils.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/time.h>
+#include <ffmpeg/libavutil/timecode.h>
+#include <ffmpeg/libavutil/time_internal.h>
+#include <ffmpeg/libavutil/timestamp.h>
 
 typedef struct SegmentListEntry {
     int index;

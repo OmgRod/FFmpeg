@@ -22,8 +22,8 @@
 #include <glslang/Include/glslang_c_interface.h>
 
 #include "vulkan_spirv.h"
-#include "libavutil/mem.h"
-#include "libavutil/avassert.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/avassert.h>
 
 static pthread_mutex_t glslc_mutex = PTHREAD_MUTEX_INITIALIZER;
 static int glslc_refcount = 0;

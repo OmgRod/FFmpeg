@@ -22,7 +22,7 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "libavutil/log.h"
+#include <ffmpeg/libavutil/log.h>
 
 #include "cbs.h"
 #include "codec_id.h"

@@ -20,10 +20,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/avassert.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/internal.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/internal.h>
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"

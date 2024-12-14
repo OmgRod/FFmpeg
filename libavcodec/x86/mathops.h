@@ -24,8 +24,8 @@
 
 #include "config.h"
 
-#include "libavutil/common.h"
-#include "libavutil/x86/asm.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/x86/asm.h>
 
 #if HAVE_INLINE_ASM
 

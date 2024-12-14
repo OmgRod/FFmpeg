@@ -22,12 +22,12 @@
  * Thread message API test
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/frame.h"
-#include "libavutil/mem.h"
-#include "libavutil/threadmessage.h"
-#include "libavutil/thread.h" // not public
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/threadmessage.h>
+#include <ffmpeg/libavutil/thread.h> // not public
 
 struct sender_data {
     int id;

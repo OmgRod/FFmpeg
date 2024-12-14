@@ -25,10 +25,10 @@
 
 #include "config_components.h"
 
-#include "libavutil/avstring.h"
-#include "libavutil/bprint.h"
-#include "libavutil/error.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/bprint.h>
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/mem.h>
 
 #include "avio_internal.h"
 #include "url.h"

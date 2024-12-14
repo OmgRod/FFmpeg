@@ -25,10 +25,10 @@
  * @author Niklas Haas <ffmpeg@haasn.xyz>
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/buffer.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/buffer.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/mem.h>
 
 #include "aom_film_grain.h"
 #include "get_bits.h"

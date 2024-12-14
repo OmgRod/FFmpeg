@@ -19,12 +19,12 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/x86/asm.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/huffyuvdsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/x86/asm.h>
+#include <ffmpeg/libavutil/x86/cpu.h>
+#include <ffmpeg/libavcodec/huffyuvdsp.h>
 
 void ff_add_int16_sse2(uint16_t *dst, const uint16_t *src, unsigned mask, int w);
 void ff_add_int16_avx2(uint16_t *dst, const uint16_t *src, unsigned mask, int w);

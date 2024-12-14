@@ -46,20 +46,20 @@
 */
 
 #include "config.h"
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/cpu.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem.h>
 
-#include "libavcodec/avcodec.h"
-#include "libavcodec/bytestream.h"
-#include "libavcodec/codec_internal.h"
-#include "libavformat/avformat.h"
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavcodec/bytestream.h>
+#include <ffmpeg/libavcodec/codec_internal.h>
+#include <ffmpeg/libavformat/avformat.h>
 
 //For FF_SANE_NB_CHANNELS, so we dont waste energy testing things that will get instantly rejected
-#include "libavcodec/internal.h"
+#include <ffmpeg/libavcodec/internal.h>
 
 int LLVMFuzzerTestOneInput(const uint8_t *data, size_t size);
 

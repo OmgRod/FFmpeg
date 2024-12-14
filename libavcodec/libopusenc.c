@@ -22,9 +22,9 @@
 #include <opus.h>
 #include <opus_multistream.h>
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
 #include "avcodec.h"
 #include "bytestream.h"
 #include "codec_internal.h"

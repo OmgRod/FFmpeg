@@ -20,10 +20,10 @@
  */
 
 #include <codec2/codec2.h>
-#include "libavutil/channel_layout.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/mem.h>
 #include "avcodec.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/opt.h>
 #include "codec_internal.h"
 #include "decode.h"
 #include "encode.h"

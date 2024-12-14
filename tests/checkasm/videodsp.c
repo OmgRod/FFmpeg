@@ -20,10 +20,10 @@
 
 #include <string.h>
 #include "checkasm.h"
-#include "libavcodec/videodsp.h"
-#include "libavutil/internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavcodec/videodsp.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #define randomize_buffers(w, h)                         \
     do {                                                \

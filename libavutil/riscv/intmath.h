@@ -25,8 +25,8 @@
 #include <math.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/riscv/cpu.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/riscv/cpu.h>
 
 /*
  * The compiler is forced to sign-extend the result anyhow, so it is faster to

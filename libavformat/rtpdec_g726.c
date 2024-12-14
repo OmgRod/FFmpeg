@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
+#include <ffmpeg/libavutil/attributes.h>
 #include "avformat.h"
 #include "rtpdec_formats.h"
 

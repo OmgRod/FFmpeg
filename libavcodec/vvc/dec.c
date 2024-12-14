@@ -20,15 +20,15 @@
  * License along with FFmpeg; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
-#include "libavcodec/codec_internal.h"
-#include "libavcodec/decode.h"
-#include "libavcodec/hwaccel_internal.h"
-#include "libavcodec/hwconfig.h"
-#include "libavcodec/profiles.h"
-#include "libavcodec/refstruct.h"
-#include "libavutil/cpu.h"
-#include "libavutil/mem.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavcodec/codec_internal.h>
+#include <ffmpeg/libavcodec/decode.h>
+#include <ffmpeg/libavcodec/hwaccel_internal.h>
+#include <ffmpeg/libavcodec/hwconfig.h>
+#include <ffmpeg/libavcodec/profiles.h>
+#include <ffmpeg/libavcodec/refstruct.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/thread.h>
 
 #include "dec.h"
 #include "ctu.h"

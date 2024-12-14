@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/riscv/asm.S"
+#include <ffmpeg/libavutil/riscv/asm.S>
 
 func ff_rv34_inv_transform_dc_rvv, zve32x
         lpad    0

@@ -21,12 +21,12 @@
 
 #include <string.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/avutil.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
-#include "libavutil/rational.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/avutil.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/rational.h>
 
 #include "defs.h"
 #include "packet.h"

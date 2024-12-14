@@ -23,11 +23,11 @@
 #include <string.h>
 #include <initguid.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/common.h"
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
-#include "libavutil/time.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/time.h>
 
 #include "avcodec.h"
 #include "decode.h"

@@ -19,10 +19,10 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/h264chroma.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/x86/cpu.h>
+#include <ffmpeg/libavcodec/h264chroma.h>
 
 void ff_put_h264_chroma_mc8_rnd_mmx  (uint8_t *dst, const uint8_t *src,
                                       ptrdiff_t stride, int h, int x, int y);

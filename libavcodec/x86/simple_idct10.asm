@@ -23,7 +23,7 @@
 ;* 51, Inc., Foundation Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
 ;******************************************************************************
 
-%include "libavutil/x86/x86util.asm"
+%include <ffmpeg/libavutil/x86/x86util.asm>
 
 %if ARCH_X86_64
 
@@ -76,7 +76,7 @@ CONST_DEC  w3_min_w1_lo,    W3sh2_lo, -W1sh2
 CONST_DEC  w7_plus_w3_lo,   W7sh2,    +W3sh2_lo
 CONST_DEC  w3_min_w7_lo,    W3sh2_lo, -W7sh2
 
-%include "libavcodec/x86/simple_idct10_template.asm"
+%include <ffmpeg/libavcodec/x86/simple_idct10_template.asm>
 
 SECTION .text
 

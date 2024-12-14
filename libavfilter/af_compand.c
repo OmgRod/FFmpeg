@@ -27,12 +27,12 @@
  * audio compand filter
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/ffmath.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/samplefmt.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/ffmath.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/samplefmt.h>
 #include "audio.h"
 #include "avfilter.h"
 #include "filters.h"

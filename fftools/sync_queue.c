@@ -19,15 +19,15 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/cpu.h"
-#include "libavutil/error.h"
-#include "libavutil/fifo.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
-#include "libavutil/samplefmt.h"
-#include "libavutil/timestamp.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/fifo.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/samplefmt.h>
+#include <ffmpeg/libavutil/timestamp.h>
 
 #include "objpool.h"
 #include "sync_queue.h"

@@ -19,9 +19,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/loongarch/cpu.h"
+#include <ffmpeg/libavutil/loongarch/cpu.h>
 #include "idctdsp_loongarch.h"
-#include "libavcodec/xvididct.h"
+#include <ffmpeg/libavcodec/xvididct.h>
 
 av_cold void ff_idctdsp_init_loongarch(IDCTDSPContext *c, AVCodecContext *avctx,
                                        unsigned high_bit_depth)

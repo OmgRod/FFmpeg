@@ -17,9 +17,9 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavcodec/videodsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavcodec/videodsp.h>
 
 void ff_prefetch_rv_zicbop(const uint8_t *mem, ptrdiff_t stride, int h);
 

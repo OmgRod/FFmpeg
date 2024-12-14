@@ -21,9 +21,9 @@
 #include <string.h>
 
 #include "checkasm.h"
-#include "libavcodec/utvideodsp.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavcodec/utvideodsp.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #define WIDTH 240
 #define HEIGHT 120

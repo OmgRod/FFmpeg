@@ -27,10 +27,10 @@
  * @author modified for use in TIFF by Konstantin Shishkov
  */
 
-#include "libavutil/attributes.h"
+#include <ffmpeg/libavutil/attributes.h>
 #include "bytestream.h"
 #include "lzw.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/mem.h>
 
 #define LZW_MAXBITS                 12
 #define LZW_SIZTABLE                (1<<LZW_MAXBITS)

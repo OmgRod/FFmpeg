@@ -22,11 +22,11 @@
 
 #include <stdatomic.h>
 
-#include "libavutil/mem.h"
-#include "libavutil/thread.h"
-#include "libavcodec/refstruct.h"
-#include "libavcodec/thread.h"
-#include "libavcodec/decode.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/thread.h>
+#include <ffmpeg/libavcodec/refstruct.h>
+#include <ffmpeg/libavcodec/thread.h>
+#include <ffmpeg/libavcodec/decode.h>
 
 #include "refs.h"
 

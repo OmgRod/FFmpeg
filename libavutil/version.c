@@ -25,7 +25,7 @@
 #include "samplefmt.h"
 #include "version.h"
 
-#include "libavutil/ffversion.h"
+#include <ffmpeg/libavutil/ffversion.h>
 const char av_util_ffversion[] = "FFmpeg version " FFMPEG_VERSION;
 
 const char *av_version_info(void)
@@ -51,6 +51,6 @@ const char *avutil_configuration(void)
 
 const char *avutil_license(void)
 {
-#define LICENSE_PREFIX "libavutil license: "
+#define LICENSE_PREFIX <ffmpeg/libavutil license: >
     return &LICENSE_PREFIX FFMPEG_LICENSE[sizeof(LICENSE_PREFIX) - 1];
 }

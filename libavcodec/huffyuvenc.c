@@ -39,10 +39,10 @@
 #include "huffyuvencdsp.h"
 #include "lossless_videoencdsp.h"
 #include "put_bits.h"
-#include "libavutil/emms.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/emms.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 
 typedef struct HYuvEncContext {
     AVClass *class;

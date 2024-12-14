@@ -20,10 +20,10 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/riscv/cpu.h"
-#include "libavcodec/rv34dsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/riscv/cpu.h>
+#include <ffmpeg/libavcodec/rv34dsp.h>
 
 void ff_put_rv40_chroma_mc8_rvv(uint8_t *dst, const uint8_t *src, ptrdiff_t stride,
                                  int h, int x, int y);

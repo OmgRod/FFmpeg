@@ -28,12 +28,12 @@
 #include <stdlib.h>
 #include <math.h>
 
-#include "libavutil/avutil.h"
-#include "libavutil/avstring.h"
-#include "libavutil/crc.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
-#include "libavutil/timer.h"
+#include <ffmpeg/libavutil/avutil.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/crc.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/timer.h>
 
 #ifndef AV_READ_TIME
 #define AV_READ_TIME(x) 0
@@ -72,18 +72,18 @@ struct hash_impl {
  * lavu: libavutil
  ***************************************************************************/
 
-#include "libavutil/md5.h"
-#include "libavutil/sha.h"
-#include "libavutil/sha512.h"
-#include "libavutil/ripemd.h"
-#include "libavutil/aes.h"
-#include "libavutil/blowfish.h"
-#include "libavutil/camellia.h"
-#include "libavutil/cast5.h"
-#include "libavutil/des.h"
-#include "libavutil/twofish.h"
-#include "libavutil/rc4.h"
-#include "libavutil/xtea.h"
+#include <ffmpeg/libavutil/md5.h>
+#include <ffmpeg/libavutil/sha.h>
+#include <ffmpeg/libavutil/sha512.h>
+#include <ffmpeg/libavutil/ripemd.h>
+#include <ffmpeg/libavutil/aes.h>
+#include <ffmpeg/libavutil/blowfish.h>
+#include <ffmpeg/libavutil/camellia.h>
+#include <ffmpeg/libavutil/cast5.h>
+#include <ffmpeg/libavutil/des.h>
+#include <ffmpeg/libavutil/twofish.h>
+#include <ffmpeg/libavutil/rc4.h>
+#include <ffmpeg/libavutil/xtea.h>
 
 #define IMPL_USE_lavu IMPL_USE
 

@@ -30,16 +30,16 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/avstring.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/internal.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/internal.h>
 
-#include "libavcodec/avcodec.h"
+#include <ffmpeg/libavcodec/avcodec.h>
 
-#include "libavformat/avformat.h"
+#include <ffmpeg/libavformat/avformat.h>
 
 #include "audio.h"
 #include "avfilter.h"

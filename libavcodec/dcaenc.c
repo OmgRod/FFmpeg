@@ -21,15 +21,15 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/common.h"
-#include "libavutil/ffmath.h"
-#include "libavutil/mem.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/opt.h"
-#include "libavutil/thread.h"
-#include "libavutil/tx.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/ffmath.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/mem_internal.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/thread.h>
+#include <ffmpeg/libavutil/tx.h>
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "dcaadpcm.h"

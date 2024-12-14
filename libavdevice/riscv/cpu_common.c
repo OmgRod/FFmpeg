@@ -1,1 +1,1 @@
-#include "libavutil/riscv/cpu_common.c"
+#include <ffmpeg/libavutil/riscv/cpu_common.c>

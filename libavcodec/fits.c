@@ -23,9 +23,9 @@
 #include <limits.h>
 #include <stdio.h>
 #include <string.h>
-#include "libavutil/dict.h"
-#include "libavutil/error.h"
-#include "libavutil/log.h"
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/log.h>
 #include "fits.h"
 
 int avpriv_fits_header_init(FITSHeader *header, FITSHeaderState state)

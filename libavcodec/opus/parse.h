@@ -25,7 +25,7 @@
 
 #include <stdint.h>
 
-#include "libavcodec/avcodec.h"
+#include <ffmpeg/libavcodec/avcodec.h>
 #include "opus.h"
 
 typedef struct OpusPacket {

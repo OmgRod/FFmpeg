@@ -23,8 +23,8 @@
 #include "get_bits.h"
 #include "codec_internal.h"
 #include "decode.h"
-#include "libavutil/mem.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/thread.h>
 
 #define VECTOR_VLC_BITS 6
 

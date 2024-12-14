@@ -20,7 +20,7 @@
 
 #include <stdint.h>
 
-#include "libavutil/x86/asm.h"
+#include <ffmpeg/libavutil/x86/asm.h>
 #include "libswscale/swscale_internal.h"
 
 #undef REAL_MOVNTQ

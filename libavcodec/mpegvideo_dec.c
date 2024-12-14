@@ -24,11 +24,11 @@
 
 #include "config_components.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/emms.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/internal.h"
-#include "libavutil/video_enc_params.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/emms.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/video_enc_params.h>
 
 #include "avcodec.h"
 #include "decode.h"

@@ -17,10 +17,10 @@
  */
 
 #define TX_FLOAT
-#include "libavutil/tx_priv.h"
-#include "libavutil/attributes.h"
-#include "libavutil/mem.h"
-#include "libavutil/x86/cpu.h"
+#include <ffmpeg/libavutil/tx_priv.h>
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/x86/cpu.h>
 
 #include "config.h"
 

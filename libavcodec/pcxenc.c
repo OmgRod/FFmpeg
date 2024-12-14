@@ -26,7 +26,7 @@
  * @see http://bespin.org/~qz/pc-gpe/pcx.txt
  */
 
-#include "libavutil/imgutils_internal.h"
+#include <ffmpeg/libavutil/imgutils_internal.h>
 #include "avcodec.h"
 #include "bytestream.h"
 #include "codec_internal.h"

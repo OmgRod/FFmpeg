@@ -18,7 +18,7 @@
 
 #include <inttypes.h>
 
-#include "libavutil/log.h"
+#include <ffmpeg/libavutil/log.h>
 
 #include "bsf.h"
 #include "bsf_internal.h"

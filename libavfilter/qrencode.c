@@ -31,12 +31,12 @@
 
 #include "config_components.h"
 
-#include "libavutil/internal.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/lfg.h"
-#include "libavutil/random_seed.h"
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/lfg.h>
+#include <ffmpeg/libavutil/random_seed.h>
 
 #include "avfilter.h"
 #include "drawutils.h"

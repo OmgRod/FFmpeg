@@ -25,10 +25,10 @@
  * @author Anssi Hannula
  */
 
-#include "libavutil/bswap.h"
+#include <ffmpeg/libavutil/bswap.h>
 
-#include "libavcodec/ac3defs.h"
-#include "libavcodec/adts_parser.h"
+#include <ffmpeg/libavcodec/ac3defs.h>
+#include <ffmpeg/libavcodec/adts_parser.h>
 
 #include "avformat.h"
 #include "demux.h"

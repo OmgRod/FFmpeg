@@ -23,9 +23,9 @@
 
 #include "config_components.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/internal.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #include "avcodec.h"
 #include "h261.h"

@@ -23,9 +23,9 @@
 #include "bsf.h"
 #include "bsf_internal.h"
 
-#include "libavutil/adler32.h"
-#include "libavutil/log.h"
-#include "libavutil/timestamp.h"
+#include <ffmpeg/libavutil/adler32.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/timestamp.h>
 
 typedef struct ShowinfoContext {
     uint64_t nb_packets;

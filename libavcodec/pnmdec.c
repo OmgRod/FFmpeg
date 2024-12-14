@@ -21,7 +21,7 @@
 
 #include "config_components.h"
 
-#include "libavutil/half2float.h"
+#include <ffmpeg/libavutil/half2float.h>
 
 #include "avcodec.h"
 #include "codec_internal.h"

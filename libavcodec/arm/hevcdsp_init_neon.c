@@ -18,10 +18,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/arm/cpu.h"
-#include "libavcodec/hevc/dsp.h"
-#include "libavcodec/avcodec.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/arm/cpu.h>
+#include <ffmpeg/libavcodec/hevc/dsp.h>
+#include <ffmpeg/libavcodec/avcodec.h>
 #include "hevcdsp_arm.h"
 
 void ff_hevc_sao_band_filter_neon_8_wrapper(uint8_t *_dst, const uint8_t *_src,

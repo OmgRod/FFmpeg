@@ -21,10 +21,10 @@
 
 #include <string.h>
 #include "checkasm.h"
-#include "libavcodec/hevc/dsp.h"
-#include "libavutil/common.h"
-#include "libavutil/internal.h"
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavcodec/hevc/dsp.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
 
 static const uint32_t pixel_mask[] = { 0xffffffff, 0x01ff01ff, 0x03ff03ff, 0x07ff07ff, 0x0fff0fff };
 static const uint32_t pixel_mask16[] = { 0x00ff00ff, 0x01ff01ff, 0x03ff03ff, 0x07ff07ff, 0x0fff0fff };

@@ -29,11 +29,11 @@
  * SBC ARMv6 optimization for some basic "building bricks"
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/arm/cpu.h"
-#include "libavcodec/sbcdsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/mem_internal.h>
+#include <ffmpeg/libavutil/arm/cpu.h>
+#include <ffmpeg/libavcodec/sbcdsp.h>
 
 void ff_sbc_analyze_4_armv6(const int16_t *in, int32_t *out, const int16_t *consts);
 void ff_sbc_analyze_8_armv6(const int16_t *in, int32_t *out, const int16_t *consts);

@@ -20,9 +20,9 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavcodec/aacpsdsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavcodec/aacpsdsp.h>
 
 void ff_ps_add_squares_rvv(float *dst, const float (*src)[2], int n);
 void ff_ps_mul_pair_single_rvv(float (*dst)[2], float (*src0)[2], float *src1,

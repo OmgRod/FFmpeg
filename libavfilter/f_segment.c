@@ -20,12 +20,12 @@
 
 #include <stdint.h>
 
-#include "libavutil/avstring.h"
-#include "libavutil/log.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/parseutils.h>
 
 #include "avfilter.h"
 #include "filters.h"

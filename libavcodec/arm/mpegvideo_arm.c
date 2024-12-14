@@ -20,10 +20,10 @@
 
 #include <assert.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/arm/cpu.h"
-#include "libavcodec/avcodec.h"
-#include "libavcodec/mpegvideo.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/arm/cpu.h>
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavcodec/mpegvideo.h>
 #include "mpegvideo_arm.h"
 #include "asm-offsets.h"
 

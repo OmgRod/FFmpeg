@@ -19,10 +19,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/pixdesc.h"
-#include "libavutil/pixfmt.h"
-#include "libavcodec/defs.h"
-#include "libavcodec/get_bits.h"
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/pixfmt.h>
+#include <ffmpeg/libavcodec/defs.h>
+#include <ffmpeg/libavcodec/get_bits.h>
 #include "vpcc.h"
 
 #define VP9_SYNCCODE 0x498342

@@ -22,7 +22,7 @@
 #ifndef AVCODEC_LOONGARCH_H264_INTRAPRED_LOONGARCH_H
 #define AVCODEC_LOONGARCH_H264_INTRAPRED_LOONGARCH_H
 
-#include "libavcodec/avcodec.h"
+#include <ffmpeg/libavcodec/avcodec.h>
 
 void ff_h264_pred16x16_plane_h264_8_lsx(uint8_t *src, ptrdiff_t stride);
 void ff_h264_pred16x16_plane_rv40_8_lsx(uint8_t *src, ptrdiff_t stride);

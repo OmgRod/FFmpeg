@@ -23,7 +23,7 @@
 
 #include "idctdsp_mips.h"
 #include "constants.h"
-#include "libavutil/mips/mmiutils.h"
+#include <ffmpeg/libavutil/mips/mmiutils.h>
 
 void ff_put_pixels_clamped_mmi(const int16_t *block,
         uint8_t *restrict pixels, ptrdiff_t line_size)

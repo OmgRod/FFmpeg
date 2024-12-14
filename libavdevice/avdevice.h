@@ -37,7 +37,7 @@
  * @defgroup lavd libavdevice
  * Special devices muxing/demuxing library.
  *
- * Libavdevice is a complementary library to @ref libavf "libavformat". It
+ * Libavdevice is a complementary library to @ref libavf <ffmpeg/libavformat>. It
  * provides various "special" platform-specific muxers and demuxers, e.g. for
  * grabbing devices, audio capture and playback etc. As a consequence, the
  * (de)muxers in libavdevice are of the AVFMT_NOFILE type (they use their own
@@ -51,10 +51,10 @@
  * @{
  */
 
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
-#include "libavutil/dict.h"
-#include "libavformat/avformat.h"
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavformat/avformat.h>
 
 /**
  * Return the LIBAVDEVICE_VERSION_INT constant.

@@ -28,9 +28,9 @@
 #include <inttypes.h>
 #include <zlib.h>
 
-#include "libavutil/imgutils.h"
-#include "libavutil/mem.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #include "avcodec.h"
 #include "blockdsp.h"

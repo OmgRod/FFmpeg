@@ -24,10 +24,10 @@
  * JPEG 2000 encoder using libopenjpeg
  */
 
-#include "libavutil/common.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/opt.h>
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "encode.h"

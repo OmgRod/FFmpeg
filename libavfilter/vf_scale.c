@@ -31,16 +31,16 @@
 #include "filters.h"
 #include "formats.h"
 #include "framesync.h"
-#include "libavutil/pixfmt.h"
+#include <ffmpeg/libavutil/pixfmt.h>
 #include "scale_eval.h"
 #include "video.h"
-#include "libavutil/eval.h"
-#include "libavutil/imgutils_internal.h"
-#include "libavutil/internal.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/eval.h>
+#include <ffmpeg/libavutil/imgutils_internal.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/parseutils.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 #include "libswscale/swscale.h"
 
 static const char *const var_names[] = {

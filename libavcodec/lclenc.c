@@ -40,14 +40,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "libavutil/avassert.h"
+#include <ffmpeg/libavutil/avassert.h>
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "encode.h"
 #include "lcl.h"
 #include "zlib_wrapper.h"
-#include "libavutil/internal.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/mem.h>
 
 #include <zlib.h>
 

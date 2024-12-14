@@ -22,13 +22,13 @@
 #include "config.h"
 #include "libswscale/swscale.h"
 #include "libswscale/swscale_internal.h"
-#include "libavutil/attributes.h"
-#include "libavutil/avassert.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/x86/cpu.h"
-#include "libavutil/cpu.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/x86/cpu.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/mem_internal.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 
 const DECLARE_ALIGNED(8, uint64_t, ff_dither4)[2] = {
     0x0103010301030103LL,

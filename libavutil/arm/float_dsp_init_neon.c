@@ -21,8 +21,8 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/float_dsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/float_dsp.h>
 #include "float_dsp_arm.h"
 
 void ff_vector_fmul_neon(float *dst, const float *src0, const float *src1, int len);

@@ -30,23 +30,23 @@
 #include "ffmpeg_sched.h"
 #include "sync_queue.h"
 
-#include "libavformat/avformat.h"
-#include "libavformat/avio.h"
+#include <ffmpeg/libavformat/avformat.h>
+#include <ffmpeg/libavformat/avio.h>
 
-#include "libavcodec/avcodec.h"
-#include "libavcodec/bsf.h"
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavcodec/bsf.h>
 
 #include "libavfilter/avfilter.h"
 
-#include "libavutil/avutil.h"
-#include "libavutil/dict.h"
-#include "libavutil/eval.h"
-#include "libavutil/fifo.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/pixfmt.h"
-#include "libavutil/rational.h"
-#include "libavutil/thread.h"
-#include "libavutil/threadmessage.h"
+#include <ffmpeg/libavutil/avutil.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/eval.h>
+#include <ffmpeg/libavutil/fifo.h>
+#include <ffmpeg/libavutil/hwcontext.h>
+#include <ffmpeg/libavutil/pixfmt.h>
+#include <ffmpeg/libavutil/rational.h>
+#include <ffmpeg/libavutil/thread.h>
+#include <ffmpeg/libavutil/threadmessage.h>
 
 #include "libswresample/swresample.h"
 

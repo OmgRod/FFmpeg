@@ -24,8 +24,8 @@
 
 #include <stdint.h>
 
-#include "libavutil/frame.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 #include "idctdsp.h"
 
 #define RTJPEG_FILE_VERSION 0

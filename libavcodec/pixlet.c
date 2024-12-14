@@ -21,8 +21,8 @@
 
 #include <stdint.h>
 
-#include "libavutil/intmath.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/intmath.h>
+#include <ffmpeg/libavutil/mem.h>
 
 #include "avcodec.h"
 #include "bytestream.h"

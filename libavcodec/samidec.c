@@ -25,9 +25,9 @@
  */
 
 #include "ass.h"
-#include "libavutil/avstring.h"
-#include "libavutil/bprint.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/bprint.h>
+#include <ffmpeg/libavutil/mem.h>
 #include "codec_internal.h"
 #include "htmlsubtitles.h"
 

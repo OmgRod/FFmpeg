@@ -34,15 +34,15 @@
 #include <float.h>
 #include <zlib.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/common.h"
-#include "libavutil/csp.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/intfloat.h"
-#include "libavutil/avstring.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/half2float.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/csp.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/intfloat.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/half2float.h>
 
 #include "avcodec.h"
 #include "bytestream.h"

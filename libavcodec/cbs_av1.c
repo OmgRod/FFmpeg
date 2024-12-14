@@ -16,9 +16,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixfmt.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixfmt.h>
 
 #include "cbs.h"
 #include "cbs_internal.h"

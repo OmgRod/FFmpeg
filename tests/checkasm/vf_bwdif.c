@@ -19,7 +19,7 @@
 #include <string.h>
 #include "checkasm.h"
 #include "libavfilter/bwdifdsp.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #define WIDTH 256
 

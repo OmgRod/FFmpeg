@@ -23,14 +23,14 @@
  */
 
 #include <stdint.h>
-#include "libavutil/common.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 #include "aacps.h"
 #if USE_FIXED
 #include "aacps_fixed_tablegen.h"
 #else
-#include "libavutil/internal.h"
+#include <ffmpeg/libavutil/internal.h>
 #include "aacps_tablegen.h"
 #endif /* USE_FIXED */
 

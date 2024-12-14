@@ -22,7 +22,7 @@
 #ifndef AVCODEC_OPUS_ENC_H
 #define AVCODEC_OPUS_ENC_H
 
-#include "libavutil/intmath.h"
+#include <ffmpeg/libavutil/intmath.h>
 #include "opus.h"
 
 /* Determines the maximum delay the psychoacoustic system will use for lookahead */

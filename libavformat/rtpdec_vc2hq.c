@@ -19,8 +19,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/intreadwrite.h"
-#include "libavcodec/dirac.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavcodec/dirac.h>
 
 #include "avio_internal.h"
 #include "rtpdec_formats.h"

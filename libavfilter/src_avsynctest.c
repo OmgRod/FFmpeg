@@ -18,16 +18,16 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/common.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/ffmath.h"
-#include "libavutil/opt.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/timestamp.h"
-#include "libavutil/xga_font_data.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/ffmath.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/parseutils.h>
+#include <ffmpeg/libavutil/timestamp.h>
+#include <ffmpeg/libavutil/xga_font_data.h>
 #include "avfilter.h"
 #include "drawutils.h"
 #include "filters.h"

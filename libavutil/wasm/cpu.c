@@ -20,7 +20,7 @@
 
 #include <stdint.h>
 
-#include "libavutil/cpu_internal.h"
+#include <ffmpeg/libavutil/cpu_internal.h>
 
 int ff_get_cpu_flags_wasm(void)
 {

@@ -39,11 +39,11 @@
 #include <process.h>
 #include <time.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/common.h"
-#include "libavutil/internal.h"
-#include "libavutil/mem.h"
-#include "libavutil/time.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/time.h>
 
 typedef struct pthread_t {
     void *handle;

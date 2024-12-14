@@ -25,18 +25,18 @@
 
 #include <stdatomic.h>
 
-#include "libavutil/buffer.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/buffer.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
-#include "libavcodec/avcodec.h"
-#include "libavcodec/bswapdsp.h"
-#include "libavcodec/cabac.h"
-#include "libavcodec/dovi_rpu.h"
-#include "libavcodec/get_bits.h"
-#include "libavcodec/h2645_parse.h"
-#include "libavcodec/h274.h"
-#include "libavcodec/progressframe.h"
-#include "libavcodec/videodsp.h"
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavcodec/bswapdsp.h>
+#include <ffmpeg/libavcodec/cabac.h>
+#include <ffmpeg/libavcodec/dovi_rpu.h>
+#include <ffmpeg/libavcodec/get_bits.h>
+#include <ffmpeg/libavcodec/h2645_parse.h>
+#include <ffmpeg/libavcodec/h274.h>
+#include <ffmpeg/libavcodec/progressframe.h>
+#include <ffmpeg/libavcodec/videodsp.h>
 
 #include "dsp.h"
 #include "hevc.h"

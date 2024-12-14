@@ -21,12 +21,12 @@
 
 #include "config.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/common.h"
-#include "libavutil/internal.h"
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 
 #include "vaapi_encode.h"
 #include "encode.h"

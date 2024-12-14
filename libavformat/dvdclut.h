@@ -21,7 +21,7 @@
 #ifndef AVFORMAT_DVDCLUT_H
 #define AVFORMAT_DVDCLUT_H
 
-#include "libavcodec/codec_par.h"
+#include <ffmpeg/libavcodec/codec_par.h>
 
 /* ("palette: ") + ("rrggbb, "*15) + ("rrggbb") + \n + \0 */
 #define FF_DVDCLUT_EXTRADATA_SIZE        (9 + (8 * 15) + 6 + 1 + 1)

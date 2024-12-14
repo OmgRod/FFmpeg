@@ -18,11 +18,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/wasm/hevc/idct.h"
+#include <ffmpeg/libavcodec/wasm/hevc/idct.h>
 
 #include <wasm_simd128.h>
 
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/mem_internal.h>
 
 static const int8_t transform[] = {
     64, 83, 64, 36, 89, 75, 50, 18,

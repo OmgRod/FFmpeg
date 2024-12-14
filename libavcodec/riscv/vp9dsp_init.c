@@ -18,10 +18,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/riscv/cpu.h"
-#include "libavcodec/vp9dsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/riscv/cpu.h>
+#include <ffmpeg/libavcodec/vp9dsp.h>
 #include "vp9dsp.h"
 
 static av_cold void vp9dsp_mc_init_riscv(VP9DSPContext *dsp, int bpp)

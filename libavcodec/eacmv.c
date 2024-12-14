@@ -28,9 +28,9 @@
  * http://wiki.multimedia.cx/index.php?title=Electronic_Arts_CMV
  */
 
-#include "libavutil/common.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/imgutils.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/imgutils.h>
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "decode.h"

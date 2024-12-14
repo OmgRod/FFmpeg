@@ -21,10 +21,10 @@
 
 #include <stdint.h>
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/x86/asm.h"
-#include "libavcodec/snow_dwt.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/x86/asm.h>
+#include <ffmpeg/libavcodec/snow_dwt.h>
 
 #if HAVE_INLINE_ASM
 

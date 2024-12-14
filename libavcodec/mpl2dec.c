@@ -28,7 +28,7 @@
 #include "avcodec.h"
 #include "ass.h"
 #include "codec_internal.h"
-#include "libavutil/bprint.h"
+#include <ffmpeg/libavutil/bprint.h>
 
 static int mpl2_event_to_ass(AVBPrint *buf, const char *p)
 {

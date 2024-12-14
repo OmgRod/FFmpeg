@@ -21,7 +21,7 @@
 #include "h2645data.h"
 #include "h265_profile_level.h"
 
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/pixdesc.h>
 
 int ff_hw_base_encode_init_params_h265(FFHWBaseEncodeContext *base_ctx,
                                        AVCodecContext *avctx,

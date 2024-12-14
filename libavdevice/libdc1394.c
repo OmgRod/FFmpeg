@@ -22,17 +22,17 @@
 
 #include <dc1394/dc1394.h>
 
-#include "libavutil/imgutils.h"
-#include "libavutil/internal.h"
-#include "libavutil/log.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/parseutils.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 
-#include "libavformat/avformat.h"
-#include "libavformat/demux.h"
-#include "libavformat/internal.h"
+#include <ffmpeg/libavformat/avformat.h>
+#include <ffmpeg/libavformat/demux.h>
+#include <ffmpeg/libavformat/internal.h>
 
 typedef struct dc1394_data {
     AVClass *class;

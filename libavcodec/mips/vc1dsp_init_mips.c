@@ -18,9 +18,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/mips/cpu.h"
-#include "libavutil/attributes.h"
-#include "libavcodec/vc1dsp.h"
+#include <ffmpeg/libavutil/mips/cpu.h>
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavcodec/vc1dsp.h>
 #include "vc1dsp_mips.h"
 #include "config.h"
 

@@ -26,16 +26,16 @@
 
 #include <string.h>
 
-#include "libavutil/avutil.h"
-#include "libavutil/csp.h"
-#include "libavutil/error.h"
-#include "libavutil/frame.h"
-#include "libavutil/libm.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/pixfmt.h"
-#include "libavutil/version.h"
+#include <ffmpeg/libavutil/avutil.h>
+#include <ffmpeg/libavutil/csp.h>
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/libm.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/pixfmt.h>
+#include <ffmpeg/libavutil/version.h>
 
 #include "avcodec.h"
 #include "encode.h"

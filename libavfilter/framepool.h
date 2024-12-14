@@ -21,9 +21,9 @@
 #ifndef AVFILTER_FRAMEPOOL_H
 #define AVFILTER_FRAMEPOOL_H
 
-#include "libavutil/buffer.h"
-#include "libavutil/frame.h"
-#include "libavutil/internal.h"
+#include <ffmpeg/libavutil/buffer.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/internal.h>
 
 /**
  * Frame pool. This structure is opaque and not meant to be accessed

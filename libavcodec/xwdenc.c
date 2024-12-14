@@ -20,8 +20,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/imgutils_internal.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/imgutils_internal.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 #include "avcodec.h"
 #include "bytestream.h"
 #include "codec_internal.h"

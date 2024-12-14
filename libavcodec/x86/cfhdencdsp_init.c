@@ -22,10 +22,10 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/cfhdencdsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/x86/cpu.h>
+#include <ffmpeg/libavcodec/cfhdencdsp.h>
 
 void ff_cfhdenc_horiz_filter_sse2(const int16_t *input, int16_t *low, int16_t *high,
                                   ptrdiff_t in_stride, ptrdiff_t low_stride,

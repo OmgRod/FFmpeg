@@ -21,9 +21,9 @@
 #include "avformat.h"
 #include "subtitles.h"
 #include "avio_internal.h"
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/mem.h>
 
 void ff_text_init_avio(void *s, FFTextReader *r, AVIOContext *pb)
 {

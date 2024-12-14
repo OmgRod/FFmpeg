@@ -25,7 +25,7 @@
  */
 
 #include "avcodec.h"
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
 
 typedef struct RV34ParseContext {
     int64_t key_dts;

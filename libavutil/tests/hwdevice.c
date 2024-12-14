@@ -18,7 +18,7 @@
 
 #include <stdio.h>
 
-#include "libavutil/hwcontext.h"
+#include <ffmpeg/libavutil/hwcontext.h>
 
 static int test_derivation(AVBufferRef *src_ref, const char *src_name)
 {

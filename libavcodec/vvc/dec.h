@@ -24,8 +24,8 @@
 #ifndef AVCODEC_VVC_DEC_H
 #define AVCODEC_VVC_DEC_H
 
-#include "libavcodec/videodsp.h"
-#include "libavcodec/vvc.h"
+#include <ffmpeg/libavcodec/videodsp.h>
+#include <ffmpeg/libavcodec/vvc.h>
 
 #include "ps.h"
 #include "dsp.h"

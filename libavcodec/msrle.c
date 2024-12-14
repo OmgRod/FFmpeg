@@ -34,7 +34,7 @@
 #include "codec_internal.h"
 #include "decode.h"
 #include "msrledec.h"
-#include "libavutil/imgutils.h"
+#include <ffmpeg/libavutil/imgutils.h>
 
 typedef struct MsrleContext {
     AVCodecContext *avctx;

@@ -21,9 +21,9 @@
 
 #include <stdint.h>
 
-#include "libavutil/arm/cpu.h"
-#include "libavutil/attributes.h"
-#include "libavcodec/mlpdsp.h"
+#include <ffmpeg/libavutil/arm/cpu.h>
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavcodec/mlpdsp.h>
 
 void ff_mlp_filter_channel_arm(int32_t *state, const int32_t *coeff,
                                int firorder, int iirorder,

@@ -24,8 +24,8 @@
 #include <float.h>
 
 #include "perlin.h"
-#include "libavutil/lfg.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/lfg.h>
+#include <ffmpeg/libavutil/opt.h>
 #include "avfilter.h"
 #include "filters.h"
 #include "formats.h"

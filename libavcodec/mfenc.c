@@ -24,10 +24,10 @@
 
 #include "encode.h"
 #include "mf_utils.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/time.h"
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/time.h>
 #include "codec_internal.h"
 #include "internal.h"
 #include "compat/w32dlfcn.h"

@@ -19,8 +19,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/rational.c"
-#include "libavutil/integer.h"
+#include <ffmpeg/libavutil/rational.c>
+#include <ffmpeg/libavutil/integer.h>
 
 int main(void)
 {

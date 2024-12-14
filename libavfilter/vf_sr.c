@@ -28,8 +28,8 @@
 #include "avfilter.h"
 #include "filters.h"
 #include "video.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 #include "libswscale/swscale.h"
 #include "dnn_filter_common.h"
 

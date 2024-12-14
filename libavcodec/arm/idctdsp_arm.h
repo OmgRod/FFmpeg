@@ -21,8 +21,8 @@
 #ifndef AVCODEC_ARM_IDCTDSP_ARM_H
 #define AVCODEC_ARM_IDCTDSP_ARM_H
 
-#include "libavcodec/avcodec.h"
-#include "libavcodec/idctdsp.h"
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavcodec/idctdsp.h>
 
 void ff_idctdsp_init_armv5te(IDCTDSPContext *c, AVCodecContext *avctx,
                              unsigned high_bit_depth);

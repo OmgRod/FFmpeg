@@ -20,12 +20,12 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/cpu.h"
-#include "libavutil/aarch64/cpu.h"
-#include "libavcodec/aarch64/h26x/dsp.h"
-#include "libavcodec/vvc/dsp.h"
-#include "libavcodec/vvc/dec.h"
-#include "libavcodec/vvc/ctu.h"
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/aarch64/cpu.h>
+#include <ffmpeg/libavcodec/aarch64/h26x/dsp.h>
+#include <ffmpeg/libavcodec/vvc/dsp.h>
+#include <ffmpeg/libavcodec/vvc/dec.h>
+#include <ffmpeg/libavcodec/vvc/ctu.h>
 
 #define BIT_DEPTH 8
 #include "alf_template.c"

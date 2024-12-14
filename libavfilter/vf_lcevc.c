@@ -22,8 +22,8 @@
 
 #include <LCEVC/lcevc_dec.h>
 
-#include "libavutil/internal.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/opt.h>
 #include "filters.h"
 #include "video.h"
 

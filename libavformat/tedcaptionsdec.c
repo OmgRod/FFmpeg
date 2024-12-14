@@ -19,9 +19,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/bprint.h"
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/bprint.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/opt.h>
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"

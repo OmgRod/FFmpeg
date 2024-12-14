@@ -29,10 +29,10 @@
 #include <float.h>
 #include <stdint.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/eval.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/eval.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/opt.h>
 #include "avfilter.h"
 #include "ccfifo.h"
 #include "filters.h"

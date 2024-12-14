@@ -17,14 +17,14 @@
  */
 
 #include "config.h"
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/mem.h>
 
-#include "libavcodec/avcodec.h"
-#include "libavcodec/bytestream.h"
-#include "libavformat/avformat.h"
-#include "libavformat/demux.h"
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavcodec/bytestream.h>
+#include <ffmpeg/libavformat/avformat.h>
+#include <ffmpeg/libavformat/demux.h>
 
 typedef struct IOContext {
     int64_t pos;

@@ -22,12 +22,12 @@
 
 #include "refstruct.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/error.h"
-#include "libavutil/macros.h"
-#include "libavutil/mem.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/macros.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/mem_internal.h>
+#include <ffmpeg/libavutil/thread.h>
 
 #ifndef REFSTRUCT_CHECKED
 #ifndef ASSERT_LEVEL

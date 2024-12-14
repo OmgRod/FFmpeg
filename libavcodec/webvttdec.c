@@ -28,7 +28,7 @@
 #include "avcodec.h"
 #include "ass.h"
 #include "codec_internal.h"
-#include "libavutil/bprint.h"
+#include <ffmpeg/libavutil/bprint.h>
 
 static const struct {
     const char *from;

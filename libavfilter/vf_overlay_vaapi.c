@@ -17,15 +17,15 @@
  */
 #include <string.h>
 
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 
 #include "avfilter.h"
 #include "filters.h"
 #include "framesync.h"
 #include "vaapi_vpp.h"
 #include "video.h"
-#include "libavutil/eval.h"
+#include <ffmpeg/libavutil/eval.h>
 
 enum var_name {
     VAR_MAIN_IW,     VAR_MW,

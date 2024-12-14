@@ -36,7 +36,7 @@
 
 #if CONFIG_DXVA2
 #include "dxva2.h"
-#include "libavutil/hwcontext_dxva2.h"
+#include <ffmpeg/libavutil/hwcontext_dxva2.h>
 #define DXVA2_VAR(ctx, var) ctx->dxva2.var
 #else
 #define DXVA2_VAR(ctx, var) 0
@@ -44,7 +44,7 @@
 
 #if CONFIG_D3D11VA
 #include "d3d11va.h"
-#include "libavutil/hwcontext_d3d11va.h"
+#include <ffmpeg/libavutil/hwcontext_d3d11va.h>
 #define D3D11VA_VAR(ctx, var) ctx->d3d11va.var
 #else
 #define D3D11VA_VAR(ctx, var) 0
@@ -64,7 +64,7 @@
 #include <dxva.h>
 #endif
 
-#include "libavutil/hwcontext.h"
+#include <ffmpeg/libavutil/hwcontext.h>
 
 #include "avcodec.h"
 #include "internal.h"

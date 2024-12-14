@@ -21,9 +21,9 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/aacencdsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/x86/cpu.h>
+#include <ffmpeg/libavcodec/aacencdsp.h>
 
 void ff_abs_pow34_sse(float *out, const float *in, const int size);
 

@@ -25,9 +25,9 @@
  * set frame colorspace property
  */
 
-#include "libavutil/common.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/opt.h>
 
 #include "bsf.h"
 #include "bsf_internal.h"

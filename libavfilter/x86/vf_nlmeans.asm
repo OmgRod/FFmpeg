@@ -19,7 +19,7 @@
 ;******************************************************************************
 
 
-%include "libavutil/x86/x86util.asm"
+%include <ffmpeg/libavutil/x86/x86util.asm>
 
 %if HAVE_AVX2_EXTERNAL && ARCH_X86_64
 

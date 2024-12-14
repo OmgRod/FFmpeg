@@ -23,7 +23,7 @@
 
 #include <windows.h>
 #include "libavdevice/version.h"
-#include "libavutil/ffversion.h"
+#include <ffmpeg/libavutil/ffversion.h>
 #include "config.h"
 
 1 VERSIONINFO

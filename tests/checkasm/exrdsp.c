@@ -21,10 +21,10 @@
 #include <string.h>
 
 #include "checkasm.h"
-#include "libavcodec/defs.h"
-#include "libavcodec/exrdsp.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavcodec/defs.h>
+#include <ffmpeg/libavcodec/exrdsp.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #define BUF_SIZE 5120
 #define PADDED_BUF_SIZE BUF_SIZE+AV_INPUT_BUFFER_PADDING_SIZE*2

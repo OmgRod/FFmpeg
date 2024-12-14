@@ -26,11 +26,11 @@
 
 #include "config.h"
 #include "config_components.h"
-#include "libavutil/attributes.h"
-#include "libavutil/float_dsp.h"
-#include "libavutil/mem.h"
-#include "libavutil/reverse.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/float_dsp.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/reverse.h>
+#include <ffmpeg/libavutil/thread.h>
 #include "avcodec.h"
 #include "bytestream.h"
 #include "codec_internal.h"

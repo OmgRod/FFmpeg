@@ -22,8 +22,8 @@
  */
 
 #include "pixblockdsp_mips.h"
-#include "libavutil/mips/asmdefs.h"
-#include "libavutil/mips/mmiutils.h"
+#include <ffmpeg/libavutil/mips/asmdefs.h>
+#include <ffmpeg/libavutil/mips/mmiutils.h>
 
 void ff_get_pixels_8_mmi(int16_t *restrict block, const uint8_t *pixels,
                          ptrdiff_t stride)

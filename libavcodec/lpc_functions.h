@@ -22,7 +22,7 @@
 #ifndef AVCODEC_LPC_FUNCTIONS_H
 #define AVCODEC_LPC_FUNCTIONS_H
 
-#include "libavutil/avassert.h"
+#include <ffmpeg/libavutil/avassert.h>
 
 #ifndef LPC_USE_FIXED
 #define LPC_USE_FIXED 0

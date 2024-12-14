@@ -32,7 +32,7 @@
 
 #include <stddef.h>
 #include <stdint.h>
-#include "libavutil/common.h"
+#include <ffmpeg/libavutil/common.h>
 
 /**
  * QCELP unpacked data frame

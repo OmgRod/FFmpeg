@@ -21,14 +21,14 @@
 #include <float.h>
 #include <math.h>
 
-#include "libavutil/mem.h"
-#include "libavutil/tx.h"
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/tx.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/parseutils.h>
 #include "audio.h"
 #include "filters.h"
 #include "formats.h"

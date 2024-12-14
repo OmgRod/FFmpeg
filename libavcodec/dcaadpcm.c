@@ -20,7 +20,7 @@
  */
 
 
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/mem.h>
 #include "dcaadpcm.h"
 #include "dcaenc.h"
 #include "dca_core.h"

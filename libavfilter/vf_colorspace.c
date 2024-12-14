@@ -23,13 +23,13 @@
  * Convert between colorspaces.
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/csp.h"
-#include "libavutil/mem.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/pixfmt.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/csp.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/mem_internal.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/pixfmt.h>
 
 #include "avfilter.h"
 #include "colorspacedsp.h"

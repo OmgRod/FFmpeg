@@ -26,8 +26,8 @@
 
 #define BITSTREAM_READER_LE
 
-#include "libavutil/attributes.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #include "avcodec.h"
 #include "blockdsp.h"
@@ -35,7 +35,7 @@
 #include "decode.h"
 #include "get_bits.h"
 #include "idctdsp.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/thread.h>
 #include "mathops.h"
 #include "mpeg12data.h"
 #include "mpeg12vlc.h"

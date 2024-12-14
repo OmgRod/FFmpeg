@@ -19,9 +19,9 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "libavutil/file_open.h"
-#include "libavutil/mem.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/file_open.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 
 #include "filters.h"
 #include "opencl.h"

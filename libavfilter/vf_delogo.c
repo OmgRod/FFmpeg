@@ -27,11 +27,11 @@
  * the algorithm was later improved.
  */
 
-#include "libavutil/common.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/eval.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/eval.h>
 #include "avfilter.h"
 #include "filters.h"
 #include "video.h"

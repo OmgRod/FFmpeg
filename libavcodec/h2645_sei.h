@@ -21,9 +21,9 @@
 
 #include <stdint.h>
 
-#include "libavutil/buffer.h"
-#include "libavutil/frame.h"
-#include "libavutil/film_grain_params.h"
+#include <ffmpeg/libavutil/buffer.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/film_grain_params.h>
 
 #include "aom_film_grain.h"
 #include "avcodec.h"

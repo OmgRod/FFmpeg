@@ -20,10 +20,10 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/riscv/cpu.h"
-#include "libavcodec/rv34dsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/riscv/cpu.h>
+#include <ffmpeg/libavcodec/rv34dsp.h>
 
 void ff_rv34_inv_transform_dc_rvv(int16_t *block);
 void ff_rv34_idct_dc_add_rvv(uint8_t *dst, ptrdiff_t stride, int dc);

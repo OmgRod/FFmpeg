@@ -19,15 +19,15 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/dict.h"
-#include "libavutil/intfloat.h"
-#include "libavutil/avassert.h"
-#include "libavutil/mastering_display_metadata.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
-#include "libavcodec/codec_desc.h"
-#include "libavcodec/mpeg4audio.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/intfloat.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/mastering_display_metadata.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavcodec/codec_desc.h>
+#include <ffmpeg/libavcodec/mpeg4audio.h>
 #include "avio.h"
 #include "avc.h"
 #include "av1.h"
@@ -38,8 +38,8 @@
 #include "internal.h"
 #include "nal.h"
 #include "mux.h"
-#include "libavutil/opt.h"
-#include "libavcodec/put_bits.h"
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavcodec/put_bits.h>
 
 
 static const AVCodecTag flv_video_codec_ids[] = {

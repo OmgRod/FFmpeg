@@ -21,9 +21,9 @@
  */
 
 #include "config.h"
-#include "libavutil/avstring.h"
-#include "libavutil/error.h"
-#include "libavutil/hash.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/hash.h>
 
 #include <errno.h>
 #include <fcntl.h>

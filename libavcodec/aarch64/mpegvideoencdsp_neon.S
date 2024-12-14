@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/aarch64/asm.S"
+#include <ffmpeg/libavutil/aarch64/asm.S>
 
 function ff_pix_sum16_neon, export=1
 // x0  const uint8_t *pix

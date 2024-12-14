@@ -28,9 +28,9 @@
 #include "avformat.h"
 #include "avio_internal.h"
 #include "rtpdec_formats.h"
-#include "libavutil/attributes.h"
-#include "libavutil/intreadwrite.h"
-#include "libavcodec/get_bits.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavcodec/get_bits.h>
 
 struct PayloadContext {
     AVIOContext *buf;

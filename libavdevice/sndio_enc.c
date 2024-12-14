@@ -22,9 +22,9 @@
 #include <stdint.h>
 #include <sndio.h>
 
-#include "libavutil/internal.h"
+#include <ffmpeg/libavutil/internal.h>
 
-#include "libavformat/mux.h"
+#include <ffmpeg/libavformat/mux.h>
 
 #include "libavdevice/avdevice.h"
 #include "libavdevice/sndio.h"

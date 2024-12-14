@@ -20,10 +20,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/evc.h"
-#include "libavcodec/bsf.h"
+#include <ffmpeg/libavcodec/evc.h>
+#include <ffmpeg/libavcodec/bsf.h>
 
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/opt.h>
 
 #include "avformat.h"
 #include "avio_internal.h"

@@ -22,16 +22,16 @@
 
 #include "decode_simple.h"
 
-#include "libavutil/common.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/error.h"
-#include "libavutil/lfg.h"
-#include "libavutil/random_seed.h"
-#include "libavutil/video_enc_params.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/lfg.h>
+#include <ffmpeg/libavutil/random_seed.h>
+#include <ffmpeg/libavutil/video_enc_params.h>
 
-#include "libavformat/avformat.h"
+#include <ffmpeg/libavformat/avformat.h>
 
-#include "libavcodec/avcodec.h"
+#include <ffmpeg/libavcodec/avcodec.h>
 
 #include "libswscale/swscale.h"
 

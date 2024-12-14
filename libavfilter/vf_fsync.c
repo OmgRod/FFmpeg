@@ -25,11 +25,11 @@
  * @author Thilo Borgmann <thilo.borgmann _at_ mail.de>
  */
 
-#include "libavutil/avstring.h"
-#include "libavutil/error.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavformat/avio.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavformat/avio.h>
 #include "video.h"
 #include "filters.h"
 

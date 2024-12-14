@@ -19,11 +19,11 @@
  */
 
 #include "motion_estimation.h"
-#include "libavcodec/mathops.h"
-#include "libavutil/common.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/motion_vector.h"
+#include <ffmpeg/libavcodec/mathops.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/motion_vector.h>
 #include "avfilter.h"
 #include "filters.h"
 #include "video.h"

@@ -20,12 +20,12 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/ppc/cpu.h"
-#include "libavutil/ppc/util_altivec.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/ppc/cpu.h>
+#include <ffmpeg/libavutil/ppc/util_altivec.h>
 
-#include "libavcodec/lossless_audiodsp.h"
+#include <ffmpeg/libavcodec/lossless_audiodsp.h>
 
 #if HAVE_BIGENDIAN
 #define GET_T(tt0,tt1,src,a,b){       \

@@ -28,8 +28,8 @@
 
 #include <stdatomic.h>
 
-#include "libavutil/mem_internal.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/mem_internal.h>
+#include <ffmpeg/libavutil/thread.h>
 
 #include "avcodec.h"
 #include "h264pred.h"

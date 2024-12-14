@@ -27,8 +27,8 @@
 
 #include <inttypes.h>
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/opt.h>
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"

@@ -21,12 +21,12 @@
 #include "config.h"
 #include "config_components.h"
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/common.h"
-#include "libavutil/log.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/opt.h"
-#include "libavutil/samplefmt.h"
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/samplefmt.h>
 
 #include "audio.h"
 #include "avfilter.h"

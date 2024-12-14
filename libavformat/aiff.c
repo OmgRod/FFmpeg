@@ -20,7 +20,7 @@
  */
 
 #include <stddef.h>
-#include "libavcodec/codec_id.h"
+#include <ffmpeg/libavcodec/codec_id.h>
 #include "internal.h"
 
 const AVCodecTag ff_codec_aiff_tags[] = {

@@ -19,11 +19,11 @@
  */
 
 #include "checkasm.h"
-#include "libavutil/common.h"
-#include "libavutil/fixed_dsp.h"
-#include "libavutil/internal.h"
-#include "libavutil/mem.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/fixed_dsp.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #define BUF_SIZE 256
 

@@ -17,9 +17,9 @@
  */
 
 #define TX_FLOAT
-#include "libavutil/tx_priv.h"
-#include "libavutil/attributes.h"
-#include "libavutil/aarch64/cpu.h"
+#include <ffmpeg/libavutil/tx_priv.h>
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/aarch64/cpu.h>
 
 TX_DECL_FN(fft2,      neon)
 TX_DECL_FN(fft4_fwd,  neon)

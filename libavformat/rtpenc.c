@@ -23,10 +23,10 @@
 #include "mpegts.h"
 #include "internal.h"
 #include "mux.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
-#include "libavutil/random_seed.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/random_seed.h>
+#include <ffmpeg/libavutil/opt.h>
 
 #include "rtpenc.h"
 

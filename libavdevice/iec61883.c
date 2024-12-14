@@ -30,11 +30,11 @@
 #include <libavc1394/avc1394.h>
 #include <libavc1394/rom1394.h>
 #include <libiec61883/iec61883.h>
-#include "libavformat/demux.h"
-#include "libavformat/dv.h"
-#include "libavformat/mpegts.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavformat/demux.h>
+#include <ffmpeg/libavformat/dv.h>
+#include <ffmpeg/libavformat/mpegts.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
 #include "avdevice.h"
 
 #define THREADS HAVE_PTHREADS

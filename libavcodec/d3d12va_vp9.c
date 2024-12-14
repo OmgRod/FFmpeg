@@ -22,9 +22,9 @@
 
 #include "config_components.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/hwcontext_d3d12va_internal.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/hwcontext_d3d12va_internal.h>
 
 #include "vp9shared.h"
 #include "dxva2_internal.h"

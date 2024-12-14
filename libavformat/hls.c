@@ -29,16 +29,16 @@
 
 #include "config_components.h"
 
-#include "libavformat/http.h"
-#include "libavutil/aes.h"
-#include "libavutil/avstring.h"
-#include "libavutil/avassert.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/dict.h"
-#include "libavutil/time.h"
+#include <ffmpeg/libavformat/http.h>
+#include <ffmpeg/libavutil/aes.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/time.h>
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"

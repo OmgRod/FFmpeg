@@ -19,8 +19,8 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/avassert.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/avassert.h>
 
 #include "rl.h"
 

@@ -22,14 +22,14 @@
 
 #include "decode_simple.h"
 
-#include "libavutil/common.h"
-#include "libavutil/dict.h"
-#include "libavutil/error.h"
-#include "libavutil/video_enc_params.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/video_enc_params.h>
 
-#include "libavformat/avformat.h"
+#include <ffmpeg/libavformat/avformat.h>
 
-#include "libavcodec/avcodec.h"
+#include <ffmpeg/libavcodec/avcodec.h>
 
 static int process_frame(DecodeContext *dc, AVFrame *frame)
 {

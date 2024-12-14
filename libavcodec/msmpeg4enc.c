@@ -30,9 +30,9 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/avutil.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/avutil.h>
+#include <ffmpeg/libavutil/thread.h>
 #include "codec_internal.h"
 #include "mpegvideo.h"
 #include "mpegvideoenc.h"

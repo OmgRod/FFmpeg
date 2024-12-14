@@ -20,8 +20,8 @@
  */
 
 #include "swscale_loongarch.h"
-#include "libavutil/loongarch/loongson_intrinsics.h"
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavutil/loongarch/loongson_intrinsics.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
 
 #define SCALE_8_16(_sh)                                               \
 {                                                                     \

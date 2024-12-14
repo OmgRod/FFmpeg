@@ -29,7 +29,7 @@
 #define AVCODEC_AACSBRDATA_H
 
 #include <stdint.h>
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/mem_internal.h>
 #include "aac_defines.h"
 
 static const int8_t sbr_offset[6][16] = {

@@ -30,11 +30,11 @@
 #endif
 
 extern "C" {
-#include "libavutil/mem.h"
-#include "libavcodec/packet_internal.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavcodec/packet_internal.h>
 #include "libavfilter/ccfifo.h"
 }
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/thread.h>
 #include "decklink_common_c.h"
 #if CONFIG_LIBKLVANC
 #include "libklvanc/vanc.h"

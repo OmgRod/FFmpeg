@@ -23,8 +23,8 @@
 #include <unistd.h>             /* getopt */
 #endif
 
-#include "libavformat/avformat.h"
-#include "libavutil/timestamp.h"
+#include <ffmpeg/libavformat/avformat.h>
+#include <ffmpeg/libavutil/timestamp.h>
 
 #if !HAVE_GETOPT
 #include "compat/getopt.c"

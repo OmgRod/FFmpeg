@@ -18,11 +18,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/mips/cpu.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/mips/cpu.h>
 #include "config.h"
-#include "libavutil/common.h"
-#include "libavcodec/vp9dsp.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavcodec/vp9dsp.h>
 #include "vp9dsp_mips.h"
 
 #if HAVE_MSA

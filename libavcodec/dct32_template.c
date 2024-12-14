@@ -21,7 +21,7 @@
 
 #include "dct32.h"
 #include "mathops.h"
-#include "libavutil/internal.h"
+#include <ffmpeg/libavutil/internal.h>
 
 #ifdef CHECKED
 #define SUINT   int

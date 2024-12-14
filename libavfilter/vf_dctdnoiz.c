@@ -28,11 +28,11 @@
  * Tasche (DOI: 10.1016/j.laa.2004.07.015).
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/eval.h"
-#include "libavutil/mem.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/eval.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/mem_internal.h>
+#include <ffmpeg/libavutil/opt.h>
 
 #include "filters.h"
 #include "video.h"

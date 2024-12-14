@@ -19,8 +19,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/loongarch/cpu.h"
-#include "libavcodec/h264pred.h"
+#include <ffmpeg/libavutil/loongarch/cpu.h>
+#include <ffmpeg/libavcodec/h264pred.h>
 #include "h264_intrapred_loongarch.h"
 
 av_cold void ff_h264_pred_init_loongarch(H264PredContext *h, int codec_id,

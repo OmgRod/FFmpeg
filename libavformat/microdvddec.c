@@ -24,8 +24,8 @@
 #include "demux.h"
 #include "internal.h"
 #include "subtitles.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/opt.h>
 
 #define MAX_LINESIZE 2048
 

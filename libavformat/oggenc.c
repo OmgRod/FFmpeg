@@ -23,14 +23,14 @@
 
 #include <stdint.h>
 
-#include "libavutil/crc.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/random_seed.h"
-#include "libavcodec/xiph.h"
-#include "libavcodec/bytestream.h"
-#include "libavcodec/flac.h"
+#include <ffmpeg/libavutil/crc.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/random_seed.h>
+#include <ffmpeg/libavcodec/xiph.h>
+#include <ffmpeg/libavcodec/bytestream.h>
+#include <ffmpeg/libavcodec/flac.h>
 #include "avformat.h"
 #include "avio_internal.h"
 #include "internal.h"

@@ -22,8 +22,8 @@
 #ifndef AVFILTER_SPP_H
 #define AVFILTER_SPP_H
 
-#include "libavutil/video_enc_params.h"
-#include "libavcodec/avdct.h"
+#include <ffmpeg/libavutil/video_enc_params.h>
+#include <ffmpeg/libavcodec/avdct.h>
 #include "avfilter.h"
 
 #define MAX_LEVEL 6 /* quality levels */

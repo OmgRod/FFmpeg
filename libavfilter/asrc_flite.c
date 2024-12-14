@@ -24,13 +24,13 @@
  */
 
 #include <flite/flite.h>
-#include "libavutil/audio_fifo.h"
-#include "libavutil/avstring.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/file.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/audio_fifo.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/file.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/thread.h>
 #include "avfilter.h"
 #include "filters.h"
 #include "audio.h"

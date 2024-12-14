@@ -17,10 +17,10 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
+#include <ffmpeg/libavutil/attributes.h>
 #include "libswscale/swscale.h"
 #include "libswscale/swscale_internal.h"
-#include "libavutil/arm/cpu.h"
+#include <ffmpeg/libavutil/arm/cpu.h>
 
 void ff_hscale_8_to_15_neon(SwsInternal *c, int16_t *dst, int dstW,
                             const uint8_t *src, const int16_t *filter,

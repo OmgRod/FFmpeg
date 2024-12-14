@@ -30,13 +30,13 @@
 #include <sys/ioctl.h>
 #include <sys/soundcard.h>
 
-#include "libavutil/internal.h"
-#include "libavutil/opt.h"
-#include "libavutil/time.h"
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/time.h>
 
 #include "avdevice.h"
-#include "libavformat/demux.h"
-#include "libavformat/internal.h"
+#include <ffmpeg/libavformat/demux.h>
+#include <ffmpeg/libavformat/internal.h>
 
 #include "oss.h"
 

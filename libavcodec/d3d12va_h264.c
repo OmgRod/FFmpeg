@@ -21,14 +21,14 @@
  */
 
 #include "config_components.h"
-#include "libavutil/avassert.h"
+#include <ffmpeg/libavutil/avassert.h>
 #include "h264dec.h"
 #include "h264data.h"
 #include "h264_ps.h"
 #include "mpegutils.h"
 #include "dxva2_internal.h"
 #include "d3d12va_decode.h"
-#include "libavutil/hwcontext_d3d12va_internal.h"
+#include <ffmpeg/libavutil/hwcontext_d3d12va_internal.h>
 #include <dxva.h>
 
 typedef struct H264DecodePictureContext {

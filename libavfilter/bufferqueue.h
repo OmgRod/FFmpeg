@@ -41,7 +41,7 @@
 #endif
 
 #include "avfilter.h"
-#include "libavutil/avassert.h"
+#include <ffmpeg/libavutil/avassert.h>
 
 /**
  * Structure holding the queue

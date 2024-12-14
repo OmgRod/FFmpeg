@@ -23,14 +23,14 @@
 
 #include "decode_simple.h"
 
-#include "libavformat/avformat.h"
+#include <ffmpeg/libavformat/avformat.h>
 
-#include "libavcodec/avcodec.h"
-#include "libavcodec/packet.h"
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavcodec/packet.h>
 
-#include "libavutil/dict.h"
-#include "libavutil/error.h"
-#include "libavutil/frame.h"
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/frame.h>
 
 static int decode_read(DecodeContext *dc, int flush)
 {

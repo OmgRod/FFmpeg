@@ -27,8 +27,8 @@
 
 #include "config_components.h"
 
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/mem.h>
 
 #include "get_bits.h"
 #include "xiph.h"

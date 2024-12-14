@@ -26,15 +26,15 @@
 
 #include <xeve.h>
 
-#include "libavutil/internal.h"
-#include "libavutil/common.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/pixfmt.h"
-#include "libavutil/time.h"
-#include "libavutil/cpu.h"
-#include "libavutil/avstring.h"
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/pixfmt.h>
+#include <ffmpeg/libavutil/time.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/avstring.h>
 
 #include "avcodec.h"
 #include "internal.h"

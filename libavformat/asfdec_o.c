@@ -21,13 +21,13 @@
 
 #include <time.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/common.h"
-#include "libavutil/dict.h"
-#include "libavutil/internal.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
-#include "libavutil/time_internal.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/time_internal.h>
 
 #include "avformat.h"
 #include "avlanguage.h"

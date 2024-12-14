@@ -20,11 +20,11 @@
 
 #include "config_components.h"
 
-#include "libavutil/common.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/avstring.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/avstring.h>
 
 
 #include "avfilter.h"

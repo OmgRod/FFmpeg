@@ -23,10 +23,10 @@
  * threshold video filter
  */
 
-#include "libavutil/imgutils.h"
-#include "libavutil/internal.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 #include "avfilter.h"
 #include "filters.h"
 #include "framesync.h"

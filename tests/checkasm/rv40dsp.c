@@ -21,8 +21,8 @@
 #include <string.h>
 #include <stdint.h>
 #include "checkasm.h"
-#include "libavcodec/rv40dsp.c"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavcodec/rv40dsp.c>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #define randomize_buffers()                  \
     do {                                     \

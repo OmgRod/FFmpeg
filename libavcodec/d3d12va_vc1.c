@@ -21,8 +21,8 @@
  */
 
 #include "config_components.h"
-#include "libavutil/avassert.h"
-#include "libavutil/hwcontext_d3d12va_internal.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/hwcontext_d3d12va_internal.h>
 #include "mpegutils.h"
 #include "mpegvideodec.h"
 #include "vc1.h"

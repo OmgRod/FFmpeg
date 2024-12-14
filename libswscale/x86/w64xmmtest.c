@@ -19,7 +19,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/x86/w64xmmtest.h"
+#include <ffmpeg/libavutil/x86/w64xmmtest.h>
 #include "libswscale/swscale.h"
 
 wrap(sws_scale(SwsContext *c, const uint8_t *const srcSlice[],

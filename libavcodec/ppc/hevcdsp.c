@@ -21,12 +21,12 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/ppc/cpu.h"
-#include "libavutil/ppc/util_altivec.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/ppc/cpu.h>
+#include <ffmpeg/libavutil/ppc/util_altivec.h>
 
-#include "libavcodec/hevc/dsp.h"
+#include <ffmpeg/libavcodec/hevc/dsp.h>
 
 #if HAVE_ALTIVEC
 static const vec_s16 trans4[4] = {

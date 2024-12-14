@@ -22,7 +22,7 @@
 #ifndef AVCODEC_AAC_AACDEC_AC_H
 #define AVCODEC_AAC_AACDEC_AC_H
 
-#include "libavcodec/get_bits.h"
+#include <ffmpeg/libavcodec/get_bits.h>
 
 typedef struct AACArithState {
     uint8_t last[512 /* 2048 / 4 */ + 1];

@@ -24,9 +24,9 @@
 
 #include <stdint.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/common.h"
-#include "libavutil/x86/asm.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/x86/asm.h>
 
 #include "inline_asm.h"
 

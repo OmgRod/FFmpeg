@@ -23,7 +23,7 @@
  */
 
 #include "h264dsp_loongarch.h"
-#include "libavcodec/bit_depth_template.c"
+#include <ffmpeg/libavcodec/bit_depth_template.c>
 
 void ff_h264_idct_add16_8_lsx(uint8_t *dst, const int32_t *blk_offset,
                               int16_t *block, int32_t dst_stride,

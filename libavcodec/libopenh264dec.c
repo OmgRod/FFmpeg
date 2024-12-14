@@ -22,12 +22,12 @@
 #include <wels/codec_api.h>
 #include <wels/codec_ver.h>
 
-#include "libavutil/common.h"
-#include "libavutil/fifo.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/fifo.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/opt.h>
 
 #include "avcodec.h"
 #include "codec_internal.h"

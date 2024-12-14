@@ -35,9 +35,9 @@
 #include "internal.h"
 #include "url.h"
 #include "tls.h"
-#include "libavutil/mem.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/avstring.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/parseutils.h>
+#include <ffmpeg/libavutil/avstring.h>
 
 typedef struct TLSContext {
     const AVClass *class;

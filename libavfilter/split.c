@@ -25,10 +25,10 @@
 
 #include <stdio.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/avstring.h"
-#include "libavutil/internal.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/opt.h>
 
 #include "avfilter.h"
 #include "audio.h"

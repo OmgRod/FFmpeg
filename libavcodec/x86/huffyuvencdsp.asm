@@ -23,11 +23,11 @@
 ;* 51, Inc., Foundation Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
 ;******************************************************************************
 
-%include "libavutil/x86/x86util.asm"
+%include <ffmpeg/libavutil/x86/x86util.asm>
 
 SECTION .text
 
-%include "libavcodec/x86/huffyuvdsp_template.asm"
+%include <ffmpeg/libavcodec/x86/huffyuvdsp_template.asm>
 
 ;------------------------------------------------------------------------------
 ; void ff_diff_int16(uint8_t *dst, const uint8_t *src1, const uint8_t *src2,

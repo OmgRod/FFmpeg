@@ -19,13 +19,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/mem.h"
-#include "libavutil/pixfmt.h"
-#include "libavcodec/av1.h"
-#include "libavcodec/av1_parse.h"
-#include "libavcodec/defs.h"
-#include "libavcodec/put_bits.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/pixfmt.h>
+#include <ffmpeg/libavcodec/av1.h>
+#include <ffmpeg/libavcodec/av1_parse.h>
+#include <ffmpeg/libavcodec/defs.h>
+#include <ffmpeg/libavcodec/put_bits.h>
 #include "av1.h"
 #include "avio.h"
 #include "avio_internal.h"

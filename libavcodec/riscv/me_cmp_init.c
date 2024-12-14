@@ -20,11 +20,11 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/riscv/cpu.h"
-#include "libavcodec/me_cmp.h"
-#include "libavcodec/mpegvideo.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/riscv/cpu.h>
+#include <ffmpeg/libavcodec/me_cmp.h>
+#include <ffmpeg/libavcodec/mpegvideo.h>
 
 int ff_pix_abs16_rvv(MpegEncContext *v, const uint8_t *pix1, const uint8_t *pix2,
                               ptrdiff_t stride, int h);

@@ -28,7 +28,7 @@
 #ifndef AVCODEC_AACENCTAB_H
 #define AVCODEC_AACENCTAB_H
 
-#include "libavutil/channel_layout.h"
+#include <ffmpeg/libavutil/channel_layout.h>
 #include "aac.h"
 #include "defs.h"
 

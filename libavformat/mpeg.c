@@ -21,8 +21,8 @@
 
 #include "config_components.h"
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/mem.h>
 #include "avformat.h"
 #include "avio_internal.h"
 #include "demux.h"
@@ -712,9 +712,9 @@ const FFInputFormat ff_mpegps_demuxer = {
 #if CONFIG_VOBSUB_DEMUXER
 
 #include "subtitles.h"
-#include "libavutil/avassert.h"
-#include "libavutil/bprint.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/bprint.h>
+#include <ffmpeg/libavutil/opt.h>
 
 #define REF_STRING "# VobSub index file,"
 #define MAX_LINE_SIZE 2048

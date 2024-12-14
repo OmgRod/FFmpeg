@@ -29,8 +29,8 @@
 #define UNCHECKED_BITSTREAM_READER 1
 #define INT_BIT (CHAR_BIT * sizeof(int))
 
-#include "libavutil/attributes.h"
-#include "libavutil/avassert.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/avassert.h>
 #include "config.h"
 #include "cabac.h"
 #include "cabac_functions.h"

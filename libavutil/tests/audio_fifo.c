@@ -20,8 +20,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <inttypes.h>
-#include "libavutil/mem.h"
-#include "libavutil/audio_fifo.c"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/audio_fifo.c>
 
 #define MAX_CHANNELS    32
 

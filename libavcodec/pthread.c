@@ -29,7 +29,7 @@
  * @see doc/multithreading.txt
  */
 
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/thread.h>
 
 #include "avcodec.h"
 #include "avcodec_internal.h"

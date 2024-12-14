@@ -27,14 +27,14 @@
 
 #include <vapoursynth/VSScript4.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/eval.h"
-#include "libavutil/frame.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/eval.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"
@@ -43,7 +43,7 @@
 #ifdef _WIN32
   #include <windows.h>
   #include "compat/w32dlfcn.h"
-  #include "libavutil/wchar_filename.h"
+  #include <ffmpeg/libavutil/wchar_filename.h>
   #undef EXTERN_C
   #define VSSCRIPT_LIB "VSScript.dll"
 #else

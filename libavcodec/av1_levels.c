@@ -19,7 +19,7 @@
  */
 
 #include <stddef.h>
-#include "libavutil/macros.h"
+#include <ffmpeg/libavutil/macros.h>
 #include "av1_levels.h"
 
 /** ignore entries which named in spec but no details. Like level 2.2 and 7.0. */

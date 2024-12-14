@@ -20,7 +20,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/h26x/h2656_sao_template.c"
+#include <ffmpeg/libavcodec/h26x/h2656_sao_template.c>
 
 static void FUNC(lmcs_filter_luma)(uint8_t *_dst, ptrdiff_t dst_stride, const int width, const int height, const void *_lut)
 {
@@ -451,7 +451,7 @@ static void FUNC(alf_recon_coeff_and_clip)(int16_t *coeff, int16_t *clip,
 #define FQ2 pix[2  * xstride + 1 * ystride]
 #define FQ3 pix[3  * xstride + 1 * ystride]
 
-#include "libavcodec/h26x/h2656_deblock_template.c"
+#include <ffmpeg/libavcodec/h26x/h2656_deblock_template.c>
 
 static void FUNC(loop_filter_luma_large)(pixel *pix, const ptrdiff_t xstride, const ptrdiff_t ystride, const int32_t tc,
     const uint8_t no_p, const uint8_t no_q, const uint8_t max_len_p, const uint8_t max_len_q)

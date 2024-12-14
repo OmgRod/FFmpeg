@@ -25,9 +25,9 @@
 #include "network.h"
 #include "url.h"
 #include "tls.h"
-#include "libavcodec/internal.h"
-#include "libavutil/avutil.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavcodec/internal.h>
+#include <ffmpeg/libavutil/avutil.h>
+#include <ffmpeg/libavutil/opt.h>
 
 #include <tls.h>
 

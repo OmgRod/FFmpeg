@@ -19,8 +19,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/bswap.h"
-#include "libavcodec/internal.h"
+#include <ffmpeg/libavutil/bswap.h>
+#include <ffmpeg/libavcodec/internal.h>
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"

@@ -18,9 +18,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavcodec/takdsp.h"
-#include "libavutil/x86/cpu.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavcodec/takdsp.h>
+#include <ffmpeg/libavutil/x86/cpu.h>
 #include "config.h"
 
 void ff_tak_decorrelate_ls_sse2(const int32_t *p1, int32_t *p2, int length);

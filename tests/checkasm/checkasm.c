@@ -58,10 +58,10 @@
 #include <stdlib.h>
 #include <string.h>
 #include "checkasm.h"
-#include "libavutil/common.h"
-#include "libavutil/cpu.h"
-#include "libavutil/intfloat.h"
-#include "libavutil/random_seed.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/intfloat.h>
+#include <ffmpeg/libavutil/random_seed.h>
 
 #if HAVE_IO_H
 #include <io.h>
@@ -95,13 +95,13 @@
 #endif
 
 #if ARCH_AARCH64
-#include "libavutil/aarch64/cpu.h"
+#include <ffmpeg/libavutil/aarch64/cpu.h>
 #elif ARCH_RISCV
-#include "libavutil/riscv/cpu.h"
+#include <ffmpeg/libavutil/riscv/cpu.h>
 #endif
 
 #if ARCH_ARM && HAVE_ARMV5TE_EXTERNAL
-#include "libavutil/arm/cpu.h"
+#include <ffmpeg/libavutil/arm/cpu.h>
 
 void (*checkasm_checked_call)(void *func, int dummy, ...) = checkasm_checked_call_novfp;
 #endif

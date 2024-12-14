@@ -23,13 +23,13 @@
  * DNN tensorflow backend implementation.
  */
 
-#include "libavformat/avio.h"
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/cpu.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavcodec/defs.h"
+#include <ffmpeg/libavformat/avio.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavcodec/defs.h>
 #include "dnn_io_proc.h"
 #include "dnn_backend_common.h"
 #include "safe_queue.h"

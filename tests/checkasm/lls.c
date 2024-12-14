@@ -17,7 +17,7 @@
  */
 
 #include <float.h>
-#include "libavutil/lls.h"
+#include <ffmpeg/libavutil/lls.h>
 #include "checkasm.h"
 
 #define randomize_buffer(buf)                  \

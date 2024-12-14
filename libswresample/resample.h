@@ -22,8 +22,8 @@
 #ifndef SWRESAMPLE_RESAMPLE_H
 #define SWRESAMPLE_RESAMPLE_H
 
-#include "libavutil/log.h"
-#include "libavutil/samplefmt.h"
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/samplefmt.h>
 
 #include "swresample_internal.h"
 

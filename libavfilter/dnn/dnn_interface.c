@@ -24,9 +24,9 @@
  */
 
 #include "../dnn_interface.h"
-#include "libavutil/avassert.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
 
 #include "libavfilter/filters.h"
 

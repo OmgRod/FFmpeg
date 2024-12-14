@@ -20,9 +20,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavformat/avformat.h"
-#include "libavformat/demux.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavformat/avformat.h>
+#include <ffmpeg/libavformat/demux.h>
+#include <ffmpeg/libavutil/opt.h>
 
 #include "decklink_common_c.h"
 #include "decklink_dec.h"

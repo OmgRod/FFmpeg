@@ -21,9 +21,9 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavcodec/aacencdsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavcodec/aacencdsp.h>
 
 void ff_abs_pow34_rvv(float *out, const float *in, const int size);
 void ff_aac_quant_bands_rvv(int *, const float *, const float *, int, int,

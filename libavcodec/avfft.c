@@ -19,10 +19,10 @@
 #include <stddef.h>
 #include <string.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/macros.h"
-#include "libavutil/mem.h"
-#include "libavutil/tx.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/macros.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/tx.h>
 #include "avfft.h"
 
 typedef struct AVTXWrapper {

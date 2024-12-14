@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/pixdesc.h>
 #include "avfilter.h"
 #include "filters.h"
 #include "video.h"

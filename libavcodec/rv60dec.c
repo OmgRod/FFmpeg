@@ -25,7 +25,7 @@
 #include "decode.h"
 #include "get_bits.h"
 #include "golomb.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/mem.h>
 #include "rv60data.h"
 #include "rv60dsp.h"
 #include "rv60vlcs.h"

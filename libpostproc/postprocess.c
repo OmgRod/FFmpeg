@@ -77,17 +77,17 @@ try to unroll inner for(x=0 ... loop to avoid these damn if(x ... checks
 #include <string.h>
 
 #include "config.h"
-#include "libavutil/common.h"
-#include "libavutil/cpu.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem.h>
 //#undef HAVE_MMXEXT_INLINE
 //#undef HAVE_MMX_INLINE
 //#undef ARCH_X86
 //#define DEBUG_BRIGHTNESS
 #include "postprocess.h"
 #include "postprocess_internal.h"
-#include "libavutil/avstring.h"
+#include <ffmpeg/libavutil/avstring.h>
 
 #define GET_MODE_BUFFER_SIZE 500
 #define OPTIONS_ARRAY_SIZE 10
@@ -498,7 +498,7 @@ static av_always_inline void do_a_deblock_C(uint8_t *src, int step,
 #include "postprocess_template.c"
 
 #if HAVE_ALTIVEC
-#include "libavutil/ppc/util_altivec.h"
+#include <ffmpeg/libavutil/ppc/util_altivec.h>
 
 #   define TEMPLATE_PP_ALTIVEC 1
 #   include "postprocess_altivec_template.c"

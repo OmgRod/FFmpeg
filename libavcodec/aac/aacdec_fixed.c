@@ -31,17 +31,17 @@
 
 #define USE_FIXED 1
 
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/thread.h>
 
-#include "libavcodec/aac_defines.h"
+#include <ffmpeg/libavcodec/aac_defines.h>
 
-#include "libavcodec/avcodec.h"
+#include <ffmpeg/libavcodec/avcodec.h>
 #include "aacdec.h"
-#include "libavcodec/aactab.h"
-#include "libavcodec/sinewin_fixed_tablegen.h"
-#include "libavcodec/kbdwin.h"
-#include "libavcodec/cbrt_data.h"
-#include "libavcodec/aacsbr.h"
+#include <ffmpeg/libavcodec/aactab.h>
+#include <ffmpeg/libavcodec/sinewin_fixed_tablegen.h>
+#include <ffmpeg/libavcodec/kbdwin.h>
+#include <ffmpeg/libavcodec/cbrt_data.h>
+#include <ffmpeg/libavcodec/aacsbr.h>
 
 DECLARE_ALIGNED(32, static int, aac_kbd_long_1024_fixed)[1024];
 DECLARE_ALIGNED(32, static int, aac_kbd_short_128_fixed)[128];

@@ -24,8 +24,8 @@
 #include "internal.h"
 #include "ast.h"
 #include "mux.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/opt.h>
 
 typedef struct ASTMuxContext {
     AVClass *class;

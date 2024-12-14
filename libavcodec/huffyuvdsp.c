@@ -19,7 +19,7 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
+#include <ffmpeg/libavutil/attributes.h>
 #include "mathops.h"
 #include "huffyuv.h"
 #include "huffyuvdsp.h"

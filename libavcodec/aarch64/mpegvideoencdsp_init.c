@@ -19,9 +19,9 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/aarch64/cpu.h"
-#include "libavcodec/mpegvideoencdsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/aarch64/cpu.h>
+#include <ffmpeg/libavcodec/mpegvideoencdsp.h>
 #include "config.h"
 
 int ff_pix_sum16_neon(const uint8_t *pix, ptrdiff_t line_size);

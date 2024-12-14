@@ -19,7 +19,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/aactab.h"
+#include <ffmpeg/libavcodec/aactab.h>
 #include "aacdec_ac.h"
 
 uint32_t ff_aac_ac_map_process(AACArithState *state, int reset, int N)

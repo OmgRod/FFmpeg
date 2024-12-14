@@ -27,12 +27,12 @@
 // do not use libavutil/libm.h since this is compiled both
 // for the host and the target and config.h is only valid for the target
 #include <math.h>
-#include "libavutil/attributes.h"
-#include "libavutil/common.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/common.h>
 
 #if !CONFIG_HARDCODED_TABLES
 #ifndef BUILD_TABLES
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/thread.h>
 #endif
 
 SINETABLE(  32);
@@ -45,7 +45,7 @@ SINETABLE(2048);
 SINETABLE(4096);
 SINETABLE(8192);
 #else
-#include "libavcodec/sinewin_tables.h"
+#include <ffmpeg/libavcodec/sinewin_tables.h>
 #endif
 
 SINETABLE_CONST float *const ff_sine_windows[] = {

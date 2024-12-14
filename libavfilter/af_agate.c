@@ -25,9 +25,9 @@
 
 #include "config_components.h"
 
-#include "libavutil/audio_fifo.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/audio_fifo.h>
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/opt.h>
 #include "avfilter.h"
 #include "audio.h"
 #include "filters.h"

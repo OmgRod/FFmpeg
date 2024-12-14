@@ -20,12 +20,12 @@
 
 #include "config_components.h"
 
-#include "libavutil/mem.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/opt.h"
-#include "libavutil/timestamp.h"
-#include "libavutil/xga_font_data.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/timestamp.h>
+#include <ffmpeg/libavutil/xga_font_data.h>
 #include "audio.h"
 #include "avfilter.h"
 #include "filters.h"

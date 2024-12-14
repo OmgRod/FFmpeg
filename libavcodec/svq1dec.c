@@ -32,9 +32,9 @@
  *   http://www.pcisys.net/~melanson/codecs/
  */
 
-#include "libavutil/crc.h"
-#include "libavutil/mem.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/crc.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/thread.h>
 
 #include "avcodec.h"
 #include "codec_internal.h"

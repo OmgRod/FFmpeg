@@ -173,8 +173,8 @@ int ff_poll(struct pollfd *fds, nfds_t numfds, int timeout);
 #ifdef _WIN32
 #include <stdio.h>
 #include <windows.h>
-#include "libavutil/mem.h"
-#include "libavutil/wchar_filename.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/wchar_filename.h>
 
 #define DEF_FS_FUNCTION(name, wfunc, afunc)               \
 static inline int win32_##name(const char *filename_utf8) \

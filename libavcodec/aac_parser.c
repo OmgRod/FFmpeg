@@ -24,7 +24,7 @@
 #include "aac_ac3_parser.h"
 #include "adts_header.h"
 #include "adts_parser.h"
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
 
 static int aac_sync(uint64_t state, int *need_next_header, int *new_frame_start)
 {

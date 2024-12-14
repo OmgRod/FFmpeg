@@ -21,9 +21,9 @@
  * @brief IntraX8 (J-Frame) subdecoder, used by WMV2 and VC-1
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/mem.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/thread.h>
 #include "avcodec.h"
 #include "get_bits.h"
 #include "idctdsp.h"

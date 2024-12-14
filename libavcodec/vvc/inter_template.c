@@ -20,8 +20,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/h26x/h2656_inter_template.c"
-#include "libavutil/imgutils.h"
+#include <ffmpeg/libavcodec/h26x/h2656_inter_template.c>
+#include <ffmpeg/libavutil/imgutils.h>
 
 #define TMP_STRIDE EDGE_EMU_BUFFER_STRIDE
 static void av_always_inline FUNC(put_scaled)(uint8_t *_dst, const ptrdiff_t _dst_stride,

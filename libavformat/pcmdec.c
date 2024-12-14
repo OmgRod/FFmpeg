@@ -21,16 +21,16 @@
 
 #include "config_components.h"
 
-#include "libavutil/avstring.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/mem.h>
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"
 #include "pcm.h"
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
-#include "libavutil/avassert.h"
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/avassert.h>
 
 typedef struct PCMAudioDemuxerContext {
     AVClass *class;

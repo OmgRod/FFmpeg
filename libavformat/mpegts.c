@@ -21,20 +21,20 @@
 
 #include "config_components.h"
 
-#include "libavutil/buffer.h"
-#include "libavutil/crc.h"
-#include "libavutil/internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/log.h"
-#include "libavutil/dict.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/avassert.h"
-#include "libavutil/dovi_meta.h"
-#include "libavcodec/bytestream.h"
-#include "libavcodec/defs.h"
-#include "libavcodec/get_bits.h"
-#include "libavcodec/opus/opus.h"
+#include <ffmpeg/libavutil/buffer.h>
+#include <ffmpeg/libavutil/crc.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/dovi_meta.h>
+#include <ffmpeg/libavcodec/bytestream.h>
+#include <ffmpeg/libavcodec/defs.h>
+#include <ffmpeg/libavcodec/get_bits.h>
+#include <ffmpeg/libavcodec/opus/opus.h>
 #include "avformat.h"
 #include "mpegts.h"
 #include "internal.h"

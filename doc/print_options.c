@@ -31,16 +31,16 @@
 // for the target. without this build breaks on mingw
 #define AVFORMAT_OS_SUPPORT_H
 
-#include "libavutil/attributes.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/opt.h>
 
 /* Forcibly turn off deprecation warnings, which just add noise here. */
 #undef attribute_deprecated
 #define attribute_deprecated
 
-#include "libavcodec/options_table.h"
+#include <ffmpeg/libavcodec/options_table.h>
 
-#include "libavformat/options_table.h"
+#include <ffmpeg/libavformat/options_table.h>
 
 static void print_usage(void)
 {

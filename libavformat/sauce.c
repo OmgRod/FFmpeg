@@ -24,8 +24,8 @@
  * SAUCE header parser
  */
 
-#include "libavutil/dict.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/mem.h>
 #include "avformat.h"
 #include "sauce.h"
 

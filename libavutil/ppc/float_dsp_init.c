@@ -19,10 +19,10 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/float_dsp.h"
-#include "libavutil/ppc/cpu.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/float_dsp.h>
+#include <ffmpeg/libavutil/ppc/cpu.h>
 #include "float_dsp_altivec.h"
 #include "float_dsp_vsx.h"
 

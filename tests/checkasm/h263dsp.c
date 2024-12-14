@@ -22,9 +22,9 @@
 
 #include "checkasm.h"
 
-#include "libavcodec/h263dsp.h"
-#include "libavutil/mem.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavcodec/h263dsp.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 typedef void (*filter)(uint8_t *src, int stride, int qscale);
 

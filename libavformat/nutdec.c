@@ -20,15 +20,15 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/avstring.h"
-#include "libavutil/avassert.h"
-#include "libavutil/bswap.h"
-#include "libavutil/dict.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
-#include "libavutil/tree.h"
-#include "libavcodec/bytestream.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/bswap.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/tree.h>
+#include <ffmpeg/libavcodec/bytestream.h>
 #include "avio_internal.h"
 #include "demux.h"
 #include "isom.h"

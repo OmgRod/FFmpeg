@@ -22,10 +22,10 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "libavutil/mem.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
-#include "libavcodec/ac3dsp.h"
+#include <ffmpeg/libavcodec/ac3dsp.h>
 
 #include "checkasm.h"
 

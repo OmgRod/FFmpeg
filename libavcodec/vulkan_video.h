@@ -20,7 +20,7 @@
 #define AVCODEC_VULKAN_VIDEO_H
 
 #include "avcodec.h"
-#include "libavutil/vulkan.h"
+#include <ffmpeg/libavutil/vulkan.h>
 
 #include <vk_video/vulkan_video_codecs_common.h>
 

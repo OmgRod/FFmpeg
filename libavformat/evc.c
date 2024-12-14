@@ -19,10 +19,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/mem.h"
-#include "libavcodec/get_bits.h"
-#include "libavcodec/golomb.h"
-#include "libavcodec/evc.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavcodec/get_bits.h>
+#include <ffmpeg/libavcodec/golomb.h>
+#include <ffmpeg/libavcodec/evc.h>
 #include "avio.h"
 #include "evc.h"
 

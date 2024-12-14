@@ -23,11 +23,11 @@
 
 #include <stdint.h>
 
-#include "libavutil/buffer.h"
+#include <ffmpeg/libavutil/buffer.h>
 
-#include "libavcodec/get_bits.h"
-#include "libavcodec/h2645_sei.h"
-#include "libavcodec/sei.h"
+#include <ffmpeg/libavcodec/get_bits.h>
+#include <ffmpeg/libavcodec/h2645_sei.h>
+#include <ffmpeg/libavcodec/sei.h>
 
 #include "hevc.h"
 

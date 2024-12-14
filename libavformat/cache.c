@@ -27,12 +27,12 @@
  *      support filling with a background thread
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/file_open.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/tree.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/file_open.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/tree.h>
 #include "avio.h"
 #include <fcntl.h>
 #if HAVE_IO_H

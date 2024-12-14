@@ -19,8 +19,8 @@
 #ifndef AVFILTER_OVERLAY_H
 #define AVFILTER_OVERLAY_H
 
-#include "libavutil/eval.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/eval.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 #include "framesync.h"
 #include "avfilter.h"
 

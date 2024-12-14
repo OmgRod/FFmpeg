@@ -21,8 +21,8 @@
 
 #include "avformat.h"
 #include "mux.h"
-#include "libavutil/opt.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/thread.h>
 #include <chromaprint.h>
 
 #define CPR_VERSION_INT AV_VERSION_INT(CHROMAPRINT_VERSION_MAJOR, \

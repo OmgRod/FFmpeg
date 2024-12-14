@@ -28,10 +28,10 @@
 #include "codec_internal.h"
 #include "encode.h"
 #include "bytestream.h"
-#include "libavutil/lfg.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/lfg.h>
+#include <ffmpeg/libavutil/mem.h>
 #include "elbg.h"
-#include "libavutil/imgutils.h"
+#include <ffmpeg/libavutil/imgutils.h>
 /**
  * Encoder context
  */

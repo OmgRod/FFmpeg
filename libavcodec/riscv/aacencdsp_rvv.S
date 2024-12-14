@@ -19,7 +19,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/riscv/asm.S"
+#include <ffmpeg/libavutil/riscv/asm.S>
 
 func ff_abs_pow34_rvv, zve32f, zba
         lpad    0

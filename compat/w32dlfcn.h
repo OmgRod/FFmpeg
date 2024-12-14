@@ -25,9 +25,9 @@
 #include <windows.h>
 
 #include "config.h"
-#include "libavutil/macros.h"
-#include "libavutil/mem.h"
-#include "libavutil/wchar_filename.h"
+#include <ffmpeg/libavutil/macros.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/wchar_filename.h>
 
 static inline wchar_t *get_module_filename(HMODULE module)
 {

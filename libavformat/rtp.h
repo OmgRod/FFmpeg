@@ -22,10 +22,10 @@
 #define AVFORMAT_RTP_H
 
 #include <stdint.h>
-#include "libavutil/avutil.h"
-#include "libavcodec/codec_id.h"
-#include "libavcodec/codec_par.h"
-#include "libavformat/avformat.h"
+#include <ffmpeg/libavutil/avutil.h>
+#include <ffmpeg/libavcodec/codec_id.h>
+#include <ffmpeg/libavcodec/codec_par.h>
+#include <ffmpeg/libavformat/avformat.h>
 
 /**
  * Return the payload type for a given stream used in the given format context.

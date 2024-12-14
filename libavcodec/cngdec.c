@@ -21,15 +21,15 @@
 
 #include <math.h>
 
-#include "libavutil/common.h"
-#include "libavutil/ffmath.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/ffmath.h>
+#include <ffmpeg/libavutil/mem.h>
 #include "avcodec.h"
 #include "celp_filters.h"
 #include "codec_internal.h"
 #include "decode.h"
 #include "internal.h"
-#include "libavutil/lfg.h"
+#include <ffmpeg/libavutil/lfg.h>
 
 typedef struct CNGContext {
     float *refl_coef, *target_refl_coef;

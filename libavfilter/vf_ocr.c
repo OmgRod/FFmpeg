@@ -20,7 +20,7 @@
 
 #include <tesseract/capi.h>
 
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/opt.h>
 #include "avfilter.h"
 #include "filters.h"
 #include "video.h"

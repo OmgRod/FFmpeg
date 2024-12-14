@@ -24,8 +24,8 @@
  * field filter, based on libmpcodecs/vf_field.c by Rich Felker
  */
 
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 #include "avfilter.h"
 #include "filters.h"
 

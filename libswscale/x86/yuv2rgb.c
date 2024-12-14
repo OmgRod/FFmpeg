@@ -33,10 +33,10 @@
 #include "libswscale/rgb2rgb.h"
 #include "libswscale/swscale.h"
 #include "libswscale/swscale_internal.h"
-#include "libavutil/attributes.h"
-#include "libavutil/x86/asm.h"
-#include "libavutil/x86/cpu.h"
-#include "libavutil/cpu.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/x86/asm.h>
+#include <ffmpeg/libavutil/x86/cpu.h>
+#include <ffmpeg/libavutil/cpu.h>
 
 #if HAVE_X86ASM
 

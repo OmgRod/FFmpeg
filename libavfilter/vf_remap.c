@@ -36,10 +36,10 @@
  * Target_frame[y][x] = Source_frame[ ymap[y][x] ][ [xmap[y][x] ];
  */
 
-#include "libavutil/colorspace.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/colorspace.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/opt.h>
 #include "avfilter.h"
 #include "drawutils.h"
 #include "filters.h"

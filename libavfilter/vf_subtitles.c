@@ -31,13 +31,13 @@
 
 #include "config_components.h"
 #if CONFIG_SUBTITLES_FILTER
-# include "libavcodec/avcodec.h"
-# include "libavcodec/codec_desc.h"
-# include "libavformat/avformat.h"
+# include <ffmpeg/libavcodec/avcodec.h>
+# include <ffmpeg/libavcodec/codec_desc.h>
+# include <ffmpeg/libavformat/avformat.h>
 #endif
-#include "libavutil/avstring.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
 
 #include "filters.h"
 #include "drawutils.h"

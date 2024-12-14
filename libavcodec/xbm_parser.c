@@ -24,7 +24,7 @@
  * XBM parser
  */
 
-#include "libavutil/common.h"
+#include <ffmpeg/libavutil/common.h>
 
 #include "parser.h"
 

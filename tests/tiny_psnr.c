@@ -26,8 +26,8 @@
 #include <float.h>
 #include <limits.h>
 
-#include "libavutil/intfloat.h"
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavutil/intfloat.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
 
 #define FFMIN(a, b) ((a) > (b) ? (b) : (a))
 #define F 100

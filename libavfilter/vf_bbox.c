@@ -23,9 +23,9 @@
  * bounding box detection filter
  */
 
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/timestamp.h"
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/timestamp.h>
 #include "avfilter.h"
 #include "bbox.h"
 #include "filters.h"

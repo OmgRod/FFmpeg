@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/cpu.h"
+#include <ffmpeg/libavutil/cpu.h>
 
 #ifndef __riscv_zbb
 unsigned char ff_rv_zbb_supported = 0;

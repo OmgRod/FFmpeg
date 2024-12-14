@@ -25,17 +25,17 @@
 
 #include <float.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/cpu.h"
-#include "libavutil/mem.h"
-#include "libavutil/tx.h"
-#include "libavutil/avstring.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/float_dsp.h"
-#include "libavutil/frame.h"
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
-#include "libavutil/rational.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/tx.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/float_dsp.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/rational.h>
 
 #include "audio.h"
 #include "avfilter.h"

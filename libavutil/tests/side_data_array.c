@@ -19,8 +19,8 @@
  */
 
 #include <stdio.h>
-#include "libavutil/frame.c"
-#include "libavutil/internal.h"
+#include <ffmpeg/libavutil/frame.c>
+#include <ffmpeg/libavutil/internal.h>
 
 static void print_entries(const AVFrameSideData **sd, const int nb_sd)
 {

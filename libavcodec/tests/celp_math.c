@@ -16,8 +16,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/libm.h"
-#include "libavcodec/celp_math.c"
+#include <ffmpeg/libavutil/libm.h>
+#include <ffmpeg/libavcodec/celp_math.c>
 
 static inline void IsAlmostEqual(float A, float B, float epsilon)
 {

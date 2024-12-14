@@ -25,8 +25,8 @@
 #include "demux.h"
 #include "internal.h"
 #include "mux.h"
-#include "libavcodec/get_bits.h"
-#include "libavcodec/put_bits.h"
+#include <ffmpeg/libavcodec/get_bits.h>
+#include <ffmpeg/libavcodec/put_bits.h>
 
 #define MAX_FRAME_SIZE 10
 

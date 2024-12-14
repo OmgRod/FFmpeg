@@ -23,14 +23,14 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/fifo.h"
-#include "libavutil/log.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/fifo.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
 
-#include "libavcodec/put_bits.h"
+#include <ffmpeg/libavcodec/put_bits.h>
 
 #include "avformat.h"
 #include "avio_internal.h"

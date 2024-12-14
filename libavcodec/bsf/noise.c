@@ -23,10 +23,10 @@
 #include "bsf.h"
 #include "bsf_internal.h"
 
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/eval.h"
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/eval.h>
 
 static const char *const var_names[] = {
     "n",                           ///< packet index, starting from zero

@@ -21,9 +21,9 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavcodec/fmtconvert.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavcodec/fmtconvert.h>
 
 void ff_int32_to_float_fmul_scalar_rvv(float *dst, const int32_t *src,
                                        float mul, int len);

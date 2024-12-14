@@ -25,8 +25,8 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "libavutil/frame.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #include "avcodec.h"
 #include "cavsdsp.h"

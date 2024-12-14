@@ -21,9 +21,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/frame.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #include "progressframe.h"
 #include "videodsp.h"

@@ -26,9 +26,9 @@
  */
 
 #include <stddef.h>
-#include "libavutil/internal.h"
-#include "libavutil/intmath.h"
-#include "libavutil/log.h"
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/intmath.h>
+#include <ffmpeg/libavutil/log.h>
 #include "jpegls.h"
 
 void ff_jpegls_init_state(JLSState *state)

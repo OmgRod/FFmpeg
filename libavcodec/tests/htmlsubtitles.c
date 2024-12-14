@@ -16,8 +16,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/common.h"
-#include "libavcodec/htmlsubtitles.c"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavcodec/htmlsubtitles.c>
 
 static const char * const test_cases[] = {
     /* latin guillemets and other < > garbage */

@@ -39,12 +39,12 @@
  */
 
 #include <float.h>
-#include "libavutil/avassert.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/samplefmt.h"
-#include "libavutil/tx.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/samplefmt.h>
+#include <ffmpeg/libavutil/tx.h>
 #include "avfilter.h"
 #include "audio.h"
 #include "filters.h"

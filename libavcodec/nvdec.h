@@ -27,8 +27,8 @@
 
 #include <stdint.h>
 
-#include "libavutil/buffer.h"
-#include "libavutil/frame.h"
+#include <ffmpeg/libavutil/buffer.h>
+#include <ffmpeg/libavutil/frame.h>
 
 #include "avcodec.h"
 

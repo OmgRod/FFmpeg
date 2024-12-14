@@ -19,14 +19,14 @@
  */
 
 #include "config.h"
-#include "libavutil/mem.h"
-#include "libavutil/tx.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/opt.h"
-#include "libavutil/xga_font_data.h"
-#include "libavutil/eval.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/time.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/tx.h>
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/xga_font_data.h>
+#include <ffmpeg/libavutil/eval.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/time.h>
 #include "audio.h"
 #include "avfilter.h"
 #include "filters.h"

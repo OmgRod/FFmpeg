@@ -21,7 +21,7 @@
 
 #include <math.h>
 
-#include "libavutil/macros.h"
+#include <ffmpeg/libavutil/macros.h>
 
 enum {
     P_NONE,

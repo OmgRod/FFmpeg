@@ -29,16 +29,16 @@
 
 #include "config_components.h"
 
-#include "libavutil/bprint.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/bprint.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem.h>
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"
 #include "avio_internal.h"
 #include "mux.h"
 #include "pcm.h"
-#include "libavutil/avassert.h"
+#include <ffmpeg/libavutil/avassert.h>
 
 /* if we don't know the size in advance */
 #define AU_UNKNOWN_SIZE ((uint32_t)(~0))

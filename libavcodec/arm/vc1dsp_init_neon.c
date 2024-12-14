@@ -18,9 +18,9 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/intreadwrite.h"
-#include "libavcodec/vc1dsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavcodec/vc1dsp.h>
 #include "vc1dsp.h"
 
 void ff_vc1_inv_trans_8x8_neon(int16_t *block);

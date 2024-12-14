@@ -30,15 +30,15 @@
 #include "filters.h"
 #include "formats.h"
 #include "video.h"
-#include "libavutil/avstring.h"
-#include "libavutil/common.h"
-#include "libavutil/eval.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/colorspace.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/eval.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/colorspace.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/parseutils.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/opt.h>
 
 #include "drawutils.h"
 

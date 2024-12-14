@@ -16,8 +16,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/aarch64/cpu.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/aarch64/cpu.h>
 #include "libavfilter/vf_nlmeans.h"
 
 void ff_compute_safe_ssd_integral_image_neon(uint32_t *dst, ptrdiff_t dst_linesize_32,

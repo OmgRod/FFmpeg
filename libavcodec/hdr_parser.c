@@ -24,7 +24,7 @@
  * Radiance HDR parser
  */
 
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
 #include "parser.h"
 
 typedef struct HDRParseContext {

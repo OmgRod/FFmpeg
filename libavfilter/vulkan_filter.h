@@ -23,7 +23,7 @@
 
 #include "avfilter.h"
 
-#include "libavutil/vulkan.h"
+#include <ffmpeg/libavutil/vulkan.h>
 
 /**
  * General lavfi IO functions

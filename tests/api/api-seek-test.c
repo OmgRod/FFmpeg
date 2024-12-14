@@ -24,11 +24,11 @@
  * Seek test.
  */
 
-#include "libavutil/adler32.h"
-#include "libavutil/mem.h"
-#include "libavcodec/avcodec.h"
-#include "libavformat/avformat.h"
-#include "libavutil/imgutils.h"
+#include <ffmpeg/libavutil/adler32.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavformat/avformat.h>
+#include <ffmpeg/libavutil/imgutils.h>
 
 int64_t *pts_array;
 uint32_t *crc_array;

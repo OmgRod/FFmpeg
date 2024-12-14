@@ -21,13 +21,13 @@
 
 #include <stdint.h>
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/macros.h"
-#include "libavutil/x86/asm.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/mlpdsp.h"
-#include "libavcodec/mlp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/macros.h>
+#include <ffmpeg/libavutil/x86/asm.h>
+#include <ffmpeg/libavutil/x86/cpu.h>
+#include <ffmpeg/libavcodec/mlpdsp.h>
+#include <ffmpeg/libavcodec/mlp.h>
 
 #define REMATRIX_CHANNEL_FUNC(opt) \
 void ff_mlp_rematrix_channel_##opt(int32_t *samples, \

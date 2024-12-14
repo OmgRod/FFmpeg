@@ -22,8 +22,8 @@
  */
 
 #include "h264qpel_loongarch.h"
-#include "libavutil/loongarch/loongson_intrinsics.h"
-#include "libavutil/attributes.h"
+#include <ffmpeg/libavutil/loongarch/loongson_intrinsics.h>
+#include <ffmpeg/libavutil/attributes.h>
 
 static void put_h264_qpel16_hv_lowpass_lsx(uint8_t *dst, const uint8_t *src,
                                            ptrdiff_t dstStride, ptrdiff_t srcStride)

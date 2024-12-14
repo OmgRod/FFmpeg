@@ -20,12 +20,12 @@
 
 #include "config.h"
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/md5.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/md5.h>
+#include <ffmpeg/libavutil/mem.h>
 
-#include "libavformat/avformat.h"
+#include <ffmpeg/libavformat/avformat.h>
 
 #if HAVE_UNISTD_H
 #include <unistd.h>

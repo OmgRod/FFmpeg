@@ -34,10 +34,10 @@
 #include <math.h>
 #include <stddef.h>
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/thread.h"
-#include "libavutil/tx.h"
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/mem_internal.h>
+#include <ffmpeg/libavutil/thread.h>
+#include <ffmpeg/libavutil/tx.h>
 
 #define BITSTREAM_READER_LE
 #include "avcodec.h"

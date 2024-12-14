@@ -19,8 +19,8 @@
 #include <string.h>
 #include "checkasm.h"
 #include "libavfilter/vf_threshold_init.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #define WIDTH 256
 #define WIDTH_PADDED 256 + 32

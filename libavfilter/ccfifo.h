@@ -32,8 +32,8 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "libavutil/frame.h"
-#include "libavutil/rational.h"
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/rational.h>
 
 #define CC_BYTES_PER_ENTRY 3
 

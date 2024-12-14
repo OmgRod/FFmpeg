@@ -21,7 +21,7 @@
 
 #include "demux.h"
 #include "img2.h"
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
 
 static int brender_read_probe(const AVProbeData *p)
 {

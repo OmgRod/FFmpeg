@@ -25,13 +25,13 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/common.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/pixfmt.h"
-#include "libavutil/internal.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/pixfmt.h>
+#include <ffmpeg/libavutil/internal.h>
 
 #include "avcodec.h"
 #include "codec_internal.h"

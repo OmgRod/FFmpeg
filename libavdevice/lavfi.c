@@ -27,20 +27,20 @@
 
 #include <float.h>              /* DBL_MIN, DBL_MAX */
 
-#include "libavutil/bprint.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/file.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/internal.h"
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/bprint.h>
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/file.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/parseutils.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 #include "libavfilter/avfilter.h"
 #include "libavfilter/buffersink.h"
-#include "libavformat/demux.h"
-#include "libavformat/internal.h"
+#include <ffmpeg/libavformat/demux.h>
+#include <ffmpeg/libavformat/internal.h>
 #include "avdevice.h"
 
 typedef struct {

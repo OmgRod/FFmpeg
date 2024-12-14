@@ -16,9 +16,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/imgutils.c"
-#include "libavutil/crc.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/imgutils.c>
+#include <ffmpeg/libavutil/crc.h>
+#include <ffmpeg/libavutil/mem.h>
 
 #undef printf
 static int check_image_fill(enum AVPixelFormat pix_fmt, int w, int h) {

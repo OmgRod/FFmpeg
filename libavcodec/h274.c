@@ -25,8 +25,8 @@
  * @author Niklas Haas <ffmpeg@haasn.xyz>
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/imgutils.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/imgutils.h>
 
 #include "h274.h"
 

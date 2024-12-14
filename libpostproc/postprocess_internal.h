@@ -27,10 +27,10 @@
 #define POSTPROC_POSTPROCESS_INTERNAL_H
 
 #include <string.h>
-#include "libavutil/avutil.h"
-#include "libavutil/intmath.h"
-#include "libavutil/log.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/avutil.h>
+#include <ffmpeg/libavutil/intmath.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 #include "postprocess.h"
 
 #define V_DEBLOCK       0x01

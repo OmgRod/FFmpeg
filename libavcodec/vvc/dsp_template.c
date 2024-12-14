@@ -19,8 +19,8 @@
  * License along with FFmpeg; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
-#include "libavutil/frame.h"
-#include "libavcodec/bit_depth_template.c"
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavcodec/bit_depth_template.c>
 
 #include "dec.h"
 #include "data.h"

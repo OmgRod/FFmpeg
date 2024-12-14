@@ -20,9 +20,9 @@
 
 #include <stdint.h>
 
-#include "libavutil/arm/cpu.h"
-#include "libavutil/attributes.h"
-#include "libavcodec/ac3dsp.h"
+#include <ffmpeg/libavutil/arm/cpu.h>
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavcodec/ac3dsp.h>
 #include "config.h"
 
 void ff_ac3_exponent_min_neon(uint8_t *exp, int num_reuse_blocks, int nb_coefs);

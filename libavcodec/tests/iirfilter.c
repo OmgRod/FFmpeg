@@ -20,10 +20,10 @@
 #include <stdint.h>
 #include <stdio.h>
 
-#include "libavutil/libm.h"
+#include <ffmpeg/libavutil/libm.h>
 
-#include "libavcodec/iirfilter.h"
-#include "libavcodec/iirfilter.c"
+#include <ffmpeg/libavcodec/iirfilter.h>
+#include <ffmpeg/libavcodec/iirfilter.c>
 
 #define FILT_ORDER 4
 #define SIZE 1024

@@ -23,7 +23,7 @@
 
 #include "config.h"
 
-#include "libavutil/macros.h"
+#include <ffmpeg/libavutil/macros.h>
 
 typedef struct AACEncDSPContext {
     void (*abs_pow34)(float *out, const float *in, const int size);

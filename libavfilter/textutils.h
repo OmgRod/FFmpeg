@@ -24,10 +24,10 @@
 #ifndef AVFILTER_TEXTUTILS_H
 #define AVFILTER_TEXTUTILS_H
 
-#include "libavutil/bprint.h"
-#include "libavutil/eval.h"
-#include "libavutil/log.h"
-#include "libavutil/parseutils.h"
+#include <ffmpeg/libavutil/bprint.h>
+#include <ffmpeg/libavutil/eval.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/parseutils.h>
 
 /**
  * Function used to expand a template sequence in the format

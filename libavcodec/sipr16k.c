@@ -24,10 +24,10 @@
 #include <math.h>
 
 #include "sipr.h"
-#include "libavutil/attributes.h"
-#include "libavutil/common.h"
-#include "libavutil/float_dsp.h"
-#include "libavutil/mathematics.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/float_dsp.h>
+#include <ffmpeg/libavutil/mathematics.h>
 #include "lsp.h"
 #include "acelp_vectors.h"
 #include "acelp_pitch_delay.h"

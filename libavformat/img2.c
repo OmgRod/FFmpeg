@@ -22,7 +22,7 @@
 
 #include <assert.h>
 
-#include "libavutil/avstring.h"
+#include <ffmpeg/libavutil/avstring.h>
 #include "internal.h"
 #include "img2.h"
 

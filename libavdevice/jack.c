@@ -24,15 +24,15 @@
 #include <semaphore.h>
 #include <jack/jack.h>
 
-#include "libavutil/internal.h"
-#include "libavutil/log.h"
-#include "libavutil/fifo.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/time.h"
-#include "libavformat/avformat.h"
-#include "libavformat/demux.h"
-#include "libavformat/internal.h"
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/fifo.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/time.h>
+#include <ffmpeg/libavformat/avformat.h>
+#include <ffmpeg/libavformat/demux.h>
+#include <ffmpeg/libavformat/internal.h>
 #include "timefilter.h"
 #include "avdevice.h"
 

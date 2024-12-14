@@ -19,9 +19,9 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/aarch64/cpu.h"
-#include "libavcodec/mpegaudiodsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/aarch64/cpu.h>
+#include <ffmpeg/libavcodec/mpegaudiodsp.h>
 #include "config.h"
 
 void ff_mpadsp_apply_window_fixed_neon(int32_t *synth_buf, int32_t *window,

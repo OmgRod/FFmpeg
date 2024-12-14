@@ -22,9 +22,9 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavcodec/ac3dsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavcodec/ac3dsp.h>
 
 void ff_ac3_exponent_min_rvb(uint8_t *exp, int, int);
 void ff_ac3_exponent_min_rvv(uint8_t *exp, int, int);

@@ -35,11 +35,11 @@
 #include <stddef.h>
 #include <string.h>
 
-#include "libavutil/emms.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/mem.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/emms.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/mem_internal.h>
+#include <ffmpeg/libavutil/thread.h>
 
 #include "avcodec.h"
 #include "codec_internal.h"

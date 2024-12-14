@@ -23,8 +23,8 @@
 #include "demux.h"
 #include "internal.h"
 #include "subtitles.h"
-#include "libavutil/avstring.h"
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
 
 typedef struct SCCContext {
     FFDemuxSubtitlesQueue q;

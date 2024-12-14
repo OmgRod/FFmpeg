@@ -20,12 +20,12 @@
  */
 
 #include <stdlib.h>
-#include "libavutil/opt.h"
-#include "libavutil/time.h"
-#include "libavformat/avformat.h"
-#include "libavformat/mux.h"
-#include "libavformat/network.h"
-#include "libavformat/url.h"
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/time.h>
+#include <ffmpeg/libavformat/avformat.h>
+#include <ffmpeg/libavformat/mux.h>
+#include <ffmpeg/libavformat/network.h>
+#include <ffmpeg/libavformat/url.h>
 
 /*
  * Include fifo.c directly to override libavformat/fifo.c and
@@ -37,7 +37,7 @@
  * even though it is not accessible via the API.
  */
 #define FIFO_TEST
-#include "libavformat/fifo.c"
+#include <ffmpeg/libavformat/fifo.c>
 
 #define MAX_TST_PACKETS 128
 #define SLEEPTIME_50_MS 50000

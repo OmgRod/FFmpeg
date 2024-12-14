@@ -25,8 +25,8 @@
  * Ported from MPlayer libmpcodecs/vf_smartblur.c by Michael Niedermayer.
  */
 
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 #include "libswscale/swscale.h"
 
 #include "avfilter.h"

@@ -21,10 +21,10 @@
 
 #include <stdint.h>
 
-#include "libavutil/crc.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/crc.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
 
 #include "bytestream.h"
 #include "codec_internal.h"

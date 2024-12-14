@@ -20,14 +20,14 @@
 
 #include <stdint.h>
 
-#include "libavutil/dict.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/log.h"
-#include "libavutil/pixfmt.h"
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/pixfmt.h>
 
-#include "libavformat/avformat.h"
+#include <ffmpeg/libavformat/avformat.h>
 
-#include "libavcodec/avcodec.h"
+#include <ffmpeg/libavcodec/avcodec.h>
 
 #include "lavfutils.h"
 

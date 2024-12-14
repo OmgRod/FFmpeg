@@ -24,7 +24,7 @@
 
 #include <stdint.h>
 #include <stddef.h>
-#include "libavcodec/h264.h"
+#include <ffmpeg/libavcodec/h264.h>
 #include "config.h"
 
 void put_h264_qpel8_hv_lowpass_lsx(uint8_t *dst, const uint8_t *src,

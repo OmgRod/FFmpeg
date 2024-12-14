@@ -18,9 +18,9 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/aarch64/cpu.h"
-#include "libavcodec/opus/dsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/aarch64/cpu.h>
+#include <ffmpeg/libavcodec/opus/dsp.h>
 
 void ff_opus_postfilter_neon(float *data, int period, float *gains, int len);
 float ff_opus_deemphasis_neon(float *out, float *in, float coeff, const float *weights, int len);

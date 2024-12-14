@@ -25,9 +25,9 @@
 
 #include <inttypes.h>
 
-#include "libavutil/intfloat.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/intfloat.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem.h>
 #include "avcodec.h"
 #include "mss12.h"
 

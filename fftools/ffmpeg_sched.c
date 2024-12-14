@@ -29,16 +29,16 @@
 #include "sync_queue.h"
 #include "thread_queue.h"
 
-#include "libavcodec/packet.h"
+#include <ffmpeg/libavcodec/packet.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/error.h"
-#include "libavutil/fifo.h"
-#include "libavutil/frame.h"
-#include "libavutil/mem.h"
-#include "libavutil/thread.h"
-#include "libavutil/threadmessage.h"
-#include "libavutil/time.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/fifo.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/thread.h>
+#include <ffmpeg/libavutil/threadmessage.h>
+#include <ffmpeg/libavutil/time.h>
 
 // 100 ms
 // FIXME: some other value? make this dynamic?

@@ -21,9 +21,9 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavcodec/bswapdsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavcodec/bswapdsp.h>
 
 void ff_bswap32_buf_rvb(uint32_t *dst, const uint32_t *src, int len);
 void ff_bswap16_buf_rvv(uint16_t *dst, const uint16_t *src, int len);

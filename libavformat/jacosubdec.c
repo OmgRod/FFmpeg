@@ -29,10 +29,10 @@
 #include "demux.h"
 #include "internal.h"
 #include "subtitles.h"
-#include "libavcodec/jacosub.h"
-#include "libavutil/avstring.h"
-#include "libavutil/bprint.h"
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavcodec/jacosub.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/bprint.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
 
 typedef struct {
     FFDemuxSubtitlesQueue q;

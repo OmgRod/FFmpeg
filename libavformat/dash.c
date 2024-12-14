@@ -24,12 +24,12 @@
 #include <unistd.h>
 #endif
 
-#include "libavutil/avstring.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/opt.h"
-#include "libavutil/rational.h"
-#include "libavutil/time_internal.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/rational.h>
+#include <ffmpeg/libavutil/time_internal.h>
 
 #include "avc.h"
 #include "avformat.h"

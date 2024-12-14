@@ -25,8 +25,8 @@
 
 #include <inttypes.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/bswap.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/bswap.h>
 #include "config.h"
 #include "rgb2rgb.h"
 #include "swscale.h"

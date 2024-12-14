@@ -22,14 +22,14 @@
 
 #include "config_components.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/fifo.h"
-#include "libavutil/avstring.h"
-#include "libavutil/hwcontext_mediacodec.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/fifo.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/hwcontext_mediacodec.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/thread.h>
 
 #include "avcodec.h"
 #include "bsf.h"

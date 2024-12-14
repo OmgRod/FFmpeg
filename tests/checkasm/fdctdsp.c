@@ -20,12 +20,12 @@
 
 #include "checkasm.h"
 
-#include "libavcodec/avcodec.h"
-#include "libavcodec/fdctdsp.h"
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavcodec/fdctdsp.h>
 
-#include "libavutil/common.h"
-#include "libavutil/internal.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 static int int16_cmp_off_by_n(const int16_t *ref, const int16_t *test, size_t n, int accuracy)
 {

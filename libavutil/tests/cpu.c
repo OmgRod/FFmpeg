@@ -20,13 +20,13 @@
 
 #include "config.h"
 
-#include "libavutil/cpu.h"
-#include "libavutil/avstring.h"
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/avstring.h>
 
 #if ARCH_AARCH64
-#include "libavutil/aarch64/cpu.h"
+#include <ffmpeg/libavutil/aarch64/cpu.h>
 #elif ARCH_RISCV
-#include "libavutil/riscv/cpu.h"
+#include <ffmpeg/libavutil/riscv/cpu.h>
 #endif
 
 #if HAVE_UNISTD_H

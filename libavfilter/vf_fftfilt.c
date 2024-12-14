@@ -26,13 +26,13 @@
 
 #include "filters.h"
 #include "video.h"
-#include "libavutil/common.h"
-#include "libavutil/cpu.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/tx.h"
-#include "libavutil/eval.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/tx.h>
+#include <ffmpeg/libavutil/eval.h>
 
 #define MAX_THREADS 32
 #define MAX_PLANES 4

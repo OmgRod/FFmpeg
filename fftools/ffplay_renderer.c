@@ -41,8 +41,8 @@
 #include <libplacebo/utils/libav.h>
 #include <SDL_vulkan.h>
 
-#include "libavutil/bprint.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/bprint.h>
+#include <ffmpeg/libavutil/mem.h>
 
 #endif
 

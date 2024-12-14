@@ -24,11 +24,11 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/pixels.h"
-#include "libavcodec/qpeldsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/x86/cpu.h>
+#include <ffmpeg/libavcodec/pixels.h>
+#include <ffmpeg/libavcodec/qpeldsp.h>
 #include "fpel.h"
 
 void ff_put_pixels8_l2_mmxext(uint8_t *dst,

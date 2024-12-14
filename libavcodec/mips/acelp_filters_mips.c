@@ -52,9 +52,9 @@
  * Reference: libavcodec/acelp_filters.c
  */
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavcodec/acelp_filters.h"
-#include "libavutil/mips/asmdefs.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavcodec/acelp_filters.h>
+#include <ffmpeg/libavutil/mips/asmdefs.h>
 
 #if HAVE_INLINE_ASM
 #if !HAVE_MIPS32R6 && !HAVE_MIPS64R6

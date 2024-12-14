@@ -21,7 +21,7 @@
  */
 
 
-#include "libavutil/aarch64/asm.S"
+#include <ffmpeg/libavutil/aarch64/asm.S>
 
 // Space taken on the stack by an int (32-bit)
 #ifdef __APPLE__

@@ -26,7 +26,7 @@
 
 #include <stdint.h>
 
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/mem.h>
 #include "mathops.h"
 #include "opus.h"
 #include "rc.h"

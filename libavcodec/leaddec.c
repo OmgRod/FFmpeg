@@ -30,9 +30,9 @@
 #include "jpegquanttables.h"
 #include "jpegtables.h"
 #include "leaddata.h"
-#include "libavutil/mem.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/mem_internal.h>
+#include <ffmpeg/libavutil/thread.h>
 
 #define LUMA_DC_BITS 9
 #define CHROMA_DC_BITS 11

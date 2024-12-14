@@ -24,10 +24,10 @@
 #include <pthread.h>
 #include <stdlib.h>
 
-#include "libavutil/bprint.h"
-#include "libavutil/error.h"
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/bprint.h>
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/mem.h>
 
 #include "config.h"
 #include "jni.h"

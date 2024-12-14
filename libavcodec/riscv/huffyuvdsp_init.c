@@ -19,9 +19,9 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavcodec/huffyuvdsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavcodec/huffyuvdsp.h>
 
 void ff_add_int16_rvv(uint16_t *dst, const uint16_t *src, unsigned m, int w);
 void ff_add_hfyu_left_pred_bgr32_rvv(uint8_t *dst, const uint8_t *src,

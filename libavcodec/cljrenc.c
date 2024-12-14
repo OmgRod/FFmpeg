@@ -24,7 +24,7 @@
  * Cirrus Logic AccuPak encoder.
  */
 
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/opt.h>
 
 #include "avcodec.h"
 #include "codec_internal.h"

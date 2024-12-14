@@ -25,7 +25,7 @@
 #include "avio_internal.h"
 #include "rawdec.h"
 
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
 
 static int ipu_read_probe(const AVProbeData *p)
 {

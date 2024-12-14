@@ -24,7 +24,7 @@
 
 #include <stddef.h>
 
-#include "libavcodec/packet.h"
+#include <ffmpeg/libavcodec/packet.h>
 #include "avformat.h"
 #include "avio.h"
 #include "iamf.h"

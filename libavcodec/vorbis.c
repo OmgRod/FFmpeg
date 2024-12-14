@@ -26,10 +26,10 @@
  * @author Denes Balatoni  ( dbalatoni programozo hu )
  */
 
-#include "libavutil/common.h"
-#include "libavutil/error.h"
-#include "libavutil/log.h"
-#include "libavutil/macros.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/macros.h>
 
 #include "vorbis.h"
 #include "vorbis_data.h"

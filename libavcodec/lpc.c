@@ -19,15 +19,15 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/common.h"
-#include "libavutil/lls.h"
-#include "libavutil/mem.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/lls.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #define LPC_USE_DOUBLE
 #include "lpc.h"
 #include "lpc_functions.h"
-#include "libavutil/avassert.h"
+#include <ffmpeg/libavutil/avassert.h>
 
 /**
  * Schur recursion.

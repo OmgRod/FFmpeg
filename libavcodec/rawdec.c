@@ -30,12 +30,12 @@
 #include "decode.h"
 #include "get_bits.h"
 #include "raw.h"
-#include "libavutil/avassert.h"
-#include "libavutil/buffer.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/buffer.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
 
 typedef struct RawVideoContext {
     AVClass *av_class;

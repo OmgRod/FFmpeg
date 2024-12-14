@@ -24,7 +24,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "libavutil/riscv/asm.S"
+#include <ffmpeg/libavutil/riscv/asm.S>
 
         .macro  sx rd, addr
 #if (__riscv_xlen == 32)

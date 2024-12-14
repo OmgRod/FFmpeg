@@ -28,7 +28,7 @@
 #ifndef AVCODEC_AACENC_UTILS_H
 #define AVCODEC_AACENC_UTILS_H
 
-#include "libavutil/ffmath.h"
+#include <ffmpeg/libavutil/ffmath.h>
 #include "aacenc.h"
 #include "aacenctab.h"
 #include "aactab.h"

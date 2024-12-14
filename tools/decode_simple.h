@@ -21,13 +21,13 @@
 #ifndef DECODE_SIMPLE_H
 #define DECODE_SIMPLE_H
 
-#include "libavformat/avformat.h"
+#include <ffmpeg/libavformat/avformat.h>
 
-#include "libavcodec/avcodec.h"
-#include "libavcodec/packet.h"
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavcodec/packet.h>
 
-#include "libavutil/dict.h"
-#include "libavutil/frame.h"
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/frame.h>
 
 
 typedef struct DecodeContext {

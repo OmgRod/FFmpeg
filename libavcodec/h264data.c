@@ -28,7 +28,7 @@
 
 #include <stdint.h>
 
-#include "libavutil/avutil.h"
+#include <ffmpeg/libavutil/avutil.h>
 
 #include "h264_parse.h"
 #include "h264data.h"

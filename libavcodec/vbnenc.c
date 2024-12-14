@@ -30,9 +30,9 @@
 #include "texturedsp.h"
 #include "vbn.h"
 
-#include "libavutil/imgutils.h"
-#include "libavutil/frame.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/opt.h>
 
 typedef struct VBNContext {
     AVClass *class;

@@ -35,12 +35,12 @@
 #endif
 #include <fcntl.h>
 #include <va/va.h>
-#include "libavutil/hwcontext_vaapi.h"
+#include <ffmpeg/libavutil/hwcontext_vaapi.h>
 #endif
 
 #include <mfxvideo.h>
 
-#include "libavutil/frame.h"
+#include <ffmpeg/libavutil/frame.h>
 
 #include "avcodec.h"
 

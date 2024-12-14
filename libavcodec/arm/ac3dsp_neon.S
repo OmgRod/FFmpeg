@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/arm/asm.S"
+#include <ffmpeg/libavutil/arm/asm.S>
 
 function ff_ac3_exponent_min_neon, export=1
         cmp             r1,  #0

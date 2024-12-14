@@ -20,10 +20,10 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/riscv/cpu.h"
-#include "libavcodec/vc1.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/riscv/cpu.h>
+#include <ffmpeg/libavcodec/vc1.h>
 
 void ff_vc1_inv_trans_8x8_dc_rvv(uint8_t *dest, ptrdiff_t stride, int16_t *block);
 void ff_vc1_inv_trans_8x8_rvv(int16_t block[64]);

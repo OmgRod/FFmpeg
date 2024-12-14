@@ -35,8 +35,8 @@
 #include "aac/aacdec.h"
 #include "aac/aacdec_tab.h"
 #include "avcodec.h"
-#include "libavutil/qsort.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/qsort.h>
+#include <ffmpeg/libavutil/mem.h>
 
 typedef struct ExtChannelElement {
     ChannelElement ch;

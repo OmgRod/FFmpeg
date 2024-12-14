@@ -32,15 +32,15 @@
 #include <asm/unistd.h>
 #include <linux/perf_event.h>
 #elif CONFIG_MACOS_KPERF
-#include "libavutil/macos_kperf.h"
+#include <ffmpeg/libavutil/macos_kperf.h>
 #endif
 
-#include "libavutil/avstring.h"
-#include "libavutil/cpu.h"
-#include "libavutil/emms.h"
-#include "libavutil/internal.h"
-#include "libavutil/lfg.h"
-#include "libavutil/timer.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/emms.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/lfg.h>
+#include <ffmpeg/libavutil/timer.h>
 
 #ifdef _WIN32
 #include <windows.h>

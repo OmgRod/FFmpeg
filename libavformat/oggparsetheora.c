@@ -23,8 +23,8 @@
  **/
 
 #include <stdlib.h>
-#include "libavutil/mem.h"
-#include "libavcodec/get_bits.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavcodec/get_bits.h>
 #include "avformat.h"
 #include "internal.h"
 #include "oggdec.h"

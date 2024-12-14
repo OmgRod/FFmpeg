@@ -25,8 +25,8 @@
  * @author Michael Niedermayer <michaelni@gmx.at>
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/emms.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/emms.h>
 #include "error_resilience.h"
 #include "avcodec.h"
 #include "h264dec.h"

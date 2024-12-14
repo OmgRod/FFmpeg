@@ -20,10 +20,10 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/riscv/cpu.h"
-#include "libavcodec/lpc.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/riscv/cpu.h>
+#include <ffmpeg/libavcodec/lpc.h>
 
 void ff_lpc_apply_welch_window_rvv(const int32_t *, ptrdiff_t, double *);
 void ff_lpc_compute_autocorr_rvv(const double *, ptrdiff_t, int, double *);

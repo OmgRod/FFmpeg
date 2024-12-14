@@ -27,7 +27,7 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-#include "libavutil/aarch64/asm.S"
+#include <ffmpeg/libavutil/aarch64/asm.S>
 #include "neon.S"
 
 // #define EIGHT_BIT_SAMPLES

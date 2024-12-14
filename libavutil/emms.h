@@ -20,7 +20,7 @@
 #define AVUTIL_EMMS_H
 
 #include "config.h"
-#include "libavutil/attributes.h"
+#include <ffmpeg/libavutil/attributes.h>
 
 #if ARCH_X86
 
@@ -28,7 +28,7 @@ void avpriv_emms_asm(void);
 
 #if HAVE_MMX_INLINE
 #ifndef __MMX__
-#include "libavutil/cpu.h"
+#include <ffmpeg/libavutil/cpu.h>
 #endif
 
 #   define emms_c emms_c

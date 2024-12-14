@@ -20,11 +20,11 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/riscv/cpu.h"
-#include "libavcodec/avcodec.h"
-#include "libavcodec/idctdsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/riscv/cpu.h>
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavcodec/idctdsp.h>
 
 void ff_put_pixels_clamped_rvv(const int16_t *block, uint8_t *pixels,
                                ptrdiff_t stride);

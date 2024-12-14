@@ -20,9 +20,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/common.h"
+#include <ffmpeg/libavutil/common.h>
 #include "libavfilter/bwdifdsp.h"
-#include "libavutil/aarch64/cpu.h"
+#include <ffmpeg/libavutil/aarch64/cpu.h>
 
 void ff_bwdif_filter_edge_neon(void *dst1, const void *prev1, const void *cur1, const void *next1,
                                int w, int prefs, int mrefs, int prefs2, int mrefs2,

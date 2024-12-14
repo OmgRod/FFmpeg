@@ -20,8 +20,8 @@
 
 #include <inttypes.h>
 
-#include "libavutil/imgutils.h"
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
 
 #include "avcodec.h"
 #include "canopus.h"

@@ -23,7 +23,7 @@
  * MPEG-7 video signature calculation and lookup filter
  */
 
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/mem.h>
 #include "signature.h"
 
 #define HOUGH_MAX_OFFSET 90

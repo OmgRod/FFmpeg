@@ -28,15 +28,15 @@
 #include "apng.h"
 #include "zlib_wrapper.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/crc.h"
-#include "libavutil/csp.h"
-#include "libavutil/libm.h"
-#include "libavutil/mastering_display_metadata.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/rational.h"
-#include "libavutil/stereo3d.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/crc.h>
+#include <ffmpeg/libavutil/csp.h>
+#include <ffmpeg/libavutil/libm.h>
+#include <ffmpeg/libavutil/mastering_display_metadata.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/rational.h>
+#include <ffmpeg/libavutil/stereo3d.h>
 
 #include <zlib.h>
 

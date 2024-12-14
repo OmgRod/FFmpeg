@@ -37,11 +37,11 @@
 #include "decode.h"
 #include "internal.h"
 #include "mlz.h"
-#include "libavutil/mem.h"
-#include "libavutil/samplefmt.h"
-#include "libavutil/crc.h"
-#include "libavutil/softfloat_ieee754.h"
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/samplefmt.h>
+#include <ffmpeg/libavutil/crc.h>
+#include <ffmpeg/libavutil/softfloat_ieee754.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
 
 #include <stdint.h>
 

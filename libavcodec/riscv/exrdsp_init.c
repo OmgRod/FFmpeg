@@ -20,9 +20,9 @@
 
 #include <stdint.h>
 
-#include "libavutil/cpu.h"
-#include "libavcodec/avcodec.h"
-#include "libavcodec/exrdsp.h"
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavcodec/exrdsp.h>
 
 void ff_reorder_pixels_rvv(uint8_t *dst, const uint8_t *src, ptrdiff_t size);
 

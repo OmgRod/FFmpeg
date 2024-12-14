@@ -23,8 +23,8 @@
  * WebP parser
  */
 
-#include "libavutil/bswap.h"
-#include "libavutil/common.h"
+#include <ffmpeg/libavutil/bswap.h>
+#include <ffmpeg/libavutil/common.h>
 
 #include "parser.h"
 

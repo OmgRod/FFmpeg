@@ -18,11 +18,11 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/arm/cpu.h"
-#include "libavcodec/avcodec.h"
-#include "libavcodec/mpegvideoencdsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/arm/cpu.h>
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavcodec/mpegvideoencdsp.h>
 
 int ff_pix_norm1_armv6(const uint8_t *pix, ptrdiff_t line_size);
 int ff_pix_sum_armv6(const uint8_t *pix, ptrdiff_t line_size);

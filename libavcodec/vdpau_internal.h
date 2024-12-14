@@ -27,9 +27,9 @@
 #include <stdint.h>
 #include <vdpau/vdpau.h>
 
-#include "libavutil/frame.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/hwcontext_vdpau.h"
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/hwcontext.h>
+#include <ffmpeg/libavutil/hwcontext_vdpau.h>
 
 #include "avcodec.h"
 #include "vdpau.h"

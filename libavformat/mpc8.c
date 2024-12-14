@@ -19,9 +19,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/mem.h"
-#include "libavcodec/get_bits.h"
-#include "libavcodec/unary.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavcodec/get_bits.h>
+#include <ffmpeg/libavcodec/unary.h>
 #include "apetag.h"
 #include "avformat.h"
 #include "demux.h"

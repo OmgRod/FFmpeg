@@ -19,8 +19,8 @@
 #include <va/va.h>
 #include <va/va_enc_mpeg2.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/opt.h>
 
 #include "avcodec.h"
 #include "cbs.h"

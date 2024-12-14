@@ -25,9 +25,9 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavcodec/avcodec.h"
+#include <ffmpeg/libavcodec/avcodec.h>
 #include "libavfilter/avfilter.h"
-#include "libavformat/avformat.h"
+#include <ffmpeg/libavformat/avformat.h>
 #include "libswscale/swscale.h"
 
 #ifdef _WIN32

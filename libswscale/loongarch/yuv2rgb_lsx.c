@@ -21,7 +21,7 @@
  */
 
 #include "swscale_loongarch.h"
-#include "libavutil/loongarch/loongson_intrinsics.h"
+#include <ffmpeg/libavutil/loongarch/loongson_intrinsics.h>
 
 #define YUV2RGB_LOAD_COE                               \
     /* Load x_offset */                                \

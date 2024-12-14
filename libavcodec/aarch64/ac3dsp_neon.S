@@ -19,7 +19,7 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-#include "libavutil/aarch64/asm.S"
+#include <ffmpeg/libavutil/aarch64/asm.S>
 
 function ff_ac3_exponent_min_neon, export=1
         cbz             w1, 3f

@@ -23,7 +23,7 @@
 #include <android/native_window.h>
 #include <jni.h>
 
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/mem.h>
 #include "ffjni.h"
 #include "mediacodec_surface.h"
 

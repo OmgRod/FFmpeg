@@ -24,7 +24,7 @@
 #include "swresample.h"
 #include "version.h"
 
-#include "libavutil/ffversion.h"
+#include <ffmpeg/libavutil/ffversion.h>
 const char swr_ffversion[] = "FFmpeg version " FFMPEG_VERSION;
 
 unsigned swresample_version(void)

@@ -19,10 +19,10 @@
  */
 
 #define _GNU_SOURCE
-#include "libavutil/cpu.h"
-#include "libavutil/cpu_internal.h"
-#include "libavutil/macros.h"
-#include "libavutil/log.h"
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/cpu_internal.h>
+#include <ffmpeg/libavutil/macros.h>
+#include <ffmpeg/libavutil/log.h>
 #include "config.h"
 
 #if HAVE_GETAUXVAL || HAVE_ELF_AUX_INFO

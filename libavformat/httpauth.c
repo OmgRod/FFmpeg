@@ -20,12 +20,12 @@
  */
 
 #include "httpauth.h"
-#include "libavutil/base64.h"
-#include "libavutil/avstring.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/base64.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/mem.h>
 #include "internal.h"
-#include "libavutil/random_seed.h"
-#include "libavutil/md5.h"
+#include <ffmpeg/libavutil/random_seed.h>
+#include <ffmpeg/libavutil/md5.h>
 #include "urldecode.h"
 
 static void handle_basic_params(HTTPAuthState *state, const char *key,

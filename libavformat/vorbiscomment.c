@@ -23,7 +23,7 @@
 #include "avformat.h"
 #include "metadata.h"
 #include "vorbiscomment.h"
-#include "libavutil/dict.h"
+#include <ffmpeg/libavutil/dict.h>
 
 /**
  * VorbisComment metadata conversion mapping.

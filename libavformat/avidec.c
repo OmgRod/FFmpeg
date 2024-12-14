@@ -23,15 +23,15 @@
 
 #include <inttypes.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/dict.h"
-#include "libavutil/integer.h"
-#include "libavutil/internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mathematics.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/integer.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mathematics.h>
 #include "avformat.h"
 #include "avi.h"
 #include "demux.h"
@@ -39,9 +39,9 @@
 #include "internal.h"
 #include "isom.h"
 #include "riff.h"
-#include "libavcodec/bytestream.h"
-#include "libavcodec/exif.h"
-#include "libavcodec/startcode.h"
+#include <ffmpeg/libavcodec/bytestream.h>
+#include <ffmpeg/libavcodec/exif.h>
+#include <ffmpeg/libavcodec/startcode.h>
 
 typedef struct AVIStream {
     int64_t frame_offset;   /* current frame (video) or byte (audio) counter

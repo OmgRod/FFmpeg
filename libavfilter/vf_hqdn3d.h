@@ -26,7 +26,7 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/opt.h>
 
 typedef struct HQDN3DContext {
     const AVClass *class;

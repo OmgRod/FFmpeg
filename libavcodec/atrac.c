@@ -28,8 +28,8 @@
 #include <math.h>
 #include <string.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/thread.h>
 
 #include "atrac.h"
 

@@ -41,33 +41,33 @@
 #include "vorbiscomment.h"
 #include "wv.h"
 
-#include "libavutil/avstring.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/crc.h"
-#include "libavutil/dict.h"
-#include "libavutil/hdr_dynamic_metadata.h"
-#include "libavutil/intfloat.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/lfg.h"
-#include "libavutil/mastering_display_metadata.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/random_seed.h"
-#include "libavutil/rational.h"
-#include "libavutil/samplefmt.h"
-#include "libavutil/stereo3d.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/crc.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/hdr_dynamic_metadata.h>
+#include <ffmpeg/libavutil/intfloat.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/lfg.h>
+#include <ffmpeg/libavutil/mastering_display_metadata.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/parseutils.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/random_seed.h>
+#include <ffmpeg/libavutil/rational.h>
+#include <ffmpeg/libavutil/samplefmt.h>
+#include <ffmpeg/libavutil/stereo3d.h>
 
-#include "libavcodec/av1.h"
-#include "libavcodec/bytestream.h"
-#include "libavcodec/codec_desc.h"
-#include "libavcodec/codec_par.h"
-#include "libavcodec/defs.h"
-#include "libavcodec/itut35.h"
-#include "libavcodec/xiph.h"
-#include "libavcodec/mpeg4audio.h"
+#include <ffmpeg/libavcodec/av1.h>
+#include <ffmpeg/libavcodec/bytestream.h>
+#include <ffmpeg/libavcodec/codec_desc.h>
+#include <ffmpeg/libavcodec/codec_par.h>
+#include <ffmpeg/libavcodec/defs.h>
+#include <ffmpeg/libavcodec/itut35.h>
+#include <ffmpeg/libavcodec/xiph.h>
+#include <ffmpeg/libavcodec/mpeg4audio.h>
 
 /* Level 1 elements we create a SeekHead entry for:
  * Info, Tracks, Chapters, Attachments, Tags (potentially twice) and Cues */

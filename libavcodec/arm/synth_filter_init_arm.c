@@ -20,10 +20,10 @@
 
 #include "config.h"
 
-#include "libavutil/arm/cpu.h"
-#include "libavutil/attributes.h"
-#include "libavutil/internal.h"
-#include "libavcodec/synth_filter.h"
+#include <ffmpeg/libavutil/arm/cpu.h>
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavcodec/synth_filter.h>
 
 void ff_synth_filter_float_vfp(AVTXContext *imdct,
                                float *synth_buf_ptr, int *synth_buf_offset,

@@ -35,8 +35,8 @@
 #endif
 #include <linux/videodev2.h>
 #endif
-#include "libavutil/pixfmt.h"
-#include "libavcodec/codec_id.h"
+#include <ffmpeg/libavutil/pixfmt.h>
+#include <ffmpeg/libavcodec/codec_id.h>
 
 struct fmt_map {
     enum AVPixelFormat ff_fmt;

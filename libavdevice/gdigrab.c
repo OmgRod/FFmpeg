@@ -29,12 +29,12 @@
  */
 
 #include "config.h"
-#include "libavformat/demux.h"
-#include "libavformat/internal.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/time.h"
-#include "libavutil/wchar_filename.h"
+#include <ffmpeg/libavformat/demux.h>
+#include <ffmpeg/libavformat/internal.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/time.h>
+#include <ffmpeg/libavutil/wchar_filename.h>
 #include <windows.h>
 
 /**

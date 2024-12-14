@@ -18,8 +18,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/hevc/dec.h"
-#include "libavutil/mips/generic_macros_msa.h"
+#include <ffmpeg/libavcodec/hevc/dec.h>
+#include <ffmpeg/libavutil/mips/generic_macros_msa.h>
 #include "hevcpred_mips.h"
 
 static const int8_t intra_pred_angle_up[17] = {

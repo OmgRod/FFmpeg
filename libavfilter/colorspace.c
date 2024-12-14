@@ -17,9 +17,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/frame.h"
-#include "libavutil/mastering_display_metadata.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/mastering_display_metadata.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 
 #include "colorspace.h"
 

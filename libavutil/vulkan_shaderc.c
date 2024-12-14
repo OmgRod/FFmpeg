@@ -18,7 +18,7 @@
 
 #include <shaderc/shaderc.h>
 
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/mem.h>
 #include "vulkan_spirv.h"
 
 static int shdc_shader_compile(FFVulkanContext *s, FFVkSPIRVCompiler *ctx,

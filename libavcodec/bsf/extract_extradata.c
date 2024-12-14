@@ -18,9 +18,9 @@
 
 #include <stdint.h>
 
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
 
 #include "av1.h"
 #include "av1_parse.h"

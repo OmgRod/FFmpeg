@@ -19,7 +19,7 @@
 #ifndef AVDEVICE_INTERNAL_H
 #define AVDEVICE_INTERNAL_H
 
-#include "libavformat/avformat.h"
+#include <ffmpeg/libavformat/avformat.h>
 
 av_warn_unused_result
 int ff_alloc_input_device_context(struct AVFormatContext **avctx, const AVInputFormat *iformat,

@@ -25,7 +25,7 @@
 #include "avformat.h"
 #include "version.h"
 
-#include "libavutil/ffversion.h"
+#include <ffmpeg/libavutil/ffversion.h>
 const char av_format_ffversion[] = "FFmpeg version " FFMPEG_VERSION;
 
 unsigned avformat_version(void)
@@ -41,6 +41,6 @@ const char *avformat_configuration(void)
 
 const char *avformat_license(void)
 {
-#define LICENSE_PREFIX "libavformat license: "
+#define LICENSE_PREFIX <ffmpeg/libavformat license: >
     return &LICENSE_PREFIX FFMPEG_LICENSE[sizeof(LICENSE_PREFIX) - 1];
 }

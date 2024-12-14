@@ -19,11 +19,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/mem.h>
 
-#include "libavutil/avassert.h"
-#include "libavcodec/bytestream.h"
-#include "libavcodec/packet_internal.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavcodec/bytestream.h>
+#include <ffmpeg/libavcodec/packet_internal.h>
 #include "avformat.h"
 #include "avformat_internal.h"
 #include "avio_internal.h"

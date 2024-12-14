@@ -21,15 +21,15 @@
 
 #include "config_components.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/ffmath.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/ffmath.h>
+#include <ffmpeg/libavutil/mem.h>
 
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "encode.h"
 #include "wma.h"
-#include "libavutil/avassert.h"
+#include <ffmpeg/libavutil/avassert.h>
 
 
 static av_cold int encode_init(AVCodecContext *avctx)

@@ -20,7 +20,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/pixdesc.h>
 
 #include "bit_depth_template.c"
 #include "pred.h"

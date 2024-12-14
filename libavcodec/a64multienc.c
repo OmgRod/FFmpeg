@@ -31,9 +31,9 @@
 #include "codec_internal.h"
 #include "elbg.h"
 #include "encode.h"
-#include "libavutil/avassert.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem.h>
 
 #define DITHERSTEPS   8
 #define CHARSET_CHARS 256

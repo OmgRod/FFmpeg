@@ -30,9 +30,9 @@
  * @see http://www.w3.org/Graphics/GIF/spec-gif89a.txt
  */
 
-#include "libavutil/imgutils_internal.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/imgutils_internal.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
 #include "avcodec.h"
 #include "bytestream.h"
 #include "codec_internal.h"

@@ -20,9 +20,9 @@
 
 #include <float.h>
 
-#include "libavutil/opt.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 #include "avfilter.h"
 #include "filters.h"
 

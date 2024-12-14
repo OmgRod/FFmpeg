@@ -19,7 +19,7 @@
 #include <stdint.h>
 #include <stdio.h>
 
-#include "libavutil/crc.h"
+#include <ffmpeg/libavutil/crc.h>
 
 int main(void)
 {

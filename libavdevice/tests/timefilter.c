@@ -18,8 +18,8 @@
 
 #include <stdio.h>
 
-#include "libavutil/common.h"
-#include "libavutil/lfg.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/lfg.h>
 
 #include "libavdevice/timefilter.h"
 

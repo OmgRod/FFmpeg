@@ -20,12 +20,12 @@
 
 #include "config_components.h"
 
-#include "libavutil/colorspace.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavutil/colorspace.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/parseutils.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
 #include "avfilter.h"
 #include "filters.h"
 #include "formats.h"

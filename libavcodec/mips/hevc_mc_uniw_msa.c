@@ -18,9 +18,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/mips/generic_macros_msa.h"
-#include "libavcodec/mips/hevcdsp_mips.h"
-#include "libavcodec/mips/hevc_macros_msa.h"
+#include <ffmpeg/libavutil/mips/generic_macros_msa.h>
+#include <ffmpeg/libavcodec/mips/hevcdsp_mips.h>
+#include <ffmpeg/libavcodec/mips/hevc_macros_msa.h>
 
 static const uint8_t ff_hevc_mask_arr[16 * 2] __attribute__((aligned(0x40))) = {
     /* 8 width cases */

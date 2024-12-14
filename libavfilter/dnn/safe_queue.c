@@ -21,9 +21,9 @@
 #include <stdio.h>
 #include "queue.h"
 #include "safe_queue.h"
-#include "libavutil/mem.h"
-#include "libavutil/avassert.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/thread.h>
 
 #if HAVE_PTHREAD_CANCEL
 #define DNNCond pthread_cond_t

@@ -29,7 +29,7 @@
 #define AVCODEC_EXIF_H
 
 #include <stdint.h>
-#include "libavutil/dict.h"
+#include <ffmpeg/libavutil/dict.h>
 #include "bytestream.h"
 
 /** Recursively decodes all IFD's and

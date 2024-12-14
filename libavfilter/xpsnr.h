@@ -32,7 +32,7 @@
 
 #include <stddef.h>
 #include <stdint.h>
-#include "libavutil/x86/cpu.h"
+#include <ffmpeg/libavutil/x86/cpu.h>
 
 /* public XPSNR DSP structure definition */
 

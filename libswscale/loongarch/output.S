@@ -21,7 +21,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/loongarch/loongson_asm.S"
+#include <ffmpeg/libavcodec/loongarch/loongson_asm.S>
 
 /* static void yuv2planeX_8_lsx(const int16_t *filter, int filterSize,
  *                                 const int16_t **src, uint8_t *dest, int dstW,

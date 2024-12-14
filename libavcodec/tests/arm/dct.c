@@ -18,8 +18,8 @@
 
 #include "config.h"
 
-#include "libavutil/cpu.h"
-#include "libavcodec/arm/idct.h"
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavcodec/arm/idct.h>
 
 static const struct algo fdct_tab_arch[] = {
     { 0 }

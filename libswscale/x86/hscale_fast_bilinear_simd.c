@@ -19,10 +19,10 @@
  */
 
 #include "../swscale_internal.h"
-#include "libavutil/attributes.h"
-#include "libavutil/x86/asm.h"
-#include "libavutil/x86/cpu.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/x86/asm.h>
+#include <ffmpeg/libavutil/x86/cpu.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #define RET 0xC3 // near return opcode for x86
 #define PREFETCH "prefetchnta"

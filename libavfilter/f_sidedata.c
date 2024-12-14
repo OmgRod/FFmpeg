@@ -23,10 +23,10 @@
 
 #include "config_components.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/internal.h"
-#include "libavutil/frame.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/opt.h>
 #include "audio.h"
 #include "avfilter.h"
 #include "filters.h"

@@ -26,7 +26,7 @@
 
 #include <stdint.h>
 
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #include "mpegvideo.h"
 #include "dnxhddata.h"

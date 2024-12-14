@@ -23,10 +23,10 @@
 #ifndef AVCODEC_D3D12VA_ENCODE_H
 #define AVCODEC_D3D12VA_ENCODE_H
 
-#include "libavutil/fifo.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/hwcontext_d3d12va_internal.h"
-#include "libavutil/hwcontext_d3d12va.h"
+#include <ffmpeg/libavutil/fifo.h>
+#include <ffmpeg/libavutil/hwcontext.h>
+#include <ffmpeg/libavutil/hwcontext_d3d12va_internal.h>
+#include <ffmpeg/libavutil/hwcontext_d3d12va.h>
 #include "avcodec.h"
 #include "internal.h"
 #include "hwconfig.h"

@@ -21,11 +21,11 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/riscv/cpu.h"
-#include "libavcodec/avcodec.h"
-#include "libavcodec/pixblockdsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/riscv/cpu.h>
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavcodec/pixblockdsp.h>
 
 void ff_get_pixels_8_rvi(int16_t *block, const uint8_t *pixels,
                          ptrdiff_t stride);

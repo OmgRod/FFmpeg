@@ -18,9 +18,9 @@
 
 #include <stddef.h>
 
-#include "libavutil/log.h"
-#include "libavcodec/mpeg12.h"
-#include "libavcodec/mpeg12data.h"
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavcodec/mpeg12.h>
+#include <ffmpeg/libavcodec/mpeg12data.h>
 
 int main(void)
 {

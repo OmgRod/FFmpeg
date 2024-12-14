@@ -22,9 +22,9 @@
 #include "config.h"
 #if HAVE_ARMV6T2_INLINE
 
-#include "libavutil/attributes.h"
-#include "libavutil/internal.h"
-#include "libavcodec/cabac.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavcodec/cabac.h>
 
 #define get_cabac_inline get_cabac_inline_arm
 static av_always_inline int get_cabac_inline_arm(CABACContext *c,

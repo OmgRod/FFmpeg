@@ -24,7 +24,7 @@
 ;* simplified for only float coefficients and only 3 to 6 channels.
 ;******************************************************************************
 
-%include "libavutil/x86/x86util.asm"
+%include <ffmpeg/libavutil/x86/x86util.asm>
 
 SECTION .text
 

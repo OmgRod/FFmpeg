@@ -20,9 +20,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/lls.h"
-#include "libavutil/x86/cpu.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/lls.h>
+#include <ffmpeg/libavutil/x86/cpu.h>
 
 void ff_update_lls_sse2(LLSModel *m, const double *var);
 void ff_update_lls_avx(LLSModel *m, const double *var);

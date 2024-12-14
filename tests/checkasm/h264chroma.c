@@ -21,9 +21,9 @@
 #include <string.h>
 #include <stdint.h>
 #include "checkasm.h"
-#include "libavcodec/h264chroma.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavcodec/h264chroma.h>
+#include <ffmpeg/libavutil/mem_internal.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
 
 #define SIZEOF_PIXEL ((bit_depth + 7) / 8)
 

@@ -28,7 +28,7 @@
 #include <string.h>
 
 #include "config.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/thread.h>
 #include "codec.h"
 #include "codec_id.h"
 #include "codec_internal.h"
@@ -914,7 +914,7 @@ const FFCodec * codec_list[] = {
     NULL
 };
 #else
-#include "libavcodec/codec_list.c"
+#include <ffmpeg/libavcodec/codec_list.c>
 #endif
 
 static AVOnce av_codec_static_init = AV_ONCE_INIT;

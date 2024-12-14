@@ -21,7 +21,7 @@
 #include "config.h"
 #include "libswscale/swscale.h"
 #include "libswscale/swscale_internal.h"
-#include "libavutil/arm/cpu.h"
+#include <ffmpeg/libavutil/arm/cpu.h>
 
 #if HAVE_AS_DN_DIRECTIVE
 extern void rgbx_to_nv12_neon_32(const uint8_t *src, uint8_t *y, uint8_t *chroma,

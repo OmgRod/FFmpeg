@@ -18,14 +18,14 @@
 
 // LCOV_EXCL_START
 
-#include "libavutil/timer.h"
+#include <ffmpeg/libavutil/timer.h>
 
 #include <string.h>
 
-#include "libavutil/aes.h"
-#include "libavutil/lfg.h"
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/aes.h>
+#include <ffmpeg/libavutil/lfg.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/mem.h>
 
 int main(int argc, char **argv)
 {

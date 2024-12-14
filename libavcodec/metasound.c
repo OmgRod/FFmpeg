@@ -25,7 +25,7 @@
 #include <math.h>
 #include <stdint.h>
 
-#include "libavutil/channel_layout.h"
+#include <ffmpeg/libavutil/channel_layout.h>
 
 #define BITSTREAM_READER_LE
 #include "avcodec.h"

@@ -22,7 +22,7 @@
 
 #include "config_components.h"
 
-#include "libavutil/avassert.h"
+#include <ffmpeg/libavutil/avassert.h>
 
 #include "dxva2_internal.h"
 #include "hevc/data.h"

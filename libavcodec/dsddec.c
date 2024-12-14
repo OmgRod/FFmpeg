@@ -26,7 +26,7 @@
  * Direct Stream Digital (DSD) decoder
  */
 
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/mem.h>
 
 #include "avcodec.h"
 #include "codec_internal.h"

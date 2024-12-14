@@ -27,9 +27,9 @@
 
 #define UNCHECKED_BITSTREAM_READER 1
 
-#include "libavutil/attributes.h"
-#include "libavutil/avassert.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/thread.h>
 
 #include "mpegvideo.h"
 #include "mpeg12codecs.h"

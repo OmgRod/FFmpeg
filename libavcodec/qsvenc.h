@@ -26,11 +26,11 @@
 #include <stdint.h>
 #include <sys/types.h>
 
-#include "libavutil/common.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/hwcontext_qsv.h"
-#include "libavutil/avutil.h"
-#include "libavutil/fifo.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/hwcontext.h>
+#include <ffmpeg/libavutil/hwcontext_qsv.h>
+#include <ffmpeg/libavutil/avutil.h>
+#include <ffmpeg/libavutil/fifo.h>
 
 #include "avcodec.h"
 #include "hwconfig.h"

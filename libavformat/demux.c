@@ -23,24 +23,24 @@
 
 #include "config_components.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/dict.h"
-#include "libavutil/internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixfmt.h"
-#include "libavutil/time.h"
-#include "libavutil/timestamp.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixfmt.h>
+#include <ffmpeg/libavutil/time.h>
+#include <ffmpeg/libavutil/timestamp.h>
 
-#include "libavcodec/avcodec.h"
-#include "libavcodec/bsf.h"
-#include "libavcodec/codec_desc.h"
-#include "libavcodec/internal.h"
-#include "libavcodec/packet_internal.h"
-#include "libavcodec/raw.h"
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavcodec/bsf.h>
+#include <ffmpeg/libavcodec/codec_desc.h>
+#include <ffmpeg/libavcodec/internal.h>
+#include <ffmpeg/libavcodec/packet_internal.h>
+#include <ffmpeg/libavcodec/raw.h>
 
 #include "avformat.h"
 #include "avformat_internal.h"

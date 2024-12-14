@@ -20,9 +20,9 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/macros.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/macros.h>
 #include "png.h"
 #include "pngdsp.h"
 

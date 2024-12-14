@@ -27,10 +27,10 @@
 #if CONFIG_NETWORK
 #include "network.h"
 #endif
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/error.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/mem.h>
 
 /**
  * @file

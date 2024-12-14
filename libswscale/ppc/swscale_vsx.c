@@ -26,11 +26,11 @@
 #include "config.h"
 #include "libswscale/swscale.h"
 #include "libswscale/swscale_internal.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 #include "yuv2rgb_altivec.h"
-#include "libavutil/ppc/util_altivec.h"
+#include <ffmpeg/libavutil/ppc/util_altivec.h>
 
 #if HAVE_VSX
 #define vzero vec_splat_s32(0)

@@ -20,12 +20,12 @@
 
 #include <string.h>
 #include "checkasm.h"
-#include "libavcodec/h264dsp.h"
-#include "libavcodec/h264data.h"
-#include "libavcodec/h264_parse.h"
-#include "libavutil/common.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavcodec/h264dsp.h>
+#include <ffmpeg/libavcodec/h264data.h>
+#include <ffmpeg/libavcodec/h264_parse.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 static const uint32_t pixel_mask[5] = { 0xffffffff, 0x01ff01ff, 0x03ff03ff, 0x0fff0fff, 0x3fff3fff };
 static const uint32_t pixel_mask_lf[3] = { 0xff0fff0f, 0x01ff000f, 0x03ff000f };

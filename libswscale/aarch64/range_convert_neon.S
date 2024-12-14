@@ -18,7 +18,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/aarch64/asm.S"
+#include <ffmpeg/libavutil/aarch64/asm.S>
 
 .macro lumConvertRange fromto, bit_depth
 function ff_lumRange\fromto\()Jpeg\bit_depth\()_neon, export=1

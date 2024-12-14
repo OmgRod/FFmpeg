@@ -22,7 +22,7 @@
 #include <stdint.h>
 #include <sndio.h>
 
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/mem.h>
 
 #include "libavdevice/sndio.h"
 

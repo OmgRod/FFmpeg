@@ -30,10 +30,10 @@
 #include "filters.h"
 #include "formats.h"
 #include "video.h"
-#include "libavutil/internal.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 
 typedef struct CoreImageContext {
     const AVClass   *class;

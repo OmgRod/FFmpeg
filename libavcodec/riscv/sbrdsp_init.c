@@ -19,10 +19,10 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/riscv/cpu.h"
-#include "libavcodec/sbrdsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/riscv/cpu.h>
+#include <ffmpeg/libavcodec/sbrdsp.h>
 
 void ff_sbr_sum64x5_rvv(float *z);
 float ff_sbr_sum_square_rvv(float (*x)[2], int n);

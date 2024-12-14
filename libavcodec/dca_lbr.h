@@ -21,9 +21,9 @@
 #ifndef AVCODEC_DCA_LBR_H
 #define AVCODEC_DCA_LBR_H
 
-#include "libavutil/float_dsp.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/tx.h"
+#include <ffmpeg/libavutil/float_dsp.h>
+#include <ffmpeg/libavutil/mem_internal.h>
+#include <ffmpeg/libavutil/tx.h>
 
 #include "avcodec.h"
 #include "get_bits.h"

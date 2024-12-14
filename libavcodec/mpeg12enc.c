@@ -29,13 +29,13 @@
 
 #include "config.h"
 #include "config_components.h"
-#include "libavutil/attributes.h"
-#include "libavutil/avassert.h"
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
-#include "libavutil/thread.h"
-#include "libavutil/timecode.h"
-#include "libavutil/stereo3d.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/thread.h>
+#include <ffmpeg/libavutil/timecode.h>
+#include <ffmpeg/libavutil/stereo3d.h>
 
 #include "avcodec.h"
 #include "codec_internal.h"

@@ -16,10 +16,10 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
-#include "libavcodec/lpc.h"
+#include <ffmpeg/libavcodec/lpc.h>
 
 #include "checkasm.h"
 

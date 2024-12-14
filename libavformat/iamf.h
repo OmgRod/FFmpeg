@@ -25,11 +25,11 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "libavutil/attributes_internal.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/iamf.h"
-#include "libavcodec/codec_id.h"
-#include "libavcodec/codec_par.h"
+#include <ffmpeg/libavutil/attributes_internal.h>
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/iamf.h>
+#include <ffmpeg/libavcodec/codec_id.h>
+#include <ffmpeg/libavcodec/codec_par.h>
 
 #define MAX_IAMF_OBU_HEADER_SIZE (1 + 8 * 3)
 

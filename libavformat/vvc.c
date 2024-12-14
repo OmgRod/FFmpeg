@@ -20,13 +20,13 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/get_bits.h"
-#include "libavcodec/put_bits.h"
-#include "libavcodec/golomb.h"
-#include "libavcodec/vvc.h"
-#include "libavutil/avassert.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavcodec/get_bits.h>
+#include <ffmpeg/libavcodec/put_bits.h>
+#include <ffmpeg/libavcodec/golomb.h>
+#include <ffmpeg/libavcodec/vvc.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem.h>
 #include "avc.h"
 #include "avio.h"
 #include "avio_internal.h"

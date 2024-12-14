@@ -19,9 +19,9 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavcodec/utvideodsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavcodec/utvideodsp.h>
 
 void ff_restore_rgb_planes_rvv(uint8_t *r, uint8_t *g, uint8_t *b,
                                ptrdiff_t linesize_r, ptrdiff_t linesize_g,

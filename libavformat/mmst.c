@@ -31,9 +31,9 @@
 #include "avformat.h"
 #include "mms.h"
 #include "avio_internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
-#include "libavcodec/bytestream.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavcodec/bytestream.h>
 #include "network.h"
 #include "url.h"
 

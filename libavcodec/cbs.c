@@ -20,11 +20,11 @@
 
 #include "config.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/buffer.h"
-#include "libavutil/common.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/buffer.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
 
 #include "avcodec.h"
 #include "cbs.h"

@@ -22,8 +22,8 @@
 
 #include <stdio.h>
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem.h>
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"

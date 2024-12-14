@@ -18,15 +18,15 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/snowenc.c"
+#include <ffmpeg/libavcodec/snowenc.c>
 
 #undef malloc
 #undef free
 #undef printf
 
-#include "libavutil/lfg.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/lfg.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/mem.h>
 
 int main(void){
 #define width  256

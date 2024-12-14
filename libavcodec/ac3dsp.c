@@ -24,10 +24,10 @@
 #include <string.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/common.h"
-#include "libavutil/intmath.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/intmath.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #include "ac3defs.h"
 #include "ac3dsp.h"

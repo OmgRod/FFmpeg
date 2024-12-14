@@ -21,7 +21,7 @@
 
 #include "demux.h"
 #include "img2.h"
-#include "libavcodec/bytestream.h"
+#include <ffmpeg/libavcodec/bytestream.h>
 
 static int alias_pix_read_probe(const AVProbeData *p)
 {

@@ -56,8 +56,8 @@
 #include <string.h>
 
 #include "config.h"
-#include "libavutil/mips/asmdefs.h"
-#include "libavcodec/mpegaudiodsp.h"
+#include <ffmpeg/libavutil/mips/asmdefs.h>
+#include <ffmpeg/libavcodec/mpegaudiodsp.h>
 
 #if HAVE_INLINE_ASM && HAVE_MIPSFPU
 #if !HAVE_MIPS32R6 && !HAVE_MIPS64R6

@@ -28,11 +28,11 @@
 #import <AudioToolbox/AudioToolbox.h>
 #include <pthread.h>
 
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavformat/internal.h"
-#include "libavformat/mux.h"
-#include "libavutil/internal.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavformat/internal.h>
+#include <ffmpeg/libavformat/mux.h>
+#include <ffmpeg/libavutil/internal.h>
 #include "avdevice.h"
 
 typedef struct

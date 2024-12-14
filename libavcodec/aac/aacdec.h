@@ -32,15 +32,15 @@
 
 #include <stdint.h>
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/float_dsp.h"
-#include "libavutil/fixed_dsp.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/tx.h"
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/float_dsp.h>
+#include <ffmpeg/libavutil/fixed_dsp.h>
+#include <ffmpeg/libavutil/mem_internal.h>
+#include <ffmpeg/libavutil/tx.h>
 
-#include "libavcodec/aac.h"
-#include "libavcodec/avcodec.h"
-#include "libavcodec/mpeg4audio.h"
+#include <ffmpeg/libavcodec/aac.h>
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavcodec/mpeg4audio.h>
 
 #include "aacdec_ac.h"
 

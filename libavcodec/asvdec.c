@@ -23,10 +23,10 @@
  * ASUS V1/V2 decoder.
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/mem.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/mem_internal.h>
+#include <ffmpeg/libavutil/thread.h>
 
 #include "asv.h"
 #include "avcodec.h"

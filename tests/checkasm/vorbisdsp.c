@@ -18,9 +18,9 @@
 
 #include <float.h>
 
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/mem_internal.h>
 
-#include "libavcodec/vorbisdsp.h"
+#include <ffmpeg/libavcodec/vorbisdsp.h>
 
 #include "checkasm.h"
 

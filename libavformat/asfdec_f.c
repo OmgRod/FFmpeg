@@ -21,16 +21,16 @@
 
 #include <inttypes.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/bswap.h"
-#include "libavutil/common.h"
-#include "libavutil/dict.h"
-#include "libavutil/internal.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/bswap.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
 #include "avformat.h"
 #include "avio_internal.h"
 #include "avlanguage.h"

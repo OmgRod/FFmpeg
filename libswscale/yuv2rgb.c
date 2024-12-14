@@ -26,12 +26,12 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "libavutil/bswap.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/bswap.h>
+#include <ffmpeg/libavutil/mem.h>
 #include "config.h"
 #include "swscale.h"
 #include "swscale_internal.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/pixdesc.h>
 
 /* Color space conversion coefficients for YCbCr -> RGB mapping.
  *

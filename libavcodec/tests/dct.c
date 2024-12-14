@@ -35,23 +35,23 @@
 #endif
 #include <math.h>
 
-#include "libavutil/cpu.h"
-#include "libavutil/common.h"
-#include "libavutil/emms.h"
-#include "libavutil/internal.h"
-#include "libavutil/lfg.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/time.h"
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/emms.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/lfg.h>
+#include <ffmpeg/libavutil/mem_internal.h>
+#include <ffmpeg/libavutil/time.h>
 
-#include "libavcodec/dct.h"
-#include "libavcodec/fdctdsp.h"
-#include "libavcodec/idctdsp.h"
-#include "libavcodec/simple_idct.h"
-#include "libavcodec/xvididct.h"
-#include "libavcodec/aandcttab.h"
-#include "libavcodec/faandct.h"
-#include "libavcodec/faanidct.h"
-#include "libavcodec/dctref.h"
+#include <ffmpeg/libavcodec/dct.h>
+#include <ffmpeg/libavcodec/fdctdsp.h>
+#include <ffmpeg/libavcodec/idctdsp.h>
+#include <ffmpeg/libavcodec/simple_idct.h>
+#include <ffmpeg/libavcodec/xvididct.h>
+#include <ffmpeg/libavcodec/aandcttab.h>
+#include <ffmpeg/libavcodec/faandct.h>
+#include <ffmpeg/libavcodec/faanidct.h>
+#include <ffmpeg/libavcodec/dctref.h>
 
 struct algo {
     const char *name;

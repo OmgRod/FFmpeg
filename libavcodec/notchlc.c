@@ -23,7 +23,7 @@
 #include <string.h>
 
 #define BITSTREAM_READER_LE
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/mem.h>
 #include "avcodec.h"
 #include "bytestream.h"
 #include "codec_internal.h"

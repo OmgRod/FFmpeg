@@ -25,15 +25,15 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "libavutil/hwcontext.h"
-#include "libavutil/hwcontext_cuda_internal.h"
-#include "libavutil/cuda_check.h"
-#include "libavutil/internal.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/eval.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/hwcontext.h>
+#include <ffmpeg/libavutil/hwcontext_cuda_internal.h>
+#include <ffmpeg/libavutil/cuda_check.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/parseutils.h>
+#include <ffmpeg/libavutil/eval.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 
 #include "avfilter.h"
 #include "filters.h"

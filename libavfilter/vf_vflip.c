@@ -23,8 +23,8 @@
  * video vertical flip filter
  */
 
-#include "libavutil/internal.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 #include "avfilter.h"
 #include "filters.h"
 #include "video.h"

@@ -25,14 +25,14 @@
  * @author Ronald S. Bultje <rbultje@ronald.bitfreak.net>
  */
 
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/mem.h>
 #include "avformat.h"
 #include "internal.h"
 #include "avio_internal.h"
 #include "rtp.h"
 #include "rtpdec.h"
 #include "isom.h"
-#include "libavcodec/get_bits.h"
+#include <ffmpeg/libavcodec/get_bits.h>
 
 struct PayloadContext {
     AVPacket *pkt;

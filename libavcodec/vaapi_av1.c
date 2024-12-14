@@ -18,8 +18,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/frame.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/mem.h>
 #include "hwaccel_internal.h"
 #include "vaapi_decode.h"
 #include "internal.h"

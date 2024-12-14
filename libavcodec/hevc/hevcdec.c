@@ -25,17 +25,17 @@
 
 #include "config_components.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/avstring.h"
-#include "libavutil/common.h"
-#include "libavutil/film_grain_params.h"
-#include "libavutil/internal.h"
-#include "libavutil/md5.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/stereo3d.h"
-#include "libavutil/timecode.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/film_grain_params.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/md5.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/stereo3d.h>
+#include <ffmpeg/libavutil/timecode.h>
 
 #include "aom_film_grain.h"
 #include "bswapdsp.h"

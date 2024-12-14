@@ -23,12 +23,12 @@
 #include "config.h"
 #include "config_components.h"
 #include "videotoolbox.h"
-#include "libavutil/hwcontext_videotoolbox.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/hwcontext_videotoolbox.h>
+#include <ffmpeg/libavutil/mem.h>
 #include "vt_internal.h"
-#include "libavutil/avutil.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/avutil.h>
+#include <ffmpeg/libavutil/hwcontext.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 #include "bytestream.h"
 #include "decode.h"
 #include "internal.h"

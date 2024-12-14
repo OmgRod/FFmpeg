@@ -26,7 +26,7 @@
 #include "codec_id.h"
 #include "version.h"
 
-#include "libavutil/ffversion.h"
+#include <ffmpeg/libavutil/ffversion.h>
 const char av_codec_ffversion[] = "FFmpeg version " FFMPEG_VERSION;
 
 unsigned avcodec_version(void)
@@ -51,6 +51,6 @@ const char *avcodec_configuration(void)
 
 const char *avcodec_license(void)
 {
-#define LICENSE_PREFIX "libavcodec license: "
+#define LICENSE_PREFIX <ffmpeg/libavcodec license: >
     return &LICENSE_PREFIX FFMPEG_LICENSE[sizeof(LICENSE_PREFIX) - 1];
 }

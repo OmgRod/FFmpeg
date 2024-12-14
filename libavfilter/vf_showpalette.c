@@ -21,7 +21,7 @@
  * Display frame palette (AV_PIX_FMT_PAL8)
  */
 
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/opt.h>
 #include "avfilter.h"
 #include "filters.h"
 #include "formats.h"

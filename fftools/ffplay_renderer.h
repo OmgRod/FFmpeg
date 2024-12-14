@@ -21,7 +21,7 @@
 
 #include <SDL.h>
 
-#include "libavutil/frame.h"
+#include <ffmpeg/libavutil/frame.h>
 
 typedef struct VkRenderer VkRenderer;
 

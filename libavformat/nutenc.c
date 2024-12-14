@@ -21,16 +21,16 @@
 
 #include <stdint.h>
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
-#include "libavutil/tree.h"
-#include "libavutil/dict.h"
-#include "libavutil/avassert.h"
-#include "libavutil/time.h"
-#include "libavutil/opt.h"
-#include "libavcodec/bytestream.h"
-#include "libavcodec/mpegaudiodata.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/tree.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/time.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavcodec/bytestream.h>
+#include <ffmpeg/libavcodec/mpegaudiodata.h>
 #include "mux.h"
 #include "nut.h"
 #include "internal.h"

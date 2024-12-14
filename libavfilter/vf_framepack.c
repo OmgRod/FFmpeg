@@ -25,12 +25,12 @@
 
 #include <string.h>
 
-#include "libavutil/common.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/rational.h"
-#include "libavutil/stereo3d.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/rational.h>
+#include <ffmpeg/libavutil/stereo3d.h>
 
 #include "avfilter.h"
 #include "filters.h"

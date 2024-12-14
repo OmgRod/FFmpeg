@@ -19,11 +19,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/mips/cpu.h"
+#include <ffmpeg/libavutil/mips/cpu.h>
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavcodec/avcodec.h"
-#include "libavcodec/vp3dsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavcodec/vp3dsp.h>
 #include "vp3dsp_mips.h"
 
 av_cold void ff_vp3dsp_init_mips(VP3DSPContext *c, int flags)

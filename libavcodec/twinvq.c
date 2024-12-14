@@ -22,9 +22,9 @@
 #include <math.h>
 #include <stdint.h>
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/float_dsp.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/float_dsp.h>
+#include <ffmpeg/libavutil/mem.h>
 #include "avcodec.h"
 #include "decode.h"
 #include "lsp.h"

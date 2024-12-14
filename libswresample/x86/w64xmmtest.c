@@ -20,7 +20,7 @@
  */
 
 #include "libswresample/swresample.h"
-#include "libavutil/x86/w64xmmtest.h"
+#include <ffmpeg/libavutil/x86/w64xmmtest.h>
 
 wrap(swr_convert(struct SwrContext *s, uint8_t **out, int out_count,
                  const uint8_t **in , int in_count))

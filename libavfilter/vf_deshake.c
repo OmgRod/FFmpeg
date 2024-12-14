@@ -53,13 +53,13 @@
 #include "filters.h"
 #include "transform.h"
 #include "video.h"
-#include "libavutil/common.h"
-#include "libavutil/file_open.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/pixelutils.h"
-#include "libavutil/qsort.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/file_open.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/pixelutils.h>
+#include <ffmpeg/libavutil/qsort.h>
 
 
 enum SearchMethod {

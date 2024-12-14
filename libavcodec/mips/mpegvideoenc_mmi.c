@@ -23,7 +23,7 @@
  */
 
 #include "mpegvideo_mips.h"
-#include "libavutil/mips/mmiutils.h"
+#include <ffmpeg/libavutil/mips/mmiutils.h>
 
 void ff_denoise_dct_mmi(MpegEncContext *s, int16_t *block)
 {

@@ -32,12 +32,12 @@
 
 #include "config_components.h"
 
-#include "libavutil/display.h"
-#include "libavutil/emms.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/avassert.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/display.h>
+#include <ffmpeg/libavutil/emms.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
 #include "avcodec.h"
 #include "blockdsp.h"
 #include "codec_internal.h"

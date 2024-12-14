@@ -24,7 +24,7 @@
 
 #include <stdint.h>
 #include <stddef.h>
-#include "libavutil/lls.h"
+#include <ffmpeg/libavutil/lls.h>
 
 #define ORDER_METHOD_EST     0
 #define ORDER_METHOD_2LEVEL  1

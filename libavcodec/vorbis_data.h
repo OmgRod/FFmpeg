@@ -21,8 +21,8 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes_internal.h"
-#include "libavutil/channel_layout.h"
+#include <ffmpeg/libavutil/attributes_internal.h>
+#include <ffmpeg/libavutil/channel_layout.h>
 
 FF_VISIBILITY_PUSH_HIDDEN
 extern const float ff_vorbis_floor1_inverse_db_table[256];

@@ -21,7 +21,7 @@
 ;*****************************************************************************
 
 %define private_prefix checkasm
-%include "libavutil/x86/x86inc.asm"
+%include <ffmpeg/libavutil/x86/x86inc.asm>
 
 SECTION_RODATA
 

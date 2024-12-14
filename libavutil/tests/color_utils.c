@@ -22,10 +22,10 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "libavutil/csp.h"
-#include "libavutil/macros.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/pixfmt.h"
+#include <ffmpeg/libavutil/csp.h>
+#include <ffmpeg/libavutil/macros.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/pixfmt.h>
 
 static inline int fuzzy_equal(double a, double b)
 {

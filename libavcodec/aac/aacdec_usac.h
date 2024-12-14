@@ -23,7 +23,7 @@
 
 #include "aacdec.h"
 
-#include "libavcodec/get_bits.h"
+#include <ffmpeg/libavcodec/get_bits.h>
 
 int ff_aac_usac_config_decode(AACDecContext *ac, AVCodecContext *avctx,
                               GetBitContext *gb, OutputConfiguration *oc,

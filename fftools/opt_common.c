@@ -25,28 +25,28 @@
 #include "cmdutils.h"
 #include "opt_common.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/bprint.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/cpu.h"
-#include "libavutil/dict.h"
-#include "libavutil/error.h"
-#include "libavutil/ffversion.h"
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/version.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/bprint.h>
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/ffversion.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/parseutils.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/version.h>
 
-#include "libavcodec/avcodec.h"
-#include "libavcodec/bsf.h"
-#include "libavcodec/codec.h"
-#include "libavcodec/codec_desc.h"
-#include "libavcodec/version.h"
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavcodec/bsf.h>
+#include <ffmpeg/libavcodec/codec.h>
+#include <ffmpeg/libavcodec/codec_desc.h>
+#include <ffmpeg/libavcodec/version.h>
 
-#include "libavformat/avformat.h"
-#include "libavformat/version.h"
+#include <ffmpeg/libavformat/avformat.h>
+#include <ffmpeg/libavformat/version.h>
 
 #include "libavdevice/avdevice.h"
 #include "libavdevice/version.h"

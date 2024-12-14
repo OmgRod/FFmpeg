@@ -25,7 +25,7 @@
 #include "avdevice.h"
 #include "version.h"
 
-#include "libavutil/ffversion.h"
+#include <ffmpeg/libavutil/ffversion.h>
 const char av_device_ffversion[] = "FFmpeg version " FFMPEG_VERSION;
 
 unsigned avdevice_version(void)

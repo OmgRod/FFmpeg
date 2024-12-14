@@ -22,13 +22,13 @@
 #include <string.h>
 
 #include "checkasm.h"
-#include "libavcodec/vvc/ctu.h"
-#include "libavcodec/vvc/data.h"
-#include "libavcodec/vvc/dsp.h"
+#include <ffmpeg/libavcodec/vvc/ctu.h>
+#include <ffmpeg/libavcodec/vvc/data.h>
+#include <ffmpeg/libavcodec/vvc/dsp.h>
 
-#include "libavutil/common.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 static const uint32_t pixel_mask[3] = { 0xffffffff, 0x03ff03ff, 0x0fff0fff };
 

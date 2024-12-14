@@ -20,9 +20,9 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/riscv/cpu.h"
-#include "libavcodec/h264chroma.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/riscv/cpu.h>
+#include <ffmpeg/libavcodec/h264chroma.h>
 #include "config.h"
 
 void h264_put_chroma_mc8_rvv(uint8_t *p_dst, const uint8_t *p_src, ptrdiff_t stride, int h, int x, int y);

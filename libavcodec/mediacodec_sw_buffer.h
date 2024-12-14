@@ -25,7 +25,7 @@
 
 #include <sys/types.h>
 
-#include "libavutil/frame.h"
+#include <ffmpeg/libavutil/frame.h>
 
 #include "avcodec.h"
 #include "mediacodec_wrapper.h"

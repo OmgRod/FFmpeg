@@ -28,9 +28,9 @@
 #include "ass.h"
 #include "codec_internal.h"
 #include "jacosub.h"
-#include "libavutil/avstring.h"
-#include "libavutil/bprint.h"
-#include "libavutil/time_internal.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/bprint.h>
+#include <ffmpeg/libavutil/time_internal.h>
 
 #undef time
 

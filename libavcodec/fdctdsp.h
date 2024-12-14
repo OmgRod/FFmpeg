@@ -21,7 +21,7 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes_internal.h"
+#include <ffmpeg/libavutil/attributes_internal.h>
 
 struct AVCodecContext;
 

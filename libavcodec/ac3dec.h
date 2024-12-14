@@ -50,11 +50,11 @@
 #ifndef AVCODEC_AC3DEC_H
 #define AVCODEC_AC3DEC_H
 
-#include "libavutil/tx.h"
-#include "libavutil/float_dsp.h"
-#include "libavutil/fixed_dsp.h"
-#include "libavutil/lfg.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/tx.h>
+#include <ffmpeg/libavutil/float_dsp.h>
+#include <ffmpeg/libavutil/fixed_dsp.h>
+#include <ffmpeg/libavutil/lfg.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #include "ac3.h"
 #include "ac3dsp.h"

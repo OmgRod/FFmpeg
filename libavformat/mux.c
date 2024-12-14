@@ -24,18 +24,18 @@
 #include "internal.h"
 #include "mux.h"
 #include "version.h"
-#include "libavcodec/bsf.h"
-#include "libavcodec/codec_desc.h"
-#include "libavcodec/internal.h"
-#include "libavcodec/packet_internal.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/dict.h"
-#include "libavutil/timestamp.h"
-#include "libavutil/avassert.h"
-#include "libavutil/frame.h"
-#include "libavutil/internal.h"
-#include "libavutil/mathematics.h"
+#include <ffmpeg/libavcodec/bsf.h>
+#include <ffmpeg/libavcodec/codec_desc.h>
+#include <ffmpeg/libavcodec/internal.h>
+#include <ffmpeg/libavcodec/packet_internal.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/timestamp.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/mathematics.h>
 
 /**
  * @file

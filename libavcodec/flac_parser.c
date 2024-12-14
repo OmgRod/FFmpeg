@@ -32,9 +32,9 @@
  * The parser returns the frame with the highest score.
  **/
 
-#include "libavutil/attributes.h"
-#include "libavutil/crc.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/crc.h>
+#include <ffmpeg/libavutil/mem.h>
 #include "flac_parse.h"
 
 /** maximum number of adjacent headers that compare CRCs against each other   */

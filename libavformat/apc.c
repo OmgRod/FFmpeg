@@ -21,7 +21,7 @@
 
 #include <string.h>
 
-#include "libavutil/channel_layout.h"
+#include <ffmpeg/libavutil/channel_layout.h>
 #include "avformat.h"
 #include "demux.h"
 

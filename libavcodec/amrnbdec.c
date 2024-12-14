@@ -43,10 +43,10 @@
 #include <string.h>
 #include <math.h>
 
-#include "libavutil/channel_layout.h"
+#include <ffmpeg/libavutil/channel_layout.h>
 #include "avcodec.h"
-#include "libavutil/common.h"
-#include "libavutil/avassert.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/avassert.h>
 #include "celp_math.h"
 #include "celp_filters.h"
 #include "acelp_filters.h"

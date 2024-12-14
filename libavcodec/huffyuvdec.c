@@ -43,10 +43,10 @@
 #include "huffyuvdsp.h"
 #include "lossless_videodsp.h"
 #include "thread.h"
-#include "libavutil/emms.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/mem.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/emms.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 
 #define VLC_BITS 12
 

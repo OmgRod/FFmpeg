@@ -22,8 +22,8 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "libavutil/attributes_internal.h"
-#include "libavutil/macros.h"
+#include <ffmpeg/libavutil/attributes_internal.h>
+#include <ffmpeg/libavutil/macros.h>
 
 typedef struct MPADSPContext {
     void (*apply_window_float)(float *synth_buf, float *window,

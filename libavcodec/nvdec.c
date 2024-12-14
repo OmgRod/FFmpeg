@@ -23,14 +23,14 @@
 #include "config.h"
 #include "config_components.h"
 
-#include "libavutil/common.h"
-#include "libavutil/error.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/hwcontext_cuda_internal.h"
-#include "libavutil/cuda_check.h"
-#include "libavutil/mem.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/pixfmt.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/hwcontext.h>
+#include <ffmpeg/libavutil/hwcontext_cuda_internal.h>
+#include <ffmpeg/libavutil/cuda_check.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/pixfmt.h>
 
 #include "avcodec.h"
 #include "decode.h"

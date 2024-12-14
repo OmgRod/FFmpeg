@@ -31,9 +31,9 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "libavutil/error.h"
-#include "libavutil/log.h"
-#include "libavutil/macros.h"
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/macros.h>
 
 #include "huffyuv.h"
 

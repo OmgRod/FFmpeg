@@ -20,9 +20,9 @@
  */
 
 #include "swresample_internal.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/frame.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/opt.h>
 
 int swr_config_frame(SwrContext *s, const AVFrame *out, const AVFrame *in)
 {

@@ -35,7 +35,7 @@
 ;       replace some shuffles with vblends?
 ;       avx512 split-radix
 
-%include "libavutil/x86/x86util.asm"
+%include <ffmpeg/libavutil/x86/x86util.asm>
 
 %define private_prefix ff_tx
 

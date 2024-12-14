@@ -31,13 +31,13 @@
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/file_open.h"
-#include "libavutil/float_dsp.h"
-#include "libavutil/mem.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/opt.h"
-#include "libavutil/tx.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/file_open.h>
+#include <ffmpeg/libavutil/float_dsp.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/mem_internal.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/tx.h>
 #include "avfilter.h"
 #include "audio.h"
 #include "filters.h"

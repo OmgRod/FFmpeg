@@ -19,11 +19,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/avstring.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/intfloat.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/timecode.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/intfloat.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/timecode.h>
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "decode.h"

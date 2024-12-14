@@ -24,12 +24,12 @@
  * rotation filter, partially based on the tests/rotozoom.c program
 */
 
-#include "libavutil/avstring.h"
-#include "libavutil/eval.h"
-#include "libavutil/opt.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/eval.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/parseutils.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 
 #include "avfilter.h"
 #include "drawutils.h"

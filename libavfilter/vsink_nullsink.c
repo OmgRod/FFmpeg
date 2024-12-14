@@ -18,7 +18,7 @@
 
 #include "avfilter.h"
 #include "filters.h"
-#include "libavutil/internal.h"
+#include <ffmpeg/libavutil/internal.h>
 
 static int filter_frame(AVFilterLink *link, AVFrame *frame)
 {

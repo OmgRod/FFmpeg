@@ -19,10 +19,10 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/svq1encdsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/x86/cpu.h>
+#include <ffmpeg/libavcodec/svq1encdsp.h>
 
 int ff_ssd_int8_vs_int16_sse2(const int8_t *pix1, const int16_t *pix2,
                               intptr_t size);

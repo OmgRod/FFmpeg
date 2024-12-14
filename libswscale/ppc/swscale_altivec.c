@@ -26,10 +26,10 @@
 #include "config.h"
 #include "libswscale/swscale.h"
 #include "libswscale/swscale_internal.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
 #include "yuv2rgb_altivec.h"
-#include "libavutil/ppc/util_altivec.h"
+#include <ffmpeg/libavutil/ppc/util_altivec.h>
 
 #if HAVE_ALTIVEC
 #if HAVE_BIGENDIAN

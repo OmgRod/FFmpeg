@@ -26,7 +26,7 @@
 #include "demux.h"
 #include "internal.h"
 #include "rawdec.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/opt.h>
 
 #define RAW_PACKET_SIZE 1024
 

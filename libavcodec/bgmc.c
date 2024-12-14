@@ -25,8 +25,8 @@
  * @author Thilo Borgmann <thilo.borgmann _at_ mail.de>
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/mem.h>
 #include "bgmc.h"
 
 #define FREQ_BITS  14                      // bits used by frequency counters

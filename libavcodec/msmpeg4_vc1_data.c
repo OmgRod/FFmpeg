@@ -29,8 +29,8 @@
 
 #include "msmpeg4_vc1_data.h"
 #include "vlc.h"
-#include "libavutil/attributes.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/thread.h>
 
 VLCElem ff_msmp4_mb_i_vlc[536];
 const VLCElem *ff_msmp4_dc_vlc[2][2];

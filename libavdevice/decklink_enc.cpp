@@ -25,17 +25,17 @@ using std::atomic;
 /* Include internal.h first to avoid conflict between winsock.h (used by
  * DeckLink headers) and winsock2.h (used by libavformat) in MSVC++ builds */
 extern "C" {
-#include "libavformat/internal.h"
+#include <ffmpeg/libavformat/internal.h>
 }
 
 #include <DeckLinkAPI.h>
 
 extern "C" {
-#include "libavformat/avformat.h"
-#include "libavcodec/bytestream.h"
-#include "libavutil/frame.h"
-#include "libavutil/internal.h"
-#include "libavutil/imgutils.h"
+#include <ffmpeg/libavformat/avformat.h>
+#include <ffmpeg/libavcodec/bytestream.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/imgutils.h>
 #include "avdevice.h"
 }
 

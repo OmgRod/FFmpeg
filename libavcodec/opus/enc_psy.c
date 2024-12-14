@@ -21,7 +21,7 @@
 
 #include <float.h>
 
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/mem.h>
 #include "enc_psy.h"
 #include "celt.h"
 #include "pvq.h"

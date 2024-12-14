@@ -21,10 +21,10 @@
 #include <stdint.h>
 #include <zlib.h>
 
-#include "libavutil/frame.h"
-#include "libavutil/error.h"
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/mem.h>
 
 #include "avcodec.h"
 #include "bytestream.h"

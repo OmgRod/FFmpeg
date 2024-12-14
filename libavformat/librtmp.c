@@ -24,10 +24,10 @@
  * RTMP protocol based on http://rtmpdump.mplayerhq.hu/ librtmp
  */
 
-#include "libavutil/avstring.h"
-#include "libavutil/bprint.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/bprint.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/opt.h>
 #include "avformat.h"
 #if CONFIG_NETWORK
 #include "network.h"

@@ -30,7 +30,7 @@
 #include "bytestream.h"
 #include "hap.h"
 
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/opt.h>
 
 typedef struct HapqaExtractContext {
     const AVClass *class;

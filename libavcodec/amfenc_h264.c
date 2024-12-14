@@ -17,9 +17,9 @@
  */
 
 
-#include "libavutil/internal.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
 #include "amfenc.h"
 #include "codec_internal.h"
 #include <AMF/components/PreAnalysis.h>

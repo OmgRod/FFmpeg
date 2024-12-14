@@ -27,7 +27,7 @@
 %define public_prefix  avpriv
 %define cpuflags_mmxext cpuflags_mmx2
 
-%include "libavutil/x86/x86inc.asm"
+%include <ffmpeg/libavutil/x86/x86inc.asm>
 
 ; expands to [base],...,[base+7*stride]
 %define PASS8ROWS(base, base3, stride, stride3) \

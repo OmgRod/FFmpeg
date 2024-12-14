@@ -21,10 +21,10 @@
 
 #include "config_components.h"
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/float2half.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/float2half.h>
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "encode.h"

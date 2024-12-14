@@ -18,9 +18,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/cpu_internal.h"
-#include "libavcodec/hevc/dsp.h"
-#include "libavcodec/wasm/hevc/idct.h"
+#include <ffmpeg/libavutil/cpu_internal.h>
+#include <ffmpeg/libavcodec/hevc/dsp.h>
+#include <ffmpeg/libavcodec/wasm/hevc/idct.h>
 
 av_cold void ff_hevc_dsp_init_wasm(HEVCDSPContext *c, const int bit_depth)
 {

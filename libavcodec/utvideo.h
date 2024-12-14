@@ -27,7 +27,7 @@
  * Common Ut Video header
  */
 
-#include "libavutil/macros.h"
+#include <ffmpeg/libavutil/macros.h>
 
 enum {
     PRED_NONE = 0,

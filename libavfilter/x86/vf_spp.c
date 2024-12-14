@@ -19,10 +19,10 @@
  */
 
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/crc.h"
-#include "libavutil/x86/asm.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/crc.h>
+#include <ffmpeg/libavutil/x86/asm.h>
 #include "libavfilter/vf_spp.h"
 
 #if HAVE_MMX_INLINE

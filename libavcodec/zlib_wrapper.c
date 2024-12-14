@@ -22,9 +22,9 @@
 #include <zlib.h>
 
 #include "config.h"
-#include "libavutil/error.h"
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/mem.h>
 #include "zlib_wrapper.h"
 
 static void *alloc_wrapper(void *opaque, uInt items, uInt size)

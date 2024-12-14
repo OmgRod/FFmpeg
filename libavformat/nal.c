@@ -21,9 +21,9 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "libavutil/mem.h"
-#include "libavutil/error.h"
-#include "libavcodec/defs.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavcodec/defs.h>
 #include "avio.h"
 #include "avio_internal.h"
 #include "nal.h"

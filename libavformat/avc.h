@@ -23,7 +23,7 @@
 #define AVFORMAT_AVC_H
 
 #include <stdint.h>
-#include "libavutil/rational.h"
+#include <ffmpeg/libavutil/rational.h>
 #include "avio.h"
 
 int ff_isom_write_avcc(AVIOContext *pb, const uint8_t *data, int len);

@@ -22,8 +22,8 @@
 
 #include <stdint.h>
 
-#include "libavutil/imgutils.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/mem.h>
 
 #include "avcodec.h"
 #include "bytestream.h"

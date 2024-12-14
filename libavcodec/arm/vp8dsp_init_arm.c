@@ -18,9 +18,9 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/arm/cpu.h"
-#include "libavcodec/vp8dsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/arm/cpu.h>
+#include <ffmpeg/libavcodec/vp8dsp.h>
 #include "vp8dsp.h"
 
 av_cold void ff_vp78dsp_init_arm(VP8DSPContext *dsp)

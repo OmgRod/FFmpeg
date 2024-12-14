@@ -27,8 +27,8 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <poll.h>
-#include "libavutil/mem.h"
-#include "libavcodec/avcodec.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavcodec/avcodec.h>
 #include "decode.h"
 #include "v4l2_buffers.h"
 #include "v4l2_fmt.h"

@@ -28,9 +28,9 @@
 #include <stdint.h>
 #include <stdatomic.h>
 
-#include "libavutil/mem_internal.h"
-#include "libavutil/pixfmt.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/mem_internal.h>
+#include <ffmpeg/libavutil/pixfmt.h>
+#include <ffmpeg/libavutil/thread.h>
 
 #include "get_bits.h"
 #include "videodsp.h"

@@ -20,14 +20,14 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/avstring.h"
+#include <ffmpeg/libavutil/avstring.h>
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"
 #include "pcm.h"
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
-#include "libavutil/avassert.h"
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/avassert.h>
 
 typedef struct DFPWMAudioDemuxerContext {
     AVClass *class;

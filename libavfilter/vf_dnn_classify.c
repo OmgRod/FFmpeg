@@ -21,15 +21,15 @@
  * implementing an classification filter using deep learning networks.
  */
 
-#include "libavutil/file_open.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/file_open.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
 #include "filters.h"
 #include "dnn_filter_common.h"
 #include "video.h"
-#include "libavutil/time.h"
-#include "libavutil/avstring.h"
-#include "libavutil/detection_bbox.h"
+#include <ffmpeg/libavutil/time.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/detection_bbox.h>
 
 typedef struct DnnClassifyContext {
     const AVClass *class;

@@ -35,8 +35,8 @@
 
 #include "config_components.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/ffmath.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/ffmath.h>
 
 #include "avcodec.h"
 #include "codec_internal.h"

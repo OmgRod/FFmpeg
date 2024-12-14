@@ -23,9 +23,9 @@
 
 #include <stdint.h>
 
-#include "libavutil/crc.h"
-#include "libavutil/float_dsp.h"
-#include "libavutil/log.h"
+#include <ffmpeg/libavutil/crc.h>
+#include <ffmpeg/libavutil/float_dsp.h>
+#include <ffmpeg/libavutil/log.h>
 
 #include "avcodec.h"
 #include "get_bits.h"

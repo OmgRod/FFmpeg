@@ -28,8 +28,8 @@
 #ifndef AVCODEC_H264DEC_H
 #define AVCODEC_H264DEC_H
 
-#include "libavutil/buffer.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/buffer.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #include "cabac.h"
 #include "error_resilience.h"

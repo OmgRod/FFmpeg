@@ -49,8 +49,8 @@
  *      even output then setting frame_rate=1/0 in practice.
  */
 
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
 #include "avfilter.h"
 #include "filters.h"
 

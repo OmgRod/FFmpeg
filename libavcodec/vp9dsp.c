@@ -23,9 +23,9 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/avassert.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #include "vp9dsp.h"
 

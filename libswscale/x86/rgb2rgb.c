@@ -26,18 +26,18 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/x86/cpu.h"
-#include "libavutil/cpu.h"
-#include "libavutil/bswap.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/x86/cpu.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/bswap.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #include "libswscale/rgb2rgb.h"
 #include "libswscale/swscale.h"
 #include "libswscale/swscale_internal.h"
 
 #if HAVE_INLINE_ASM
-#include "libavutil/x86/asm.h"
+#include <ffmpeg/libavutil/x86/asm.h>
 
 DECLARE_ASM_CONST(8, uint64_t, mmx_ff)       = 0x00000000000000FFULL;
 DECLARE_ASM_CONST(8, uint64_t, mmx_null)     = 0x0000000000000000ULL;

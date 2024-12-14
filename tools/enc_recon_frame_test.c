@@ -27,19 +27,19 @@
 
 #include "decode_simple.h"
 
-#include "libavutil/adler32.h"
-#include "libavutil/avassert.h"
-#include "libavutil/common.h"
-#include "libavutil/error.h"
-#include "libavutil/frame.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/adler32.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
 
-#include "libavformat/avformat.h"
+#include <ffmpeg/libavformat/avformat.h>
 
-#include "libavcodec/avcodec.h"
-#include "libavcodec/codec.h"
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavcodec/codec.h>
 
 #include "libswscale/swscale.h"
 

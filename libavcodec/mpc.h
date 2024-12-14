@@ -31,8 +31,8 @@
 
 #include <stdint.h>
 
-#include "libavutil/lfg.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/lfg.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #include "bswapdsp.h"
 #include "mpegaudio.h"

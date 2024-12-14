@@ -21,7 +21,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/common.h"
+#include <ffmpeg/libavutil/common.h>
 #include "bit_depth_template.c"
 #include "vp9dsp.h"
 

@@ -25,10 +25,10 @@
 #define AVFILTER_VOLUME_H
 
 #include <stdint.h>
-#include "libavutil/eval.h"
-#include "libavutil/float_dsp.h"
-#include "libavutil/log.h"
-#include "libavutil/samplefmt.h"
+#include <ffmpeg/libavutil/eval.h>
+#include <ffmpeg/libavutil/float_dsp.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/samplefmt.h>
 
 enum PrecisionType {
     PRECISION_FIXED = 0,

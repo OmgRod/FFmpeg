@@ -21,8 +21,8 @@
 
 #include <string.h>
 
-#include "libavutil/internal.h"
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
 
 #include "avcodec.h"
 #include "bytestream.h"

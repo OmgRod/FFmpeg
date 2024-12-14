@@ -30,9 +30,9 @@
  */
 
 #include "aacdec.h"
-#include "libavcodec/lpc_functions.h"
+#include <ffmpeg/libavcodec/lpc_functions.h>
 
-#include "libavcodec/aactab.h"
+#include <ffmpeg/libavcodec/aactab.h>
 
 /**
  * Convert integer scalefactors to the decoder's native expected

@@ -28,9 +28,9 @@
 #include "demux.h"
 #include "internal.h"
 #include "rawdec.h"
-#include "libavutil/intreadwrite.h"
-#include "libavcodec/mlp.h"
-#include "libavcodec/mlp_parse.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavcodec/mlp.h>
+#include <ffmpeg/libavcodec/mlp_parse.h>
 
 static int av_always_inline mlp_thd_probe(const AVProbeData *p, uint32_t sync)
 {

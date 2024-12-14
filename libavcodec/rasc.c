@@ -23,8 +23,8 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
 
 #include "avcodec.h"
 #include "bytestream.h"

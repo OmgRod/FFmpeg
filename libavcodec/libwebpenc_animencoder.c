@@ -24,8 +24,8 @@
  * WebP encoder using libwebp (WebPAnimEncoder API)
  */
 
-#include "libavutil/buffer.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/buffer.h>
+#include <ffmpeg/libavutil/mem.h>
 
 #include "codec_internal.h"
 #include "encode.h"

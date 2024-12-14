@@ -27,8 +27,8 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/bswap.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/bswap.h>
 #include "v210dec.h"
 
 #define READ_PIXELS(a, b, c)         \

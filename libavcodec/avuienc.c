@@ -23,8 +23,8 @@
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "encode.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem.h>
 
 static av_cold int avui_encode_init(AVCodecContext *avctx)
 {

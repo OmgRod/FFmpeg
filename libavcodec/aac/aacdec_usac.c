@@ -23,12 +23,12 @@
 #include "aacdec_lpd.h"
 #include "aacdec_ac.h"
 
-#include "libavcodec/aacsbr.h"
+#include <ffmpeg/libavcodec/aacsbr.h>
 
-#include "libavcodec/aactab.h"
-#include "libavutil/mem.h"
-#include "libavcodec/mpeg4audio.h"
-#include "libavcodec/unary.h"
+#include <ffmpeg/libavcodec/aactab.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavcodec/mpeg4audio.h>
+#include <ffmpeg/libavcodec/unary.h>
 
 /* Number of scalefactor bands per complex prediction band, equal to 2. */
 #define SFB_PER_PRED_BAND 2

@@ -24,7 +24,7 @@
  * XWD parser
  **/
 
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
 #include "parser.h"
 #include "xwd.h"
 

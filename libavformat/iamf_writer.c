@@ -19,12 +19,12 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/iamf.h"
-#include "libavutil/mem.h"
-#include "libavcodec/get_bits.h"
-#include "libavcodec/put_bits.h"
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/iamf.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavcodec/get_bits.h>
+#include <ffmpeg/libavcodec/put_bits.h>
 #include "avformat.h"
 #include "avio_internal.h"
 #include "iamf.h"

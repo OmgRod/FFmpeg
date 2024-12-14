@@ -28,7 +28,7 @@
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "encode.h"
-#include "libavutil/avassert.h"
+#include <ffmpeg/libavutil/avassert.h>
 
 typedef struct XFaceContext {
     AVClass *class;

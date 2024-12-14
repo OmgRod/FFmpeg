@@ -26,13 +26,13 @@
 
 #include "config_components.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/bswap.h"
-#include "libavutil/common.h"
-#include "libavutil/eval.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/bswap.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/eval.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 #include "avfilter.h"
 #include "drawutils.h"
 #include "filters.h"

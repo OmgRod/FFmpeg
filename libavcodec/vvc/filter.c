@@ -19,8 +19,8 @@
  * License along with FFmpeg; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
-#include "libavutil/frame.h"
-#include "libavutil/imgutils.h"
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/imgutils.h>
 
 #include "ctu.h"
 #include "data.h"

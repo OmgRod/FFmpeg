@@ -19,7 +19,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/internal.h"
+#include <ffmpeg/libavcodec/internal.h>
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"

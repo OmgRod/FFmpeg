@@ -16,4 +16,4 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/float2half.c"
+#include <ffmpeg/libavutil/float2half.c>

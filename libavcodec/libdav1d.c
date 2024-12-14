@@ -21,13 +21,13 @@
 
 #include <dav1d/dav1d.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/cpu.h"
-#include "libavutil/film_grain_params.h"
-#include "libavutil/hdr_dynamic_metadata.h"
-#include "libavutil/mastering_display_metadata.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/film_grain_params.h>
+#include <ffmpeg/libavutil/hdr_dynamic_metadata.h>
+#include <ffmpeg/libavutil/mastering_display_metadata.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/opt.h>
 
 #include "atsc_a53.h"
 #include "av1_parse.h"

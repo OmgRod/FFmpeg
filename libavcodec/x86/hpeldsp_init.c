@@ -22,12 +22,12 @@
  * MMX optimization by Nick Kurshev <nickols_k@mail.ru>
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/avcodec.h"
-#include "libavcodec/hpeldsp.h"
-#include "libavcodec/pixels.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/x86/cpu.h>
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavcodec/hpeldsp.h>
+#include <ffmpeg/libavcodec/pixels.h>
 #include "fpel.h"
 #include "hpeldsp.h"
 

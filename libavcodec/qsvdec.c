@@ -29,20 +29,20 @@
 
 #include <mfxvideo.h>
 
-#include "libavutil/common.h"
-#include "libavutil/fifo.h"
-#include "libavutil/frame.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/hwcontext_qsv.h"
-#include "libavutil/mem.h"
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixfmt.h"
-#include "libavutil/time.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/film_grain_params.h"
-#include "libavutil/mastering_display_metadata.h"
-#include "libavutil/avassert.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/fifo.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/hwcontext.h>
+#include <ffmpeg/libavutil/hwcontext_qsv.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixfmt.h>
+#include <ffmpeg/libavutil/time.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/film_grain_params.h>
+#include <ffmpeg/libavutil/mastering_display_metadata.h>
+#include <ffmpeg/libavutil/avassert.h>
 
 #include "avcodec.h"
 #include "codec_internal.h"

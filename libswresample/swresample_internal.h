@@ -22,7 +22,7 @@
 #define SWRESAMPLE_SWRESAMPLE_INTERNAL_H
 
 #include "swresample.h"
-#include "libavutil/channel_layout.h"
+#include <ffmpeg/libavutil/channel_layout.h>
 #include "config.h"
 
 #define SWR_CH_MAX 64

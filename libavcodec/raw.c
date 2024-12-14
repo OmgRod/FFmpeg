@@ -24,7 +24,7 @@
  * Raw Video Codec
  */
 
-#include "libavutil/macros.h"
+#include <ffmpeg/libavutil/macros.h>
 #include "avcodec.h"
 #include "raw.h"
 

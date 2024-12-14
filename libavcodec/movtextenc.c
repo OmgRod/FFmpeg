@@ -21,10 +21,10 @@
 
 #include <stdarg.h>
 #include "avcodec.h"
-#include "libavutil/opt.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
-#include "libavutil/common.h"
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/common.h>
 #include "ass_split.h"
 #include "ass.h"
 #include "bytestream.h"

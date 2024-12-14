@@ -23,9 +23,9 @@
 
 #include <stdint.h>
 
-#include "libavutil/buffer.h"
-#include "libavutil/error.h"
-#include "libavutil/log.h"
+#include <ffmpeg/libavutil/buffer.h>
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/log.h>
 #include "codec_id.h"
 #include "get_bits.h"
 

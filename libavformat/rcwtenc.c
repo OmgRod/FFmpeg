@@ -46,8 +46,8 @@
 #include "avformat.h"
 #include "internal.h"
 #include "mux.h"
-#include "libavutil/log.h"
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
 
 #define RCWT_CLUSTER_MAX_BLOCKS             65535
 #define RCWT_BLOCK_SIZE                     3

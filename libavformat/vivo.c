@@ -26,8 +26,8 @@
  * @sa http://wiki.multimedia.cx/index.php?title=Vivo
  */
 
-#include "libavutil/avstring.h"
-#include "libavutil/parseutils.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/parseutils.h>
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"

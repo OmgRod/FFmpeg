@@ -24,8 +24,8 @@
 #include "config.h"
 #include <stdbool.h>
 #include <stddef.h>
-#include "libavutil/attributes_internal.h"
-#include "libavutil/cpu.h"
+#include <ffmpeg/libavutil/attributes_internal.h>
+#include <ffmpeg/libavutil/cpu.h>
 
 #ifndef __riscv_zbb
 extern attribute_visibility_hidden bool ff_rv_zbb_supported;

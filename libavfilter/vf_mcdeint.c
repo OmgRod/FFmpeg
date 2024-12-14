@@ -49,8 +49,8 @@
  * and almost certainly can be improved...
  */
 
-#include "libavutil/opt.h"
-#include "libavcodec/avcodec.h"
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavcodec/avcodec.h>
 #include "avfilter.h"
 #include "filters.h"
 #include "video.h"

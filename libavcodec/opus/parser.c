@@ -25,7 +25,7 @@
  * Determines the duration for each packet.
  */
 
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/mem.h>
 #include "avcodec.h"
 #include "bytestream.h"
 #include "opus.h"

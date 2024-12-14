@@ -25,18 +25,18 @@
 #include "ffmpeg_utils.h"
 #include "sync_queue.h"
 
-#include "libavutil/avstring.h"
-#include "libavutil/fifo.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
-#include "libavutil/time.h"
-#include "libavutil/timestamp.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/fifo.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/time.h>
+#include <ffmpeg/libavutil/timestamp.h>
 
-#include "libavcodec/packet.h"
+#include <ffmpeg/libavcodec/packet.h>
 
-#include "libavformat/avformat.h"
-#include "libavformat/avio.h"
+#include <ffmpeg/libavformat/avformat.h>
+#include <ffmpeg/libavformat/avio.h>
 
 typedef struct MuxThreadContext {
     AVPacket *pkt;

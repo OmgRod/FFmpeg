@@ -22,10 +22,10 @@
 
 #include <vid.stab/libvidstab.h>
 
-#include "libavutil/common.h"
-#include "libavutil/file_open.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/file_open.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 #include "avfilter.h"
 #include "filters.h"
 #include "video.h"

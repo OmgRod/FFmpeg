@@ -1,1 +1,1 @@
-#include "libavcodec/golomb.c"
+#include <ffmpeg/libavcodec/golomb.c>

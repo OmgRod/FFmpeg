@@ -28,7 +28,7 @@
 #include <stddef.h>
 #include <linux/videodev2.h>
 
-#include "libavutil/frame.h"
+#include <ffmpeg/libavutil/frame.h>
 #include "packet.h"
 
 enum V4L2Buffer_status {

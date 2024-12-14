@@ -28,12 +28,12 @@
 
 #include "config_components.h"
 
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/file_open.h"
-#include "libavutil/intfloat.h"
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/file_open.h>
+#include <ffmpeg/libavutil/intfloat.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/avstring.h>
 #include "drawutils.h"
 #include "filters.h"
 #include "video.h"

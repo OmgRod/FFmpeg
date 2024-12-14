@@ -30,8 +30,8 @@
 
 #include "config_components.h"
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/xga_font_data.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/xga_font_data.h>
 #include "avcodec.h"
 #include "cga_data.h"
 #include "bintext.h"

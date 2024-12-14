@@ -20,7 +20,7 @@
  */
 
 #include "swscale_loongarch.h"
-#include "libavutil/loongarch/loongson_intrinsics.h"
+#include <ffmpeg/libavutil/loongarch/loongson_intrinsics.h>
 
 
 /*Copy from libswscale/output.c*/

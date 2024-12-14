@@ -27,13 +27,13 @@
 
 #include "config_components.h"
 
-#include "libavutil/colorspace.h"
-#include "libavutil/common.h"
-#include "libavutil/opt.h"
-#include "libavutil/eval.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/detection_bbox.h"
+#include <ffmpeg/libavutil/colorspace.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/eval.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/parseutils.h>
+#include <ffmpeg/libavutil/detection_bbox.h>
 #include "avfilter.h"
 #include "drawutils.h"
 #include "filters.h"

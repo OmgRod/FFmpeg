@@ -35,15 +35,15 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/audio_fifo.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/ffmath.h"
-#include "libavutil/float_dsp.h"
-#include "libavutil/frame.h"
-#include "libavutil/mem.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/audio_fifo.h>
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/ffmath.h>
+#include <ffmpeg/libavutil/float_dsp.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/mem_internal.h>
+#include <ffmpeg/libavutil/opt.h>
 
 #include "libswresample/swresample.h"
 

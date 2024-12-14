@@ -24,7 +24,7 @@
 #include "avcodec.h"
 #include "psymodel.h"
 #include "iirfilter.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/mem.h>
 
 extern const FFPsyModel ff_aac_psy_model;
 

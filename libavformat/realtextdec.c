@@ -28,9 +28,9 @@
 #include "demux.h"
 #include "internal.h"
 #include "subtitles.h"
-#include "libavutil/avstring.h"
-#include "libavutil/bprint.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/bprint.h>
+#include <ffmpeg/libavutil/mem.h>
 
 typedef struct {
     FFDemuxSubtitlesQueue q;

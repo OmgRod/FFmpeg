@@ -26,12 +26,12 @@
 #include <string.h>
 
 #include "textutils.h"
-#include "libavutil/avutil.h"
-#include "libavutil/error.h"
-#include "libavutil/file.h"
-#include "libavutil/mem.h"
-#include "libavutil/time.h"
-#include "libavutil/time_internal.h"
+#include <ffmpeg/libavutil/avutil.h>
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/file.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/time.h>
+#include <ffmpeg/libavutil/time_internal.h>
 
 static int ff_expand_text_function_internal(FFExpandTextContext *expand_text, AVBPrint *bp,
                                             char *name, unsigned argc, char **argv)

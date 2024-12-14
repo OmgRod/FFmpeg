@@ -23,9 +23,9 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/avassert.h"
-#include "libavutil/common.h"
-#include "libavutil/float_dsp.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/float_dsp.h>
 #include "acelp_vectors.h"
 
 const uint8_t ff_fc_2pulses_9bits_track1_gray[16] =

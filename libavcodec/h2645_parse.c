@@ -22,9 +22,9 @@
 
 #include "config.h"
 
-#include "libavutil/intmath.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/intmath.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem.h>
 
 #include "bytestream.h"
 #include "h264.h"

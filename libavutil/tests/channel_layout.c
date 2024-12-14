@@ -22,12 +22,12 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "libavutil/bprint.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/error.h"
-#include "libavutil/internal.h"
-#include "libavutil/macros.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/bprint.h>
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/macros.h>
+#include <ffmpeg/libavutil/mem.h>
 
 #define BPRINT_ARGS1(bp, ...)     (bp), __VA_ARGS__
 #define BPRINT_ARGS0(bp, ...)     __VA_ARGS__, (bp)

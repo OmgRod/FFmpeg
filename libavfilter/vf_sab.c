@@ -23,9 +23,9 @@
  * Shape Adaptive Blur filter, ported from MPlayer libmpcodecs/vf_sab.c
  */
 
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 #include "libswscale/swscale.h"
 
 #include "avfilter.h"

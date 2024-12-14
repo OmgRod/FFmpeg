@@ -22,10 +22,10 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/aarch64/cpu.h"
-#include "libavcodec/h264qpel.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/aarch64/cpu.h>
+#include <ffmpeg/libavcodec/h264qpel.h>
 
 void ff_put_h264_qpel16_mc00_neon(uint8_t *dst, const uint8_t *src, ptrdiff_t stride);
 void ff_put_h264_qpel16_mc10_neon(uint8_t *dst, const uint8_t *src, ptrdiff_t stride);

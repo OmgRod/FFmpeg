@@ -20,7 +20,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/refstruct.h"
+#include <ffmpeg/libavcodec/refstruct.h>
 
 #include "cabac.h"
 #include "ctu.h"

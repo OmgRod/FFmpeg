@@ -22,7 +22,7 @@
 #ifndef AVCODEC_LOONGARCH_H264CHROMA_LOONGARCH_H
 #define AVCODEC_LOONGARCH_H264CHROMA_LOONGARCH_H
 
-#include "libavcodec/h264.h"
+#include <ffmpeg/libavcodec/h264.h>
 
 void ff_put_h264_chroma_mc8_lsx(unsigned char *dst, const unsigned char *src,
                                 long int stride, int h, int x, int y);

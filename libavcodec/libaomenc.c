@@ -29,15 +29,15 @@
 #include <aom/aom_encoder.h>
 #include <aom/aomcx.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/base64.h"
-#include "libavutil/common.h"
-#include "libavutil/cpu.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/base64.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 
 #include "av1.h"
 #include "avcodec.h"

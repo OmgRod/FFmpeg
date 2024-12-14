@@ -25,13 +25,13 @@
 
 /* #define DEBUG */
 
-#include "libavutil/file.h"
-#include "libavutil/internal.h"
-#include "libavutil/lfg.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/random_seed.h"
-#include "libavutil/avstring.h"
+#include <ffmpeg/libavutil/file.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/lfg.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/random_seed.h>
+#include <ffmpeg/libavutil/avstring.h>
 #include "avfilter.h"
 #include "filters.h"
 #include "video.h"

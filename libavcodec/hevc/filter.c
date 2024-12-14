@@ -22,8 +22,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/common.h"
-#include "libavutil/internal.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/internal.h>
 
 #include "hevcdec.h"
 #include "progressframe.h"

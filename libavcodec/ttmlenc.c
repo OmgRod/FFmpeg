@@ -29,9 +29,9 @@
 
 #include "avcodec.h"
 #include "codec_internal.h"
-#include "libavutil/bprint.h"
-#include "libavutil/internal.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/bprint.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/mem.h>
 #include "ass_split.h"
 #include "ttmlenc.h"
 

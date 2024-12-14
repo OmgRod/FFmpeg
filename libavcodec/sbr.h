@@ -31,8 +31,8 @@
 
 #include <stdint.h>
 
-#include "libavutil/mem_internal.h"
-#include "libavutil/tx.h"
+#include <ffmpeg/libavutil/mem_internal.h>
+#include <ffmpeg/libavutil/tx.h>
 
 #include "aacps.h"
 #include "sbrdsp.h"

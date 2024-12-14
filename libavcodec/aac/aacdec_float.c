@@ -31,18 +31,18 @@
 
 #define USE_FIXED 0
 
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/thread.h>
 
-#include "libavcodec/aac_defines.h"
+#include <ffmpeg/libavcodec/aac_defines.h>
 
-#include "libavcodec/avcodec.h"
+#include <ffmpeg/libavcodec/avcodec.h>
 #include "aacdec.h"
-#include "libavcodec/aactab.h"
-#include "libavcodec/sinewin.h"
-#include "libavcodec/kbdwin.h"
-#include "libavcodec/cbrt_data.h"
-#include "libavutil/mathematics.h"
-#include "libavcodec/aacsbr.h"
+#include <ffmpeg/libavcodec/aactab.h>
+#include <ffmpeg/libavcodec/sinewin.h>
+#include <ffmpeg/libavcodec/kbdwin.h>
+#include <ffmpeg/libavcodec/cbrt_data.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavcodec/aacsbr.h>
 
 DECLARE_ALIGNED(32, static float, sine_96)[96];
 DECLARE_ALIGNED(32, static float, sine_120)[120];
@@ -81,11 +81,11 @@ static const float cce_scale[] = {
 
 /** Dequantization-related **/
 #include "aacdec_tab.h"
-#include "libavutil/intfloat.h"
+#include <ffmpeg/libavutil/intfloat.h>
 
 #include "config.h"
 #if ARCH_ARM
-#include "libavcodec/arm/aac.h"
+#include <ffmpeg/libavcodec/arm/aac.h>
 #endif
 
 #ifndef VMUL2

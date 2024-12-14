@@ -22,9 +22,9 @@
 
 #include <stdatomic.h>
 
-#include "libavcodec/executor.h"
-#include "libavutil/mem.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavcodec/executor.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/thread.h>
 
 #include "thread.h"
 #include "ctu.h"

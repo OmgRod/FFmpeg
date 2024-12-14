@@ -16,10 +16,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/error.h"
-#include "libavutil/fifo.h"
-#include "libavutil/frame.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/fifo.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/mem.h>
 
 #include "container_fifo.h"
 #include "refstruct.h"

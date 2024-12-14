@@ -22,7 +22,7 @@
 #ifndef AVCODEC_ROQVIDEO_H
 #define AVCODEC_ROQVIDEO_H
 
-#include "libavutil/frame.h"
+#include <ffmpeg/libavutil/frame.h>
 
 typedef struct roq_cell {
     unsigned char y[4];

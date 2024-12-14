@@ -20,7 +20,7 @@
  */
 
 #include <stdint.h>
-#include "libavutil/common.h"
+#include <ffmpeg/libavutil/common.h>
 #include "aacps.h"
 #include "get_bits.h"
 #include "aacpsdata.c"

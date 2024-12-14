@@ -18,8 +18,8 @@
 
 #include "config.h"
 #include "config_components.h"
-#include "libavutil/attributes.h"
-#include "libavutil/common.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/common.h>
 #include "avcodec.h"
 #include "dct.h"
 #include "faanidct.h"

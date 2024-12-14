@@ -23,10 +23,10 @@
  * Derive PTS by reordering DTS from supported streams
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/fifo.h"
-#include "libavutil/mem.h"
-#include "libavutil/tree.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/fifo.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/tree.h>
 
 #include "bsf.h"
 #include "bsf_internal.h"

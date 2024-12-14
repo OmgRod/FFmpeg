@@ -21,9 +21,9 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/fixed_dsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/fixed_dsp.h>
 
 void ff_vector_fmul_window_scaled_rvv(int16_t *dst, const int32_t *src0,
                                       const int32_t *src1, const int32_t *win,

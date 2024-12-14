@@ -23,7 +23,7 @@
 
 #include "vc1dsp_mips.h"
 #include "constants.h"
-#include "libavutil/mips/generic_macros_msa.h"
+#include <ffmpeg/libavutil/mips/generic_macros_msa.h>
 
 void ff_vc1_inv_trans_8x8_msa(int16_t block[64])
 {

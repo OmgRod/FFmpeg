@@ -18,9 +18,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/bprint.h"
-#include "libavutil/colorspace.h"
-#include "libavutil/common.h"
+#include <ffmpeg/libavutil/bprint.h>
+#include <ffmpeg/libavutil/colorspace.h>
+#include <ffmpeg/libavutil/common.h>
 
 #include "dvdclut.h"
 #include "internal.h"

@@ -19,11 +19,11 @@
  */
 
 #include "dnn_io_proc.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/mem.h>
 #include "libswscale/swscale.h"
-#include "libavutil/avassert.h"
-#include "libavutil/detection_bbox.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/detection_bbox.h>
 
 static int get_datatype_size(DNNDataType dt)
 {

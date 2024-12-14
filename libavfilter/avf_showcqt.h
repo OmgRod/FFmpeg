@@ -21,7 +21,7 @@
 #ifndef AVFILTER_SHOWCQT_H
 #define AVFILTER_SHOWCQT_H
 
-#include "libavutil/tx.h"
+#include <ffmpeg/libavutil/tx.h>
 #include "avfilter.h"
 
 typedef struct Coeffs {

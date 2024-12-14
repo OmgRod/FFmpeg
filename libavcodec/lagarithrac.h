@@ -31,7 +31,7 @@
 #define AVCODEC_LAGARITHRAC_H
 
 #include <stdint.h>
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
 #include "get_bits.h"
 
 typedef struct lag_rac {

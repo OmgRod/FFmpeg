@@ -20,14 +20,14 @@
 
 #include <stdint.h>
 
-#include "libavutil/bprint.h"
-#include "libavutil/common.h"
-#include "libavutil/emms.h"
-#include "libavutil/frame.h"
-#include "libavutil/mem.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/motion_vector.h"
-#include "libavutil/avassert.h"
+#include <ffmpeg/libavutil/bprint.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/emms.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/motion_vector.h>
+#include <ffmpeg/libavutil/avassert.h>
 
 #include "avcodec.h"
 #include "mpegutils.h"

@@ -17,8 +17,8 @@
  */
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
 #include "huffyuvencdsp.h"
 #include "mathops.h"
 

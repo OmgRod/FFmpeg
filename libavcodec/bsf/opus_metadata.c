@@ -18,8 +18,8 @@
 
 #include "bsf.h"
 #include "bsf_internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/opt.h>
 
 typedef struct OpusBSFContext {
     const AVClass *class;

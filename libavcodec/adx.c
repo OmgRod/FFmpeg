@@ -18,8 +18,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/common.h"
-#include "libavutil/mathematics.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/mathematics.h>
 #include "adx.h"
 
 void ff_adx_calculate_coeffs(int cutoff, int sample_rate, int bits, int *coeff)

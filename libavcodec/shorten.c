@@ -26,7 +26,7 @@
  */
 
 #include <limits.h>
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/mem.h>
 #include "avcodec.h"
 #include "bswapdsp.h"
 #include "bytestream.h"

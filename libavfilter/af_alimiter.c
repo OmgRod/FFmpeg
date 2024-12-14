@@ -24,11 +24,11 @@
  * Lookahead limiter filter
  */
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/common.h"
-#include "libavutil/fifo.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/fifo.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
 
 #include "audio.h"
 #include "avfilter.h"

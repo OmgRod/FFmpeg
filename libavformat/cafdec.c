@@ -32,11 +32,11 @@
 #include "internal.h"
 #include "isom.h"
 #include "mov_chan.h"
-#include "libavcodec/flac.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/intfloat.h"
-#include "libavutil/dict.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavcodec/flac.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/intfloat.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/mem.h>
 #include "caf.h"
 
 typedef struct CafContext {

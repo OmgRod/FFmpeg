@@ -28,19 +28,19 @@
 #include "swscale.h"
 #include "graph.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/common.h"
-#include "libavutil/frame.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/log.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/pixfmt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/slicethread.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/mem_internal.h>
+#include <ffmpeg/libavutil/pixfmt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/slicethread.h>
 #if HAVE_ALTIVEC
-#include "libavutil/ppc/util_altivec.h"
+#include <ffmpeg/libavutil/ppc/util_altivec.h>
 #endif
-#include "libavutil/half2float.h"
+#include <ffmpeg/libavutil/half2float.h>
 
 #define STR(s) AV_TOSTRING(s) // AV_STRINGIFY is too long
 

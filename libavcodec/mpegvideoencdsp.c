@@ -21,9 +21,9 @@
 #include <string.h>
 
 #include "config.h"
-#include "libavutil/avassert.h"
-#include "libavutil/attributes.h"
-#include "libavutil/imgutils.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/imgutils.h>
 #include "avcodec.h"
 #include "me_cmp.h"
 #include "mpegvideoencdsp.h"

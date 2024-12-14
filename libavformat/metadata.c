@@ -20,8 +20,8 @@
 
 #include "avformat.h"
 #include "metadata.h"
-#include "libavutil/dict.h"
-#include "libavutil/avstring.h"
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/avstring.h>
 
 void ff_metadata_conv(AVDictionary **pm, const AVMetadataConv *d_conv,
                                        const AVMetadataConv *s_conv)

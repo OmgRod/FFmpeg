@@ -19,14 +19,14 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/avstring.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/mem.h>
 #include "avformat.h"
 #include "avio_internal.h"
 #include "internal.h"
 #include "mux.h"
 
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/opt.h>
 
 typedef struct DialogueLine {
     int readorder;

@@ -23,7 +23,7 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
+#include <ffmpeg/libavutil/attributes.h>
 #include "aacpsdsp.h"
 
 static void ps_add_squares_c(INTFLOAT *restrict dst,

@@ -22,9 +22,9 @@
 
 #include <stdint.h>
 #include <stdlib.h>
-#include "libavutil/avassert.h"
-#include "libavutil/macros.h"
-#include "libavutil/common.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/macros.h>
+#include <ffmpeg/libavutil/common.h>
 #include "ctu.h"
 #include "intra.h"
 #include "ps.h"

@@ -28,9 +28,9 @@
 #include <unistd.h>             /* getopt */
 #endif
 
-#include "libavutil/log.h"
-#include "libavutil/bprint.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/bprint.h>
+#include <ffmpeg/libavutil/mem.h>
 
 #if !HAVE_GETOPT
 #include "compat/getopt.c"

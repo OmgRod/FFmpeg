@@ -23,15 +23,15 @@
 #include "demux.h"
 #include "internal.h"
 
-#include "libavcodec/avcodec.h"
-#include "libavcodec/codec_par.h"
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavcodec/codec_par.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/iamf.h"
-#include "libavutil/internal.h"
-#include "libavutil/intmath.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/iamf.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/intmath.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
 
 /**
  * @file

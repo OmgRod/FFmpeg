@@ -22,12 +22,12 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/ppc/cpu.h"
-#include "libavutil/ppc/util_altivec.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/ppc/cpu.h>
+#include <ffmpeg/libavutil/ppc/util_altivec.h>
 
-#include "libavcodec/svq1encdsp.h"
+#include <ffmpeg/libavcodec/svq1encdsp.h>
 
 #if HAVE_ALTIVEC
 static int ssd_int8_vs_int16_altivec(const int8_t *pix1, const int16_t *pix2,

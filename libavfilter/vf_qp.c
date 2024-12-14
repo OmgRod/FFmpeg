@@ -19,9 +19,9 @@
  */
 
 #include <math.h>
-#include "libavutil/eval.h"
-#include "libavutil/opt.h"
-#include "libavutil/video_enc_params.h"
+#include <ffmpeg/libavutil/eval.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/video_enc_params.h>
 
 #include "avfilter.h"
 #include "filters.h"

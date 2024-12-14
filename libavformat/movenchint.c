@@ -20,8 +20,8 @@
  */
 
 #include "movenc.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem.h>
 #include "mux.h"
 #include "rtpenc_chain.h"
 #include "avio_internal.h"

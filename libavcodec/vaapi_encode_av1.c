@@ -21,9 +21,9 @@
 #include <va/va.h>
 #include <va/va_enc_av1.h>
 
-#include "libavutil/pixdesc.h"
-#include "libavutil/opt.h"
-#include "libavutil/mastering_display_metadata.h"
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/mastering_display_metadata.h>
 
 #include "cbs_av1.h"
 #include "put_bits.h"

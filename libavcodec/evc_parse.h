@@ -26,8 +26,8 @@
 
 #include <stdint.h>
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/log.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/log.h>
 #include "evc.h"
 #include "evc_ps.h"
 

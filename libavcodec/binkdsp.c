@@ -24,7 +24,7 @@
  * Bink DSP routines
  */
 
-#include "libavutil/attributes.h"
+#include <ffmpeg/libavutil/attributes.h>
 #include "binkdsp.h"
 
 #define A1  2896 /* (1/sqrt(2))<<12 */

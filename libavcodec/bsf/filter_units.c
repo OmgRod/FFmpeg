@@ -19,8 +19,8 @@
 #include <stdbool.h>
 #include <stdlib.h>
 
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
 
 #include "bsf.h"
 #include "bsf_internal.h"

@@ -22,8 +22,8 @@
 
 #include <inttypes.h>
 
-#include "libavutil/dict.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/mem.h>
 #include "avformat.h"
 #include "avio_internal.h"
 #include "apetag.h"

@@ -21,8 +21,8 @@
 
 #include "avformat.h"
 #include "rawdec.h"
-#include "libavutil/intreadwrite.h"
-#include "libavcodec/vc1_common.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavcodec/vc1_common.h>
 
 static int vc1_probe(const AVProbeData *p)
 {

@@ -48,16 +48,16 @@
 #include <SDL.h>
 #endif
 
-#include "libavutil/common.h"
-#include "libavutil/frame.h"
-#include "libavutil/mem.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
-#include "libavutil/avassert.h"
-#include "libavformat/avformat.h"
-#include "libavformat/internal.h"
-#include "libavformat/mux.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavformat/avformat.h>
+#include <ffmpeg/libavformat/internal.h>
+#include <ffmpeg/libavformat/mux.h>
 #include "libavdevice/avdevice.h"
 #include "opengl_enc_shaders.h"
 

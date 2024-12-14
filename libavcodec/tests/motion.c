@@ -28,13 +28,13 @@
 #include <string.h>
 
 #include "config.h"
-#include "libavcodec/me_cmp.h"
-#include "libavutil/cpu.h"
-#include "libavutil/emms.h"
-#include "libavutil/internal.h"
-#include "libavutil/lfg.h"
-#include "libavutil/mem.h"
-#include "libavutil/time.h"
+#include <ffmpeg/libavcodec/me_cmp.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/emms.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/lfg.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/time.h>
 
 #undef printf
 

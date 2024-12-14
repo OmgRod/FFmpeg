@@ -22,7 +22,7 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/thread.h>
 
 #include "avcodec.h"
 #include "codec_internal.h"
@@ -31,7 +31,7 @@
 #include "mpegvideodec.h"
 #include "msmpeg4.h"
 #include "msmpeg4dec.h"
-#include "libavutil/imgutils.h"
+#include <ffmpeg/libavutil/imgutils.h>
 #include "h263.h"
 #include "h263data.h"
 #include "h263dec.h"

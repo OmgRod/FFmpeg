@@ -25,8 +25,8 @@
 
 #include <stdbool.h>
 
-#include "libavcodec/cabac.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavcodec/cabac.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #include "dec.h"
 

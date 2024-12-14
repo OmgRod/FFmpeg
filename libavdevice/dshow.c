@@ -20,15 +20,15 @@
  */
 
 #include "dshow_capture.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/opt.h"
-#include "libavutil/mem.h"
-#include "libavformat/demux.h"
-#include "libavformat/internal.h"
-#include "libavformat/riff.h"
+#include <ffmpeg/libavutil/parseutils.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavformat/demux.h>
+#include <ffmpeg/libavformat/internal.h>
+#include <ffmpeg/libavformat/riff.h>
 #include "avdevice.h"
-#include "libavcodec/raw.h"
+#include <ffmpeg/libavcodec/raw.h>
 #include "objidl.h"
 #include "shlwapi.h"
 // NB: technically, we should include dxva.h and use

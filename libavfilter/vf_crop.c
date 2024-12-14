@@ -29,13 +29,13 @@
 #include "filters.h"
 #include "formats.h"
 #include "video.h"
-#include "libavutil/eval.h"
-#include "libavutil/avstring.h"
-#include "libavutil/internal.h"
-#include "libavutil/libm.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/eval.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/libm.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/opt.h>
 
 static const char *const var_names[] = {
     "in_w", "iw",   ///< width  of the input video

@@ -23,9 +23,9 @@
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/internal.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/internal.h>
 
 #define IMX_TAG MKTAG('I', 'M', 'A', 'X')
 

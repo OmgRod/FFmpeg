@@ -24,39 +24,39 @@
  */
 
 #include "config.h"
-#include "libavutil/ffversion.h"
+#include <ffmpeg/libavutil/ffversion.h>
 
 #include <string.h>
 #include <math.h>
 
-#include "libavformat/avformat.h"
-#include "libavformat/version.h"
-#include "libavcodec/avcodec.h"
-#include "libavcodec/version.h"
-#include "libavutil/ambient_viewing_environment.h"
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/bprint.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/display.h"
-#include "libavutil/film_grain_params.h"
-#include "libavutil/hash.h"
-#include "libavutil/hdr_dynamic_metadata.h"
-#include "libavutil/iamf.h"
-#include "libavutil/mastering_display_metadata.h"
-#include "libavutil/hdr_dynamic_vivid_metadata.h"
-#include "libavutil/dovi_meta.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/spherical.h"
-#include "libavutil/stereo3d.h"
-#include "libavutil/dict.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/libm.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/timecode.h"
-#include "libavutil/timestamp.h"
+#include <ffmpeg/libavformat/avformat.h>
+#include <ffmpeg/libavformat/version.h>
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavcodec/version.h>
+#include <ffmpeg/libavutil/ambient_viewing_environment.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/bprint.h>
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/display.h>
+#include <ffmpeg/libavutil/film_grain_params.h>
+#include <ffmpeg/libavutil/hash.h>
+#include <ffmpeg/libavutil/hdr_dynamic_metadata.h>
+#include <ffmpeg/libavutil/iamf.h>
+#include <ffmpeg/libavutil/mastering_display_metadata.h>
+#include <ffmpeg/libavutil/hdr_dynamic_vivid_metadata.h>
+#include <ffmpeg/libavutil/dovi_meta.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/spherical.h>
+#include <ffmpeg/libavutil/stereo3d.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/libm.h>
+#include <ffmpeg/libavutil/parseutils.h>
+#include <ffmpeg/libavutil/timecode.h>
+#include <ffmpeg/libavutil/timestamp.h>
 #include "libavdevice/avdevice.h"
 #include "libavdevice/version.h"
 #include "libswscale/swscale.h"
@@ -69,7 +69,7 @@
 #include "cmdutils.h"
 #include "opt_common.h"
 
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/thread.h>
 
 #if !HAVE_THREADS
 #  ifdef pthread_mutex_lock

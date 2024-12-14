@@ -45,11 +45,11 @@
 #include "vc1.h"
 #include "vc1data.h"
 #include "vc1_vlc_data.h"
-#include "libavutil/attributes.h"
-#include "libavutil/avassert.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/mem.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/thread.h>
 
 
 static const enum AVPixelFormat vc1_hwaccel_pixfmt_list_420[] = {

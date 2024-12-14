@@ -30,7 +30,7 @@
 #ifndef AVCODEC_AACTAB_H
 #define AVCODEC_AACTAB_H
 
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #include <stdint.h>
 

@@ -26,10 +26,10 @@
 
 #include <time.h>
 
-#include "libavutil/imgutils.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
-#include "libavutil/rational.h"
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/rational.h>
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"

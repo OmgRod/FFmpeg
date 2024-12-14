@@ -22,8 +22,8 @@
 
 #include "avformat.h"
 #include "rawdec.h"
-#include "libavcodec/startcode.h"
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavcodec/startcode.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
 
 #define AVS2_ISSQH(x)  ((x) == 0xB0)
 #define AVS2_ISEND(x)  ((x) == 0xB1)

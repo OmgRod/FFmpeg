@@ -30,10 +30,10 @@
 
 #include <stdint.h>
 
-#include "libavutil/avutil.h"
-#include "libavutil/frame.h"
-#include "libavutil/log.h"
-#include "libavutil/pixfmt.h"
+#include <ffmpeg/libavutil/avutil.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/pixfmt.h>
 #include "version_major.h"
 #ifndef HAVE_AV_CONFIG_H
 /* When included as part of the ffmpeg build, only include the major version

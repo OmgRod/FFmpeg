@@ -18,9 +18,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/lfg.h"
-#include "libavutil/opt.h"
-#include "libavutil/random_seed.h"
+#include <ffmpeg/libavutil/lfg.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/random_seed.h>
 #include "avfilter.h"
 #include "filters.h"
 

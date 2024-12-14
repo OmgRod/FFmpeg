@@ -23,7 +23,7 @@
 
 #include <stdarg.h>
 #include "avcodec.h"
-#include "libavutil/bprint.h"
+#include <ffmpeg/libavutil/bprint.h>
 #include "ass_split.h"
 #include "ass.h"
 #include "codec_internal.h"

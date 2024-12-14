@@ -20,12 +20,12 @@
 
 #include <string.h>
 
-#include "libavutil/common.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
-#include "libavcodec/lossless_audiodsp.h"
+#include <ffmpeg/libavcodec/lossless_audiodsp.h>
 
 #include "checkasm.h"
 

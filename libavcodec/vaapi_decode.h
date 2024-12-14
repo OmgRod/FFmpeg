@@ -21,9 +21,9 @@
 
 #include <va/va.h>
 
-#include "libavutil/frame.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/hwcontext_vaapi.h"
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/hwcontext.h>
+#include <ffmpeg/libavutil/hwcontext_vaapi.h>
 
 #include "avcodec.h"
 

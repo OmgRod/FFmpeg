@@ -23,7 +23,7 @@
 
 #include <stdint.h>
 
-#include "libavutil/channel_layout.h"
+#include <ffmpeg/libavutil/channel_layout.h>
 
 #include "get_bits.h"
 

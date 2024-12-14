@@ -22,8 +22,8 @@
 #define AVFORMAT_DEMUX_H
 
 #include <stdint.h>
-#include "libavutil/rational.h"
-#include "libavcodec/packet.h"
+#include <ffmpeg/libavutil/rational.h>
+#include <ffmpeg/libavcodec/packet.h>
 #include "avformat.h"
 
 struct AVDeviceInfoList;

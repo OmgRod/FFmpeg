@@ -21,22 +21,22 @@
 
 #include "ffmpeg.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/avstring.h"
-#include "libavutil/avutil.h"
-#include "libavutil/dict.h"
-#include "libavutil/display.h"
-#include "libavutil/eval.h"
-#include "libavutil/frame.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/rational.h"
-#include "libavutil/time.h"
-#include "libavutil/timestamp.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/avutil.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/display.h>
+#include <ffmpeg/libavutil/eval.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/rational.h>
+#include <ffmpeg/libavutil/time.h>
+#include <ffmpeg/libavutil/timestamp.h>
 
-#include "libavcodec/avcodec.h"
+#include <ffmpeg/libavcodec/avcodec.h>
 
 typedef struct EncoderPriv {
     Encoder        e;

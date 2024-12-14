@@ -20,8 +20,8 @@
 
 #include <stddef.h>
 #include <inttypes.h>
-#include "libavutil/log.h"
-#include "libavcodec/av1_levels.h"
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavcodec/av1_levels.h>
 
 static const struct {
     int width;

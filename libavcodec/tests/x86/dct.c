@@ -19,12 +19,12 @@
 #include "config.h"
 #include "config_components.h"
 
-#include "libavutil/cpu.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
-#include "libavcodec/x86/fdct.h"
-#include "libavcodec/x86/xvididct.h"
-#include "libavcodec/x86/simple_idct.h"
+#include <ffmpeg/libavcodec/x86/fdct.h>
+#include <ffmpeg/libavcodec/x86/xvididct.h>
+#include <ffmpeg/libavcodec/x86/simple_idct.h>
 
 #if CONFIG_PRORES_DECODER && ARCH_X86_64 && HAVE_X86ASM
 void ff_prores_idct_put_10_sse2(uint16_t *dst, int linesize,

@@ -27,7 +27,7 @@
  * @see http://tools.ietf.org/html/draft-ietf-payload-vp8-05
  */
 
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
 
 #include "avio_internal.h"
 #include "rtpdec.h"

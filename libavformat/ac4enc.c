@@ -18,10 +18,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/codec_id.h"
-#include "libavcodec/packet.h"
-#include "libavutil/crc.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavcodec/codec_id.h>
+#include <ffmpeg/libavcodec/packet.h>
+#include <ffmpeg/libavutil/crc.h>
+#include <ffmpeg/libavutil/opt.h>
 #include "avformat.h"
 #include "mux.h"
 

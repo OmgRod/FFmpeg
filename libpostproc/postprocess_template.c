@@ -24,9 +24,9 @@
  */
 #include "config.h"
 
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/mem_internal.h>
 #if ARCH_X86
-#include "libavutil/x86/asm.h"
+#include <ffmpeg/libavutil/x86/asm.h>
 #endif
 
 /* A single TEMPLATE_PP_* should be defined (to 1) when this template is

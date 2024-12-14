@@ -21,7 +21,7 @@
  */
 
 #include <vdpau/vdpau.h>
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/pixdesc.h>
 #include "avcodec.h"
 #include "internal.h"
 #include "av1dec.h"

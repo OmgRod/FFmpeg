@@ -30,8 +30,8 @@
 #include "internal.h"
 #include "os_support.h"
 
-#include "libavutil/log.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/opt.h>
 
 /**
  * Network layer over which RTP/etc packet data will be transported.

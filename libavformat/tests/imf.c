@@ -51,9 +51,9 @@
  * @ingroup lavu_imf
  */
 
-#include "libavformat/imf_cpl.c"
-#include "libavformat/imfdec.c"
-#include "libavformat/mxf.h"
+#include <ffmpeg/libavformat/imf_cpl.c>
+#include <ffmpeg/libavformat/imfdec.c>
+#include <ffmpeg/libavformat/mxf.h>
 
 #include <stdio.h>
 

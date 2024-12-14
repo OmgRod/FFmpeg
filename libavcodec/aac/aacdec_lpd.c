@@ -20,7 +20,7 @@
 
 #include "aacdec_lpd.h"
 #include "aacdec_usac.h"
-#include "libavcodec/unary.h"
+#include <ffmpeg/libavcodec/unary.h>
 
 const uint8_t ff_aac_lpd_mode_tab[32][4] = {
     { 0, 0, 0, 0 },

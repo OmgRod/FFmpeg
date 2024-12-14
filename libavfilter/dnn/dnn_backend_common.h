@@ -26,7 +26,7 @@
 
 #include "queue.h"
 #include "../dnn_interface.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/thread.h>
 
 #define DNN_DEFINE_CLASS_EXT(name, desc, options) \
     {                                           \

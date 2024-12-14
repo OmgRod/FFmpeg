@@ -22,8 +22,8 @@
  * @todo switch to dualinput
  */
 
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
 
 #include "filters.h"
 #include "video.h"

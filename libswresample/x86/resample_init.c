@@ -25,8 +25,8 @@
  * @author Michael Niedermayer <michaelni@gmx.at>
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/x86/cpu.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/x86/cpu.h>
 #include "libswresample/resample.h"
 
 #define RESAMPLE_FUNCS(type, opt) \

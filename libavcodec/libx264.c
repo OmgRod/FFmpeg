@@ -21,17 +21,17 @@
 
 #include "config_components.h"
 
-#include "libavutil/buffer.h"
-#include "libavutil/eval.h"
-#include "libavutil/internal.h"
-#include "libavutil/opt.h"
-#include "libavutil/mastering_display_metadata.h"
-#include "libavutil/mem.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/stereo3d.h"
-#include "libavutil/time.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/video_hint.h"
+#include <ffmpeg/libavutil/buffer.h>
+#include <ffmpeg/libavutil/eval.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/mastering_display_metadata.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/stereo3d.h>
+#include <ffmpeg/libavutil/time.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/video_hint.h>
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "encode.h"

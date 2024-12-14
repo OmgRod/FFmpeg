@@ -16,8 +16,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/common.h"
-#include "libavcodec/h265_profile_level.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavcodec/h265_profile_level.h>
 
 static const struct {
     int width;

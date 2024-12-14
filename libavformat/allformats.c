@@ -23,7 +23,7 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "libavformat/internal.h"
+#include <ffmpeg/libavformat/internal.h>
 #include "avformat.h"
 #include "avformat_internal.h"
 #include "demux.h"
@@ -577,8 +577,8 @@ extern const FFInputFormat  ff_libmodplug_demuxer;
 extern const FFInputFormat  ff_libopenmpt_demuxer;
 extern const FFInputFormat  ff_vapoursynth_demuxer;
 
-#include "libavformat/muxer_list.c"
-#include "libavformat/demuxer_list.c"
+#include <ffmpeg/libavformat/muxer_list.c>
+#include <ffmpeg/libavformat/demuxer_list.c>
 
 static atomic_uintptr_t indev_list_intptr  = 0;
 static atomic_uintptr_t outdev_list_intptr = 0;

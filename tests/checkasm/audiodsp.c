@@ -21,11 +21,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "libavcodec/audiodsp.h"
+#include <ffmpeg/libavcodec/audiodsp.h>
 
-#include "libavutil/common.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #include "checkasm.h"
 

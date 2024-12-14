@@ -25,7 +25,7 @@
 #include "idctdsp.h"
 #include "mathops.h"
 #include "cavsdsp.h"
-#include "libavutil/common.h"
+#include <ffmpeg/libavutil/common.h>
 
 /*****************************************************************************
  *

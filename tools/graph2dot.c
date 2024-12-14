@@ -25,9 +25,9 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/mem.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 #include "libavfilter/avfilter.h"
 
 #if !HAVE_GETOPT

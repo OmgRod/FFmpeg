@@ -22,8 +22,8 @@
 #include "avformat.h"
 #include "internal.h"
 #include "mux.h"
-#include "libavutil/log.h"
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
 
 typedef struct SCCContext {
     int prev_h, prev_m, prev_s, prev_f;

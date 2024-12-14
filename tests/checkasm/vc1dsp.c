@@ -22,13 +22,13 @@
 
 #include "checkasm.h"
 
-#include "libavcodec/vc1dsp.h"
+#include <ffmpeg/libavcodec/vc1dsp.h>
 
-#include "libavutil/common.h"
-#include "libavutil/internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #define VC1DSP_TEST(func) { #func, offsetof(VC1DSPContext, func) },
 #define VC1DSP_SIZED_TEST(func, width, height) { #func, offsetof(VC1DSPContext, func), width, height },

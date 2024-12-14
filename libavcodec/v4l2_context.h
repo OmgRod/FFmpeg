@@ -27,9 +27,9 @@
 #include <stdint.h>
 #include <linux/videodev2.h>
 
-#include "libavutil/pixfmt.h"
-#include "libavutil/frame.h"
-#include "libavutil/rational.h"
+#include <ffmpeg/libavutil/pixfmt.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/rational.h>
 #include "codec_id.h"
 #include "packet.h"
 #include "v4l2_buffers.h"

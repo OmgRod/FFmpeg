@@ -29,14 +29,14 @@
 #include <float.h>
 #include <math.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/dict.h"
-#include "libavutil/ffmath.h"
-#include "libavutil/mem.h"
-#include "libavutil/xga_font_data.h"
-#include "libavutil/opt.h"
-#include "libavutil/timestamp.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/ffmath.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/xga_font_data.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/timestamp.h>
 #include "libswresample/swresample.h"
 #include "avfilter.h"
 #include "filters.h"

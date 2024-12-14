@@ -24,13 +24,13 @@
 
 #include <stdlib.h>
 
-#include "libavutil/avstring.h"
-#include "libavutil/base64.h"
-#include "libavutil/dict.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/base64.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/mem.h>
 
-#include "libavcodec/bytestream.h"
-#include "libavcodec/vorbis_parser.h"
+#include <ffmpeg/libavcodec/bytestream.h>
+#include <ffmpeg/libavcodec/vorbis_parser.h>
 
 #include "avformat.h"
 #include "demux.h"

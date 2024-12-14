@@ -17,9 +17,9 @@
  */
 #include <string.h>
 
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/mastering_display_metadata.h"
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/mastering_display_metadata.h>
 
 #include "avfilter.h"
 #include "filters.h"

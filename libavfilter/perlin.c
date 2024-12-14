@@ -27,8 +27,8 @@
 
 #include <math.h>
 
-#include "libavutil/lfg.h"
-#include "libavutil/random_seed.h"
+#include <ffmpeg/libavutil/lfg.h>
+#include <ffmpeg/libavutil/random_seed.h>
 #include "perlin.h"
 
 static inline int inc(int num, int period)

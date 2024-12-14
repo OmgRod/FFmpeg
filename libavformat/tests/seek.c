@@ -24,10 +24,10 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "libavutil/common.h"
-#include "libavutil/mathematics.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/mathematics.h>
 
-#include "libavformat/avformat.h"
+#include <ffmpeg/libavformat/avformat.h>
 
 static char buffer[20];
 

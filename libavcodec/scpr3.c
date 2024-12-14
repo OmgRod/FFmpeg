@@ -24,7 +24,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "libavutil/qsort.h"
+#include <ffmpeg/libavutil/qsort.h>
 
 #include "avcodec.h"
 #include "bytestream.h"

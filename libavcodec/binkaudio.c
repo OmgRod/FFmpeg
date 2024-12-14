@@ -30,10 +30,10 @@
 
 #include "config_components.h"
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/intfloat.h"
-#include "libavutil/mem_internal.h"
-#include "libavutil/tx.h"
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/intfloat.h>
+#include <ffmpeg/libavutil/mem_internal.h>
+#include <ffmpeg/libavutil/tx.h>
 
 #define BITSTREAM_READER_LE
 #include "avcodec.h"

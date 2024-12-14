@@ -56,10 +56,10 @@
 
 #include <string.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/lfg.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/lfg.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
 #include "roqvideo.h"
 #include "bytestream.h"
 #include "codec_internal.h"

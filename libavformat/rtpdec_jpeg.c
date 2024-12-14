@@ -23,10 +23,10 @@
 #include "avio_internal.h"
 #include "rtpdec.h"
 #include "rtpdec_formats.h"
-#include "libavutil/intreadwrite.h"
-#include "libavcodec/jpegtables.h"
-#include "libavcodec/mjpeg.h"
-#include "libavcodec/bytestream.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavcodec/jpegtables.h>
+#include <ffmpeg/libavcodec/mjpeg.h>
+#include <ffmpeg/libavcodec/bytestream.h>
 
 /**
  * RTP/JPEG specific private data.

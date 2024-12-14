@@ -19,16 +19,16 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/iamf.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
-#include "libavcodec/get_bits.h"
-#include "libavcodec/flac.h"
-#include "libavcodec/leb.h"
-#include "libavcodec/mpeg4audio.h"
-#include "libavcodec/put_bits.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/iamf.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavcodec/get_bits.h>
+#include <ffmpeg/libavcodec/flac.h>
+#include <ffmpeg/libavcodec/leb.h>
+#include <ffmpeg/libavcodec/mpeg4audio.h>
+#include <ffmpeg/libavcodec/put_bits.h>
 #include "avio_internal.h"
 #include "iamf_parse.h"
 #include "isom.h"

@@ -21,16 +21,16 @@
 #include <string.h>
 #include <time.h>
 
-#include "libavutil/avstring.h"
-#include "libavutil/internal.h"
-#include "libavutil/mem.h"
-#include "libavutil/parseutils.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/parseutils.h>
 #include "avformat.h"
 #include "internal.h"
 #include "url.h"
 #include "urldecode.h"
-#include "libavutil/opt.h"
-#include "libavutil/bprint.h"
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/bprint.h>
 
 #define CONTROL_BUFFER_SIZE 1024
 #define DIR_BUFFER_SIZE 4096

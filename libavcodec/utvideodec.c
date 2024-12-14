@@ -30,9 +30,9 @@
 #define CACHED_BITSTREAM_READER !ARCH_X86_32
 #define UNCHECKED_BITSTREAM_READER 1
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 #include "avcodec.h"
 #include "bswapdsp.h"
 #include "bytestream.h"

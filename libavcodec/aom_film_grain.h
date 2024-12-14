@@ -28,8 +28,8 @@
 #ifndef AVCODEC_AOM_FILM_GRAIN_H
 #define AVCODEC_AOM_FILM_GRAIN_H
 
-#include "libavutil/buffer.h"
-#include "libavutil/film_grain_params.h"
+#include <ffmpeg/libavutil/buffer.h>
+#include <ffmpeg/libavutil/film_grain_params.h>
 
 typedef struct AVFilmGrainAFGS1Params {
     int enable;

@@ -48,9 +48,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavcodec/fmtconvert.h"
-#include "libavutil/mips/asmdefs.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavcodec/fmtconvert.h>
+#include <ffmpeg/libavutil/mips/asmdefs.h>
 
 #if HAVE_INLINE_ASM
 static void int32_to_float_fmul_scalar_mips(float *dst, const int *src,

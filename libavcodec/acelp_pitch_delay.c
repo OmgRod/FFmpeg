@@ -20,9 +20,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/common.h"
-#include "libavutil/ffmath.h"
-#include "libavutil/float_dsp.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/ffmath.h>
+#include <ffmpeg/libavutil/float_dsp.h>
 #include "acelp_pitch_delay.h"
 #include "celp_math.h"
 #include "audiodsp.h"

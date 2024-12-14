@@ -25,19 +25,19 @@
 #include "id3v2.h"
 #include "mux.h"
 #include "rawenc.h"
-#include "libavutil/avstring.h"
-#include "libavutil/mem.h"
-#include "libavcodec/mpegaudio.h"
-#include "libavcodec/mpegaudiodata.h"
-#include "libavcodec/mpegaudiodecheader.h"
-#include "libavcodec/packet_internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/opt.h"
-#include "libavutil/dict.h"
-#include "libavutil/avassert.h"
-#include "libavutil/crc.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/replaygain.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavcodec/mpegaudio.h>
+#include <ffmpeg/libavcodec/mpegaudiodata.h>
+#include <ffmpeg/libavcodec/mpegaudiodecheader.h>
+#include <ffmpeg/libavcodec/packet_internal.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/crc.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/replaygain.h>
 
 static int id3v1_set_string(AVFormatContext *s, const char *key,
                             uint8_t *buf, int buf_size)

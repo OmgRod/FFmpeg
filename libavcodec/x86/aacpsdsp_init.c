@@ -22,9 +22,9 @@
 
 #include "config.h"
 
-#include "libavutil/x86/cpu.h"
-#include "libavutil/attributes.h"
-#include "libavcodec/aacpsdsp.h"
+#include <ffmpeg/libavutil/x86/cpu.h>
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavcodec/aacpsdsp.h>
 
 void ff_ps_add_squares_sse  (float *dst, const float (*src)[2], int n);
 void ff_ps_add_squares_sse3 (float *dst, const float (*src)[2], int n);

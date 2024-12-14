@@ -25,9 +25,9 @@
  * @author Stefan Gehrer <stefan.gehrer@gmx.de>
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/emms.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/emms.h>
+#include <ffmpeg/libavutil/mem.h>
 #include "avcodec.h"
 #include "get_bits.h"
 #include "golomb.h"

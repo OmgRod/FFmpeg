@@ -22,8 +22,8 @@
 
 #include "config_components.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/hwcontext_d3d12va_internal.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/hwcontext_d3d12va_internal.h>
 #include "hevc/data.h"
 #include "hevc/hevcdec.h"
 #include "dxva2_internal.h"

@@ -22,8 +22,8 @@
 
 #include "config_components.h"
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/common.h"
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/common.h>
 #include "parser.h"
 #include "aac_ac3_parser.h"
 #include "ac3_parser_internal.h"

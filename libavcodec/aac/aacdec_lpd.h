@@ -22,7 +22,7 @@
 #define AVCODEC_AAC_AACDEC_LPD_H
 
 #include "aacdec.h"
-#include "libavcodec/get_bits.h"
+#include <ffmpeg/libavcodec/get_bits.h>
 
 int ff_aac_parse_fac_data(AACUsacElemData *ce, GetBitContext *gb,
                           int use_gain, int len);

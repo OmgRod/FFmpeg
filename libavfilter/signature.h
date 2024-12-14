@@ -27,9 +27,9 @@
 #define AVFILTER_SIGNATURE_H
 
 #include <float.h>
-#include "libavutil/common.h"
-#include "libavutil/opt.h"
-#include "libavutil/timestamp.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/timestamp.h>
 #include "avfilter.h"
 
 #define ELEMENT_COUNT 10

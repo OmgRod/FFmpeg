@@ -20,9 +20,9 @@
 
 #include <stdint.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/integer.h"
-#include "libavutil/intmath.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/integer.h>
+#include <ffmpeg/libavutil/intmath.h>
 
 int main(void){
     int64_t a,b;

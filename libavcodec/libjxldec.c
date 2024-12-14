@@ -24,15 +24,15 @@
  * JPEG XL decoder using libjxl
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/buffer.h"
-#include "libavutil/common.h"
-#include "libavutil/csp.h"
-#include "libavutil/error.h"
-#include "libavutil/mem.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/pixfmt.h"
-#include "libavutil/frame.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/buffer.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/csp.h>
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/pixfmt.h>
+#include <ffmpeg/libavutil/frame.h>
 
 #include "avcodec.h"
 #include "codec_internal.h"

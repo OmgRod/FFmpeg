@@ -20,8 +20,8 @@
 
 #include <stdint.h>
 
-#include "libavutil/cpu.h"
-#include "libavcodec/mpegvideoencdsp.h"
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavcodec/mpegvideoencdsp.h>
 
 int ff_try_8x8basis_rvv(const int16_t rem[64], const int16_t weight[64],
                         const int16_t basis[16], int scale);

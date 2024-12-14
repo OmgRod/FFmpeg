@@ -21,9 +21,9 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavcodec/avcodec.h"
-#include "libavcodec/idctdsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavcodec/idctdsp.h>
 #include "idct.h"
 #include "idctdsp_arm.h"
 

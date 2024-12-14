@@ -19,10 +19,10 @@
 #include <float.h>
 #include <stdint.h>
 
-#include "libavutil/float_dsp.h"
-#include "libavutil/internal.h"
-#include "libavutil/mem.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/float_dsp.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #include "checkasm.h"
 

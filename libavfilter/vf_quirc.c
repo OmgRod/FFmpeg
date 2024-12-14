@@ -24,8 +24,8 @@
  * https://github.com/dlbeer/quirc
  */
 
-#include "libavutil/imgutils.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/opt.h>
 #include "avfilter.h"
 #include "filters.h"
 #include "formats.h"

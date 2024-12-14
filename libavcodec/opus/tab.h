@@ -25,7 +25,7 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes_internal.h"
+#include <ffmpeg/libavutil/attributes_internal.h>
 
 FF_VISIBILITY_PUSH_HIDDEN
 extern const uint8_t  ff_celt_band_end[];

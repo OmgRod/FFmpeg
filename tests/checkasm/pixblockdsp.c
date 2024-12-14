@@ -20,11 +20,11 @@
 
 #include <string.h>
 #include "checkasm.h"
-#include "libavcodec/pixblockdsp.h"
-#include "libavutil/common.h"
-#include "libavutil/internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavcodec/pixblockdsp.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #define BUF_UNITS 8
 #define BUF_SIZE (BUF_UNITS * 128 + 8 * BUF_UNITS)

@@ -25,9 +25,9 @@
  */
 
 #include <float.h>
-#include "libavutil/float_dsp.h"
-#include "libavutil/mem.h"
-#include "libavutil/tx.h"
+#include <ffmpeg/libavutil/float_dsp.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/tx.h>
 
 #include "avcodec.h"
 #include "codec_internal.h"

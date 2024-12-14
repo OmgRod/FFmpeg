@@ -25,7 +25,7 @@
 
 #include <stdint.h>
 
-#include "libavcodec/get_bits.h"
+#include <ffmpeg/libavcodec/get_bits.h>
 
 #include "opus.h"
 

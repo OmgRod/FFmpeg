@@ -26,8 +26,8 @@
 
 #define AC3ENC_FLOAT 1
 
-#include "libavutil/attributes.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/thread.h>
 #include "ac3enc.h"
 #include "codec_internal.h"
 #include "eac3enc.h"

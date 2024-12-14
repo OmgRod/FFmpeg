@@ -20,11 +20,11 @@
 
 #include <string.h>
 
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/mem_internal.h>
 
-#include "libavcodec/aacenc_utils.h"
-#include "libavcodec/aacencdsp.h"
-#include "libavcodec/aactab.h"
+#include <ffmpeg/libavcodec/aacenc_utils.h>
+#include <ffmpeg/libavcodec/aacencdsp.h>
+#include <ffmpeg/libavcodec/aactab.h>
 
 #include "checkasm.h"
 

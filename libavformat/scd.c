@@ -24,11 +24,11 @@
 
 #include <stddef.h>
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/internal.h"
-#include "libavutil/macros.h"
-#include "libavutil/mem.h"
-#include "libavformat/internal.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/macros.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavformat/internal.h>
 #include "avformat.h"
 #include "demux.h"
 

@@ -22,15 +22,15 @@
 
 #include <rav1e.h>
 
-#include "libavutil/buffer.h"
-#include "libavutil/internal.h"
-#include "libavutil/avassert.h"
-#include "libavutil/base64.h"
-#include "libavutil/common.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/buffer.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/base64.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "encode.h"

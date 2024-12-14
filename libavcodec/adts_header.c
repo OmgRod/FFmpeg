@@ -25,7 +25,7 @@
 #include "adts_parser.h"
 #include "get_bits.h"
 #include "mpeg4audio.h"
-#include "libavutil/avassert.h"
+#include <ffmpeg/libavutil/avassert.h>
 
 int ff_adts_header_parse(GetBitContext *gbc, AACADTSHeaderInfo *hdr)
 {

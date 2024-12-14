@@ -24,7 +24,7 @@
 #include "avfilter.h"
 #include "version.h"
 
-#include "libavutil/ffversion.h"
+#include <ffmpeg/libavutil/ffversion.h>
 const char av_filter_ffversion[] = "FFmpeg version " FFMPEG_VERSION;
 
 unsigned avfilter_version(void)

@@ -33,9 +33,9 @@
 #include <stdint.h>
 #include <limits.h>
 #include <string.h>
-#include "libavutil/common.h"
-#include "libavutil/intmath.h"
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/intmath.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
 #include "sbc.h"
 #include "sbcdsp.h"
 #include "sbcdsp_data.h"

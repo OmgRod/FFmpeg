@@ -20,7 +20,7 @@
 
 #include <stdio.h>
 #include "queue.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/mem.h>
 
 typedef struct QueueEntry QueueEntry;
 

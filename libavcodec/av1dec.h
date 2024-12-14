@@ -23,10 +23,10 @@
 
 #include <stdint.h>
 
-#include "libavutil/buffer.h"
-#include "libavutil/fifo.h"
-#include "libavutil/frame.h"
-#include "libavutil/pixfmt.h"
+#include <ffmpeg/libavutil/buffer.h>
+#include <ffmpeg/libavutil/fifo.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/pixfmt.h>
 #include "avcodec.h"
 #include "packet.h"
 #include "cbs.h"

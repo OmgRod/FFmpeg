@@ -22,9 +22,9 @@
 #include <stddef.h>
 #include <string.h>
 
-#include "libavutil/cast5.h"
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/cast5.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/mem.h>
 
 int main(int argc, char** argv)
 {

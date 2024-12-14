@@ -27,9 +27,9 @@
  * @remark Development mentored by Benjamin Larson
  */
 
-#include "libavutil/avassert.h"
-#include "libavutil/channel_layout.h"
-#include "libavutil/float_dsp.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/float_dsp.h>
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "decode.h"

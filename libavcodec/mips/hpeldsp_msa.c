@@ -18,8 +18,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/mips/generic_macros_msa.h"
-#include "libavcodec/mips/hpeldsp_mips.h"
+#include <ffmpeg/libavutil/mips/generic_macros_msa.h>
+#include <ffmpeg/libavcodec/mips/hpeldsp_mips.h>
 
 #define PCKEV_AVG_ST_UB(in0, in1, dst, pdst)                  \
 {                                                             \

@@ -25,10 +25,10 @@
 #include <unistd.h>             /* getopt */
 #endif
 
-#include "libavutil/error.h"
-#include "libavutil/eval.h"
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/eval.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/mem.h>
 
 #if !HAVE_GETOPT
 #include "compat/getopt.c"

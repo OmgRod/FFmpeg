@@ -21,10 +21,10 @@
 
 #include "config_components.h"
 
-#include "libavutil/common.h"
-#include "libavutil/opt.h"
-#include "libavcodec/av1_parse.h"
-#include "libavcodec/bsf.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavcodec/av1_parse.h>
+#include <ffmpeg/libavcodec/bsf.h>
 #include "avformat.h"
 #include "avio_internal.h"
 #include "demux.h"

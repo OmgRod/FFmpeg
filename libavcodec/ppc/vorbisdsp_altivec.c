@@ -20,12 +20,12 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/ppc/cpu.h"
-#include "libavutil/ppc/util_altivec.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/ppc/cpu.h>
+#include <ffmpeg/libavutil/ppc/util_altivec.h>
 
-#include "libavcodec/vorbisdsp.h"
+#include <ffmpeg/libavcodec/vorbisdsp.h>
 
 #if HAVE_ALTIVEC
 static void vorbis_inverse_coupling_altivec(float *mag, float *ang,

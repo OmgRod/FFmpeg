@@ -18,10 +18,10 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/audio_fifo.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/tx.h"
+#include <ffmpeg/libavutil/audio_fifo.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/tx.h>
 #include "avfilter.h"
 #include "audio.h"
 #include "filters.h"

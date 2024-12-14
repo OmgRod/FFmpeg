@@ -16,8 +16,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/cpu.h"
-#include "libavutil/cpu_internal.h"
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/cpu_internal.h>
 #include "config.h"
 
 #define CORE_FLAG(f) \
@@ -36,7 +36,7 @@
 #include <stdint.h>
 #include <stdio.h>
 #include <string.h>
-#include "libavutil/avstring.h"
+#include <ffmpeg/libavutil/avstring.h>
 
 #if HAVE_GETAUXVAL
 #include <sys/auxv.h>

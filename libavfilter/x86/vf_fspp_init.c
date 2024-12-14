@@ -19,8 +19,8 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/x86/cpu.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/x86/cpu.h>
 #include "libavfilter/vf_fspp.h"
 
 void ff_store_slice_mmx(uint8_t *dst, int16_t *src,

@@ -29,10 +29,10 @@
 #include <inttypes.h>
 #include <math.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/float_dsp.h"
-#include "libavutil/mem.h"
-#include "libavutil/tx.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/float_dsp.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/tx.h>
 
 #define BITSTREAM_READER_LE
 #include "avcodec.h"

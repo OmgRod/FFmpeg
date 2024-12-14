@@ -22,7 +22,7 @@
 #include "swscale_loongarch.h"
 #include "libswscale/swscale_internal.h"
 #include "libswscale/rgb2rgb.h"
-#include "libavutil/loongarch/cpu.h"
+#include <ffmpeg/libavutil/loongarch/cpu.h>
 
 av_cold void ff_sws_init_range_convert_loongarch(SwsInternal *c)
 {

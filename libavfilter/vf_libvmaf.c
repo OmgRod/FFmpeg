@@ -28,10 +28,10 @@
 
 #include <libvmaf.h>
 
-#include "libavutil/avstring.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 #include "avfilter.h"
 #include "drawutils.h"
 #include "filters.h"
@@ -42,8 +42,8 @@
 #if CONFIG_LIBVMAF_CUDA_FILTER
 #include <libvmaf_cuda.h>
 
-#include "libavutil/hwcontext.h"
-#include "libavutil/hwcontext_cuda_internal.h"
+#include <ffmpeg/libavutil/hwcontext.h>
+#include <ffmpeg/libavutil/hwcontext_cuda_internal.h>
 #endif
 
 typedef struct LIBVMAFContext {

@@ -27,8 +27,8 @@
 
 #include "config_components.h"
 
-#include "libavutil/common.h"
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
 
 #include "mathops.h"
 #include "vp8dsp.h"

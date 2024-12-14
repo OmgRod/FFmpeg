@@ -16,12 +16,12 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/mem.h"
-#include "libavutil/avassert.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/avassert.h>
 #include "vulkan_encode.h"
 #include "config.h"
 
-#include "libavutil/vulkan_loader.h"
+#include <ffmpeg/libavutil/vulkan_loader.h>
 
 const AVCodecHWConfigInternal *const ff_vulkan_encode_hw_configs[] = {
     HW_CONFIG_ENCODER_FRAMES(VULKAN, VULKAN),

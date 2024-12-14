@@ -27,7 +27,7 @@
  * SpeedHQ encoder.
  */
 
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/thread.h>
 
 #include "avcodec.h"
 #include "codec_internal.h"

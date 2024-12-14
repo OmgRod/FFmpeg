@@ -24,7 +24,7 @@
 #include "avformat.h"
 #include "demux.h"
 #include "rawdec.h"
-#include "libavcodec/golomb.h"
+#include <ffmpeg/libavcodec/golomb.h>
 
 static int shn_probe(const AVProbeData *p)
 {

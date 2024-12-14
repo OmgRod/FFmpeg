@@ -21,7 +21,7 @@
  * null video filter
  */
 
-#include "libavutil/internal.h"
+#include <ffmpeg/libavutil/internal.h>
 #include "avfilter.h"
 #include "filters.h"
 #include "video.h"

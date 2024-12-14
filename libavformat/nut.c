@@ -19,9 +19,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
-#include "libavutil/tree.h"
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/tree.h>
 #include "nut.h"
 #include "riff.h"
 #include "internal.h"

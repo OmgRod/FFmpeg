@@ -23,7 +23,7 @@
  * swap UV filter
  */
 
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/pixdesc.h>
 #include "avfilter.h"
 #include "filters.h"
 #include "formats.h"

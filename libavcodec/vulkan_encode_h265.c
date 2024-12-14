@@ -16,14 +16,14 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/internal.h"
-#include "libavutil/opt.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/mem.h>
 
 #include "cbs.h"
 #include "cbs_h265.h"
 #include "atsc_a53.h"
-#include "libavutil/mastering_display_metadata.h"
+#include <ffmpeg/libavutil/mastering_display_metadata.h>
 
 #include "codec_internal.h"
 #include "version.h"

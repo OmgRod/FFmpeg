@@ -25,9 +25,9 @@
 #ifndef AVCODEC_HEVC_DSP_H
 #define AVCODEC_HEVC_DSP_H
 
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/mem_internal.h>
 
-#include "libavcodec/get_bits.h"
+#include <ffmpeg/libavcodec/get_bits.h>
 
 #define MAX_PB_SIZE 64
 

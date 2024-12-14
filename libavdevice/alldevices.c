@@ -18,11 +18,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/attributes_internal.h"
-#include "libavformat/avformat_internal.h"
-#include "libavformat/demux.h"
-#include "libavformat/mux.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/attributes_internal.h>
+#include <ffmpeg/libavformat/avformat_internal.h>
+#include <ffmpeg/libavformat/demux.h>
+#include <ffmpeg/libavformat/mux.h>
 #include "avdevice.h"
 
 FF_VISIBILITY_PUSH_HIDDEN

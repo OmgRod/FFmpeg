@@ -28,11 +28,11 @@
 #include <sys/ioctl.h>
 #include <sys/soundcard.h>
 
-#include "libavutil/internal.h"
+#include <ffmpeg/libavutil/internal.h>
 
 #include "avdevice.h"
-#include "libavformat/internal.h"
-#include "libavformat/mux.h"
+#include <ffmpeg/libavformat/internal.h>
+#include <ffmpeg/libavformat/mux.h>
 
 #include "oss.h"
 

@@ -29,7 +29,7 @@
  * https://en.wikibooks.org/wiki/Data_Compression/Dictionary_compression#LZF
  */
 
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/mem.h>
 
 #include "bytestream.h"
 #include "lzf.h"

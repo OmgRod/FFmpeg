@@ -26,7 +26,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "libavutil/riscv/asm.S"
+#include <ffmpeg/libavutil/riscv/asm.S>
 
         .variant_cc ff_h264_weight_pixels_simple_8_rvv
 func ff_h264_weight_pixels_simple_8_rvv, zve32x, b

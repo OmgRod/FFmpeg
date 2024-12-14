@@ -29,7 +29,7 @@
 
 
 #include "avformat.h"
-#include "libavutil/dict.h"
+#include <ffmpeg/libavutil/dict.h>
 
 typedef struct AVMetadataConv {
     const char *native;

@@ -26,11 +26,11 @@
  * @see http://wiki.multimedia.cx/index.php?title=FunCom_ISS
  */
 
-#include "libavutil/channel_layout.h"
+#include <ffmpeg/libavutil/channel_layout.h>
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"
-#include "libavutil/avstring.h"
+#include <ffmpeg/libavutil/avstring.h>
 
 #define ISS_SIG "IMA_ADPCM_Sound"
 #define ISS_SIG_LEN 15

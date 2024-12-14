@@ -29,8 +29,8 @@
 #include "lrc.h"
 #include "metadata.h"
 #include "subtitles.h"
-#include "libavutil/bprint.h"
-#include "libavutil/dict.h"
+#include <ffmpeg/libavutil/bprint.h>
+#include <ffmpeg/libavutil/dict.h>
 
 typedef struct LRCContext {
     FFDemuxSubtitlesQueue q;

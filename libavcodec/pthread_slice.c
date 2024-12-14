@@ -30,12 +30,12 @@
 #include "pthread_internal.h"
 #include "thread.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/common.h"
-#include "libavutil/cpu.h"
-#include "libavutil/mem.h"
-#include "libavutil/thread.h"
-#include "libavutil/slicethread.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/thread.h>
+#include <ffmpeg/libavutil/slicethread.h>
 
 typedef int (action_func)(AVCodecContext *c, void *arg);
 typedef int (action_func2)(AVCodecContext *c, void *arg, int jobnr, int threadnr);

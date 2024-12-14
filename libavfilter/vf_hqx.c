@@ -27,9 +27,9 @@
  * @see http://blog.pkh.me/p/19-butchering-hqx-scaling-filters.html
  */
 
-#include "libavutil/opt.h"
-#include "libavutil/avassert.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 #include "filters.h"
 #include "video.h"
 

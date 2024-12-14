@@ -21,10 +21,10 @@
  */
 
 #include "pulse_audio_common.h"
-#include "libavutil/attributes.h"
-#include "libavutil/avstring.h"
-#include "libavutil/mem.h"
-#include "libavutil/avassert.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/avassert.h>
 
 pa_sample_format_t av_cold ff_codec_id_to_pulse_format(enum AVCodecID codec_id)
 {

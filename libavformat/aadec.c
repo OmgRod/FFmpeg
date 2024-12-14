@@ -26,12 +26,12 @@
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"
-#include "libavutil/avstring.h"
-#include "libavutil/dict.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
-#include "libavutil/tea.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/tea.h>
+#include <ffmpeg/libavutil/opt.h>
 
 #define AA_MAGIC 1469084982 /* this identifies an audible .aa file */
 #define MAX_TOC_ENTRIES 16

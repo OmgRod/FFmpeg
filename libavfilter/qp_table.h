@@ -21,8 +21,8 @@
 
 #include <stdint.h>
 
-#include "libavutil/frame.h"
-#include "libavutil/video_enc_params.h"
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/video_enc_params.h>
 
 /**
  * Extract a libpostproc-compatible QP table - an 8-bit QP value per 16x16

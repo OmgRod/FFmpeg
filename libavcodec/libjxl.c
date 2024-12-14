@@ -24,8 +24,8 @@
  * JPEG XL via libjxl common support implementation
  */
 
-#include "libavutil/cpu.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/mem.h>
 
 #include <jxl/memory_manager.h>
 #include "libjxl.h"

@@ -21,7 +21,7 @@
 #ifndef SWSCALE_GRAPH_H
 #define SWSCALE_GRAPH_H
 
-#include "libavutil/slicethread.h"
+#include <ffmpeg/libavutil/slicethread.h>
 #include "swscale.h"
 #include "utils.h"
 

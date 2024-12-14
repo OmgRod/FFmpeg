@@ -26,8 +26,8 @@
  *   http://www.pcisys.net/~melanson/codecs/
  */
 
-#include "libavutil/emms.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/emms.h>
+#include <ffmpeg/libavutil/mem.h>
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "encode.h"
@@ -45,9 +45,9 @@
 #include "svq1enc_cb.h"
 #include "version.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/frame.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 // Workaround for GCC bug 102513
 #if AV_GCC_VERSION_AT_LEAST(10, 0) && AV_GCC_VERSION_AT_MOST(12, 0) \

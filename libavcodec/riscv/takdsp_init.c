@@ -20,10 +20,10 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/riscv/cpu.h"
-#include "libavcodec/takdsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/riscv/cpu.h>
+#include <ffmpeg/libavcodec/takdsp.h>
 
 void ff_decorrelate_ls_rvv(const int32_t *p1, int32_t *p2, int length);
 void ff_decorrelate_sr_rvv(int32_t *p1, const int32_t *p2, int length);

@@ -21,7 +21,7 @@
 
 #include <string.h>
 
-#include "libavutil/macros.h"
+#include <ffmpeg/libavutil/macros.h>
 
 #include "rle.h"
 

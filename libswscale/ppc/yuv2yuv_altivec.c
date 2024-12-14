@@ -24,8 +24,8 @@
 #include <inttypes.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
 #include "libswscale/swscale.h"
 #include "libswscale/swscale_internal.h"
 

@@ -19,7 +19,7 @@
  */
 
 #include "config.h"
-#include "libavutil/riscv/asm.S"
+#include <ffmpeg/libavutil/riscv/asm.S>
 
 #if HAVE_RV_ZICBOP
 func ff_prefetch_rv_zicbop, zicbop

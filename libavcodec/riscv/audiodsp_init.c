@@ -20,9 +20,9 @@
 
 #include "config.h"
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavcodec/audiodsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavcodec/audiodsp.h>
 
 int32_t ff_scalarproduct_int16_rvv(const int16_t *v1, const int16_t *v2, int len);
 void ff_vector_clip_int32_rvv(int32_t *dst, const int32_t *src, int32_t min,

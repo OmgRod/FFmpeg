@@ -24,9 +24,9 @@
  * VP8 compatible video decoder
  */
 
-#include "libavutil/loongarch/cpu.h"
-#include "libavcodec/vp8dsp.h"
-#include "libavutil/attributes.h"
+#include <ffmpeg/libavutil/loongarch/cpu.h>
+#include <ffmpeg/libavcodec/vp8dsp.h>
+#include <ffmpeg/libavutil/attributes.h>
 #include "vp8dsp_loongarch.h"
 
 #define VP8_MC_LOONGARCH_FUNC(IDX, SIZE)                                          \

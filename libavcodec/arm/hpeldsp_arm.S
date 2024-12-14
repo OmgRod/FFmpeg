@@ -20,7 +20,7 @@
 @
 
 #include "config.h"
-#include "libavutil/arm/asm.S"
+#include <ffmpeg/libavutil/arm/asm.S>
 
 #if !HAVE_ARMV5TE_EXTERNAL
 #define pld @

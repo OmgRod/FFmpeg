@@ -24,7 +24,7 @@
  * Adobe Filmstrip muxer
  */
 
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
 #include "avformat.h"
 #include "avio_internal.h"
 #include "mux.h"

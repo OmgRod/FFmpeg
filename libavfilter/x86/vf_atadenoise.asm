@@ -22,7 +22,7 @@
 
 %if ARCH_X86_64
 
-%include "libavutil/x86/x86util.asm"
+%include <ffmpeg/libavutil/x86/x86util.asm>
 
 SECTION_RODATA
 pw_one:  times 8 dw 1

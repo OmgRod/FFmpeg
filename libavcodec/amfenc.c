@@ -19,24 +19,24 @@
 #include "config.h"
 #include "config_components.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/hwcontext.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/hwcontext.h>
 #if CONFIG_D3D11VA
-#include "libavutil/hwcontext_d3d11va.h"
+#include <ffmpeg/libavutil/hwcontext_d3d11va.h>
 #endif
 #if CONFIG_DXVA2
 #define COBJMACROS
-#include "libavutil/hwcontext_dxva2.h"
+#include <ffmpeg/libavutil/hwcontext_dxva2.h>
 #endif
-#include "libavutil/mem.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/time.h"
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/time.h>
 
 #include "amfenc.h"
 #include "encode.h"
 #include "internal.h"
-#include "libavutil/mastering_display_metadata.h"
+#include <ffmpeg/libavutil/mastering_display_metadata.h>
 
 static int amf_save_hdr_metadata(AVCodecContext *avctx, const AVFrame *frame, AMFHDRMetadata *hdrmeta)
 {

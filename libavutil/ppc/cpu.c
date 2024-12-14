@@ -42,9 +42,9 @@
 #include <proto/exec.h>
 #endif /* __APPLE__ */
 
-#include "libavutil/avassert.h"
-#include "libavutil/cpu.h"
-#include "libavutil/cpu_internal.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/cpu_internal.h>
 
 #ifndef AT_HWCAP
 #define AT_HWCAP             16

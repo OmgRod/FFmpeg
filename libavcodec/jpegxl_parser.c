@@ -23,12 +23,12 @@
 #include <stdint.h>
 #include <string.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/error.h"
-#include "libavutil/intmath.h"
-#include "libavutil/macros.h"
-#include "libavutil/mem.h"
-#include "libavutil/pixfmt.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/intmath.h>
+#include <ffmpeg/libavutil/macros.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/pixfmt.h>
 
 #include "bytestream.h"
 #include "codec_id.h"

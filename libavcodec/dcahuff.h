@@ -25,7 +25,7 @@
 
 #include <stdint.h>
 
-#include "libavutil/attributes.h"
+#include <ffmpeg/libavutil/attributes.h>
 
 #include "vlc.h"
 

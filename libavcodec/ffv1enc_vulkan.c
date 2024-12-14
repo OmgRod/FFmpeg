@@ -18,16 +18,16 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/crc.h"
-#include "libavutil/mem.h"
-#include "libavutil/vulkan.h"
-#include "libavutil/vulkan_spirv.h"
+#include <ffmpeg/libavutil/crc.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/vulkan.h>
+#include <ffmpeg/libavutil/vulkan_spirv.h>
 
 #include "avcodec.h"
 #include "internal.h"
 #include "hwconfig.h"
 #include "encode.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/opt.h>
 #include "codec_internal.h"
 
 #include "ffv1.h"

@@ -23,12 +23,12 @@
 
 #include <stdint.h>
 
-#include "libavutil/pixfmt.h"
-#include "libavutil/rational.h"
+#include <ffmpeg/libavutil/pixfmt.h>
+#include <ffmpeg/libavutil/rational.h>
 
-#include "libavcodec/avcodec.h"
-#include "libavcodec/get_bits.h"
-#include "libavcodec/h2645_vui.h"
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavcodec/get_bits.h>
+#include <ffmpeg/libavcodec/h2645_vui.h>
 
 #include "hevc.h"
 

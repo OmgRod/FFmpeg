@@ -21,7 +21,7 @@
 
 #include "config_components.h"
 
-#include "libavutil/channel_layout.h"
+#include <ffmpeg/libavutil/channel_layout.h>
 #include "avformat.h"
 #include "avio_internal.h"
 #include "demux.h"
@@ -76,7 +76,7 @@ static int mmf_write_header(AVFormatContext *s)
     int rate;
     const char *version = s->flags & AVFMT_FLAG_BITEXACT ?
                           "VN:Lavf," :
-                          "VN:"LIBAVFORMAT_IDENT",";
+                          "VN:<ffmpeg/libavformat_IDENT>,";
 
     rate = mmf_rate_code(s->streams[0]->codecpar->sample_rate);
     if (rate < 0) {

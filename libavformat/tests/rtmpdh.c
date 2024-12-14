@@ -16,8 +16,8 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavformat/avformat.h"
-#include "libavformat/rtmpdh.c"
+#include <ffmpeg/libavformat/avformat.h>
+#include <ffmpeg/libavformat/rtmpdh.c>
 
 #include <stdio.h>
 

@@ -21,11 +21,11 @@
 
 #include <stdint.h>
 
-#include "libavutil/common.h"
-#include "libavutil/frame.h"
-#include "libavutil/rational.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/rational.h>
 
-#include "libavcodec/packet.h"
+#include <ffmpeg/libavcodec/packet.h>
 
 typedef struct Timestamp {
     int64_t    ts;

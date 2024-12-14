@@ -21,8 +21,8 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
 #include "libavfilter/af_afirdsp.h"
 
 void ff_fcmul_add_rvv(float *sum, const float *t, const float *c,

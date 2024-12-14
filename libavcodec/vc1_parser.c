@@ -25,8 +25,8 @@
  * VC-1 and WMV3 parser
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/avassert.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/avassert.h>
 #include "parser.h"
 #include "vc1.h"
 #include "get_bits.h"

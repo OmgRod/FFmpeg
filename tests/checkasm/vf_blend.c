@@ -21,10 +21,10 @@
 #include <string.h>
 #include "checkasm.h"
 #include "libavfilter/vf_blend_init.h"
-#include "libavutil/common.h"
-#include "libavutil/internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem.h>
 
 #define WIDTH 256
 #define HEIGHT 256

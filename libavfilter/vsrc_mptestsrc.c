@@ -23,8 +23,8 @@
  * MP test source, ported from MPlayer libmpcodecs/vf_test.c
  */
 
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 #include "avfilter.h"
 #include "filters.h"
 #include "video.h"

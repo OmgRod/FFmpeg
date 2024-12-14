@@ -27,9 +27,9 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/libm.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/libm.h>
+#include <ffmpeg/libavutil/thread.h>
 
 #include "mpegaudiodata.h"
 

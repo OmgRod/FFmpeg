@@ -21,11 +21,11 @@
 #include <fcntl.h>
 #define LIBSSH_STATIC
 #include <libssh/sftp.h>
-#include "libavutil/avstring.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/attributes.h"
-#include "libavformat/avio.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavformat/avio.h>
 #include "avformat.h"
 #include "internal.h"
 #include "url.h"

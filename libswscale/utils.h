@@ -21,7 +21,7 @@
 #ifndef SWSCALE_UTILS_H
 #define SWSCALE_UTILS_H
 
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/pixdesc.h>
 
 #include "swscale.h"
 

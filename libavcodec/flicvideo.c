@@ -36,7 +36,7 @@
 
 #include <string.h>
 
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
 #include "avcodec.h"
 #include "bytestream.h"
 #include "codec_internal.h"

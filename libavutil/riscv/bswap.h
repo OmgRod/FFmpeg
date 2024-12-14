@@ -21,8 +21,8 @@
 
 #include <stdint.h>
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/riscv/cpu.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/riscv/cpu.h>
 
 #if defined (__GNUC__) || defined (__clang__)
 #define av_bswap16 __builtin_bswap16

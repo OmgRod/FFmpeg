@@ -22,8 +22,8 @@
  */
 
 #include <windows.h>
-#include "libavformat/version.h"
-#include "libavutil/ffversion.h"
+#include <ffmpeg/libavformat/version.h>
+#include <ffmpeg/libavutil/ffversion.h>
 #include "config.h"
 
 1 VERSIONINFO
@@ -40,7 +40,7 @@ FILETYPE        VFT_DLL
             VALUE "CompanyName",      "FFmpeg Project"
             VALUE "FileDescription",  "FFmpeg container format library"
             VALUE "FileVersion",      AV_STRINGIFY(LIBAVFORMAT_VERSION)
-            VALUE "InternalName",     "libavformat"
+            VALUE "InternalName",     <ffmpeg/libavformat>
             VALUE "LegalCopyright",   "Copyright (C) 2000-" AV_STRINGIFY(CONFIG_THIS_YEAR) " FFmpeg Project"
             VALUE "OriginalFilename", "avformat" BUILDSUF "-" AV_STRINGIFY(LIBAVFORMAT_VERSION_MAJOR) SLIBSUF
             VALUE "ProductName",      "FFmpeg"

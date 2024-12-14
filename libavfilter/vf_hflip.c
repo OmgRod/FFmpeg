@@ -32,10 +32,10 @@
 #include "hflip.h"
 #include "vf_hflip_init.h"
 #include "video.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/internal.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/imgutils.h"
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/imgutils.h>
 
 static int query_formats(const AVFilterContext *ctx,
                          AVFilterFormatsConfig **cfg_in,

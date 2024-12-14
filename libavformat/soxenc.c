@@ -29,9 +29,9 @@
  * @see http://wiki.multimedia.cx/index.php?title=SoX_native_intermediate_format
  */
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/intfloat.h"
-#include "libavutil/dict.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/intfloat.h>
+#include <ffmpeg/libavutil/dict.h>
 #include "avformat.h"
 #include "avio_internal.h"
 #include "mux.h"

@@ -35,7 +35,7 @@
 
 #include <limits.h>
 #include <stdatomic.h>
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/thread.h>
 
 /**
  * This struct should be treated as opaque by users.

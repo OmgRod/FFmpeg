@@ -24,7 +24,7 @@
 #include "bytestream.h"
 #include "codec_internal.h"
 #include "decode.h"
-#include "libavutil/opt.h"
+#include <ffmpeg/libavutil/opt.h>
 
 typedef struct {
     AVClass *av_class;

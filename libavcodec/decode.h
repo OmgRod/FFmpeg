@@ -21,8 +21,8 @@
 #ifndef AVCODEC_DECODE_H
 #define AVCODEC_DECODE_H
 
-#include "libavutil/frame.h"
-#include "libavutil/hwcontext.h"
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/hwcontext.h>
 
 #include "avcodec.h"
 

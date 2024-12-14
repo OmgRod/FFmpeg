@@ -25,8 +25,8 @@
  * @author Paul B Mahol
  */
 
-#include "libavutil/channel_layout.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/channel_layout.h>
+#include <ffmpeg/libavutil/thread.h>
 
 #include "adpcm_data.h"
 #include "avcodec.h"

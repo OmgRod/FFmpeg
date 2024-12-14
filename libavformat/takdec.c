@@ -19,11 +19,11 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavutil/crc.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/crc.h>
+#include <ffmpeg/libavutil/mem.h>
 
 #define BITSTREAM_READER_LE
-#include "libavcodec/tak.h"
+#include <ffmpeg/libavcodec/tak.h>
 
 #include "apetag.h"
 #include "avformat.h"

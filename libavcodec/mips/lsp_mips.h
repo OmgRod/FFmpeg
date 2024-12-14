@@ -58,8 +58,8 @@
 
 #if HAVE_MIPSFPU && HAVE_INLINE_ASM
 #if !HAVE_MIPS32R6 && !HAVE_MIPS64R6
-#include "libavutil/attributes.h"
-#include "libavutil/mips/asmdefs.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/mips/asmdefs.h>
 
 static av_always_inline void lsp2polyf_mips(const double *lsp, double *f, int lp_half_order)
 {

@@ -42,26 +42,26 @@
 #include "aacdec_tab.h"
 #include "aacdec_usac.h"
 
-#include "libavcodec/aac.h"
-#include "libavcodec/aac_defines.h"
-#include "libavcodec/aacsbr.h"
-#include "libavcodec/aactab.h"
-#include "libavcodec/adts_header.h"
+#include <ffmpeg/libavcodec/aac.h>
+#include <ffmpeg/libavcodec/aac_defines.h>
+#include <ffmpeg/libavcodec/aacsbr.h>
+#include <ffmpeg/libavcodec/aactab.h>
+#include <ffmpeg/libavcodec/adts_header.h>
 
-#include "libavcodec/avcodec.h"
-#include "libavcodec/internal.h"
-#include "libavcodec/codec_internal.h"
-#include "libavcodec/decode.h"
-#include "libavcodec/profiles.h"
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavcodec/internal.h>
+#include <ffmpeg/libavcodec/codec_internal.h>
+#include <ffmpeg/libavcodec/decode.h>
+#include <ffmpeg/libavcodec/profiles.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/error.h"
-#include "libavutil/log.h"
-#include "libavutil/macros.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/tx.h"
-#include "libavutil/version.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/macros.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/tx.h>
+#include <ffmpeg/libavutil/version.h>
 
 /*
  * supported tools

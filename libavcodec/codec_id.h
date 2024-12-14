@@ -21,8 +21,8 @@
 #ifndef AVCODEC_CODEC_ID_H
 #define AVCODEC_CODEC_ID_H
 
-#include "libavutil/avutil.h"
-#include "libavutil/samplefmt.h"
+#include <ffmpeg/libavutil/avutil.h>
+#include <ffmpeg/libavutil/samplefmt.h>
 
 #include "version_major.h"
 

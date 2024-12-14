@@ -23,7 +23,7 @@
 #include "demux.h"
 #include "internal.h"
 #include "voc.h"
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
 
 typedef struct C93BlockRecord {
     uint16_t index;

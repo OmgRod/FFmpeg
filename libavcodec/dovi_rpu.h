@@ -24,8 +24,8 @@
 #ifndef AVCODEC_DOVI_RPU_H
 #define AVCODEC_DOVI_RPU_H
 
-#include "libavutil/dovi_meta.h"
-#include "libavutil/frame.h"
+#include <ffmpeg/libavutil/dovi_meta.h>
+#include <ffmpeg/libavutil/frame.h>
 
 #include "avcodec.h"
 #include "codec_par.h"

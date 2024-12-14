@@ -25,8 +25,8 @@
 #define AVCODEC_X86_H26X_H2656DSP_H
 
 #include "config.h"
-#include "libavutil/x86/asm.h"
-#include "libavutil/x86/cpu.h"
+#include <ffmpeg/libavutil/x86/asm.h>
+#include <ffmpeg/libavutil/x86/cpu.h>
 #include <stdlib.h>
 
 #define H2656_PEL_PROTOTYPE(name, D, opt) \

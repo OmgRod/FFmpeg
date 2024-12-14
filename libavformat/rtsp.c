@@ -21,19 +21,19 @@
 
 #include "config_components.h"
 
-#include "libavutil/avassert.h"
-#include "libavutil/base64.h"
-#include "libavutil/bprint.h"
-#include "libavutil/avstring.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mathematics.h"
-#include "libavutil/mem.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/random_seed.h"
-#include "libavutil/dict.h"
-#include "libavutil/opt.h"
-#include "libavutil/time.h"
-#include "libavcodec/codec_desc.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/base64.h>
+#include <ffmpeg/libavutil/bprint.h>
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mathematics.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/parseutils.h>
+#include <ffmpeg/libavutil/random_seed.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/time.h>
+#include <ffmpeg/libavcodec/codec_desc.h>
 #include "avformat.h"
 #include "avio_internal.h"
 #include "demux.h"

@@ -27,8 +27,8 @@
 #include <unistd.h>
 #include <fcntl.h>
 #include <poll.h>
-#include "libavcodec/avcodec.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavcodec/avcodec.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 #include "refstruct.h"
 #include "v4l2_context.h"
 #include "v4l2_buffers.h"

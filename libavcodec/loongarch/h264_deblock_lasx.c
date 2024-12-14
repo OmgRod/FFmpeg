@@ -19,9 +19,9 @@
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
  */
 
-#include "libavcodec/bit_depth_template.c"
+#include <ffmpeg/libavcodec/bit_depth_template.c>
 #include "h264dsp_loongarch.h"
-#include "libavutil/loongarch/loongson_intrinsics.h"
+#include <ffmpeg/libavutil/loongarch/loongson_intrinsics.h>
 
 #define H264_LOOP_FILTER_STRENGTH_ITERATION_LASX(edges, step, mask_mv, dir, \
                                                  d_idx, mask_dir)           \

@@ -20,10 +20,10 @@
 
 #include "checkasm.h"
 
-#include "libavcodec/diracdsp.h"
+#include <ffmpeg/libavcodec/diracdsp.h>
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem_internal.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem_internal.h>
 
 #define RANDOMIZE_DESTS(name, size)             \
     do {                                        \

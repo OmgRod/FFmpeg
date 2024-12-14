@@ -25,13 +25,13 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "libavutil/avstring.h"
-#include "libavutil/common.h"
-#include "libavutil/error.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/hwcontext_qsv.h"
-#include "libavutil/avassert.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/error.h>
+#include <ffmpeg/libavutil/hwcontext.h>
+#include <ffmpeg/libavutil/hwcontext_qsv.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/mem.h>
 
 #include "avcodec.h"
 #include "qsv_internal.h"

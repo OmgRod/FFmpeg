@@ -26,7 +26,7 @@
 #if HAVE_INTRINSICS_SSE2 && defined(__SSE2__)
 #include <emmintrin.h>
 #endif
-#include "libavutil/attributes.h"
+#include <ffmpeg/libavutil/attributes.h>
 
 #if HAVE_INTRINSICS_SSE2 && defined(__SSE2__)
 

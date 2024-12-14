@@ -27,7 +27,7 @@
 
 #include "config_components.h"
 
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/mem.h>
 #include "mathops.h"
 #include "tab.h"
 #include "pvq.h"

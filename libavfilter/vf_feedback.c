@@ -21,10 +21,10 @@
  * feedback video filter
  */
 
-#include "libavutil/fifo.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/opt.h"
-#include "libavutil/internal.h"
+#include <ffmpeg/libavutil/fifo.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/internal.h>
 #include "avfilter.h"
 #include "filters.h"
 #include "formats.h"

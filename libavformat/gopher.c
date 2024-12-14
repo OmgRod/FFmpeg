@@ -26,7 +26,7 @@
 #include "config.h"
 #include "config_components.h"
 
-#include "libavutil/avstring.h"
+#include <ffmpeg/libavutil/avstring.h>
 #include "avformat.h"
 #include "internal.h"
 #include "network.h"

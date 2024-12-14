@@ -28,7 +28,7 @@
  * @author Paul B Mahol
  */
 
-#include "libavutil/common.h"
+#include <ffmpeg/libavutil/common.h>
 
 /**
  * Rate 1/8 frame energy quantization

@@ -27,7 +27,7 @@
  * H.263/MPEG-4 codec.
  */
 
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/thread.h>
 #include "mpegvideo.h"
 #include "h263.h"
 #include "h263data.h"

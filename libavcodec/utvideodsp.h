@@ -21,7 +21,7 @@
 
 #include <stdint.h>
 #include <stddef.h>
-#include "libavutil/pixfmt.h"
+#include <ffmpeg/libavutil/pixfmt.h>
 #include "config.h"
 
 typedef struct UTVideoDSPContext {

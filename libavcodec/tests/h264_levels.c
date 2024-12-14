@@ -19,9 +19,9 @@
 #include <inttypes.h>
 #include <stddef.h>
 
-#include "libavutil/log.h"
-#include "libavutil/macros.h"
-#include "libavcodec/h264_levels.h"
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/macros.h>
+#include <ffmpeg/libavcodec/h264_levels.h>
 
 static const struct {
     int width;

@@ -21,14 +21,14 @@
 #include "config_components.h"
 
 #include <string.h>
-#include "libavutil/avstring.h"
-#include "libavutil/base64.h"
-#include "libavutil/dict.h"
-#include "libavutil/mem.h"
-#include "libavutil/parseutils.h"
-#include "libavutil/opt.h"
-#include "libavcodec/xiph.h"
-#include "libavcodec/mpeg4audio.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/base64.h>
+#include <ffmpeg/libavutil/dict.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/parseutils.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavcodec/xiph.h>
+#include <ffmpeg/libavcodec/mpeg4audio.h>
 #include "avformat.h"
 #include "internal.h"
 #include "avc.h"

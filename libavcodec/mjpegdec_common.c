@@ -22,7 +22,7 @@
  */
 
 #include <stdint.h>
-#include "libavutil/avassert.h"
+#include <ffmpeg/libavutil/avassert.h>
 #include "mjpegdec.h"
 #include "vlc.h"
 

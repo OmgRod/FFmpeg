@@ -22,12 +22,12 @@
 #include "avcodec.h"
 #include "codec_internal.h"
 #include "decode.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/mem.h>
 
 #if CONFIG_ZLIB
 #include <zlib.h>
 #endif
-#include "libavutil/lzo.h"
+#include <ffmpeg/libavutil/lzo.h>
 
 typedef struct CamStudioContext {
     AVFrame *pic;

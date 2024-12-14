@@ -22,9 +22,9 @@
 #include <stdint.h>
 
 #include "config.h"
-#include "libavutil/attributes.h"
-#include "libavutil/riscv/cpu.h"
-#include "libavcodec/h264qpel.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/riscv/cpu.h>
+#include <ffmpeg/libavcodec/h264qpel.h>
 
 #define DECL_QPEL_OPS(OP, SIZE, EXT)                                                                       \
 void ff_ ## OP ## _h264_qpel ## SIZE ## _mc00_ ## EXT(uint8_t *dst, const uint8_t *src, ptrdiff_t stride); \

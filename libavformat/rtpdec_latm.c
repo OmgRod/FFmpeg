@@ -22,9 +22,9 @@
 #include "avio_internal.h"
 #include "rtpdec_formats.h"
 #include "internal.h"
-#include "libavutil/avstring.h"
-#include "libavutil/mem.h"
-#include "libavcodec/get_bits.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavcodec/get_bits.h>
 
 struct PayloadContext {
     AVIOContext *dyn_buf;

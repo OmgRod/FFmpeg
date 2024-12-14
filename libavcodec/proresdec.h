@@ -28,8 +28,8 @@
 #include "blockdsp.h"
 #include "proresdsp.h"
 
-#include "libavutil/frame.h"
-#include "libavutil/pixfmt.h"
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/pixfmt.h>
 
 typedef struct {
     const uint8_t *data;

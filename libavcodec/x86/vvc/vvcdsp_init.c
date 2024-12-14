@@ -23,12 +23,12 @@
 
 #include "config.h"
 
-#include "libavutil/cpu.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/vvc/dec.h"
-#include "libavcodec/vvc/ctu.h"
-#include "libavcodec/vvc/dsp.h"
-#include "libavcodec/x86/h26x/h2656dsp.h"
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/x86/cpu.h>
+#include <ffmpeg/libavcodec/vvc/dec.h>
+#include <ffmpeg/libavcodec/vvc/ctu.h>
+#include <ffmpeg/libavcodec/vvc/dsp.h>
+#include <ffmpeg/libavcodec/x86/h26x/h2656dsp.h>
 
 #if ARCH_X86_64
 

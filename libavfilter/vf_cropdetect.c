@@ -23,12 +23,12 @@
  * Ported from MPlayer libmpcodecs/vf_cropdetect.c.
  */
 
-#include "libavutil/imgutils.h"
-#include "libavutil/internal.h"
-#include "libavutil/mem.h"
-#include "libavutil/opt.h"
-#include "libavutil/motion_vector.h"
-#include "libavutil/qsort.h"
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/internal.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/motion_vector.h>
+#include <ffmpeg/libavutil/qsort.h>
 
 #include "avfilter.h"
 #include "filters.h"

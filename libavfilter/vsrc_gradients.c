@@ -21,10 +21,10 @@
 #include "avfilter.h"
 #include "filters.h"
 #include "video.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/opt.h"
-#include "libavutil/lfg.h"
-#include "libavutil/random_seed.h"
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/lfg.h>
+#include <ffmpeg/libavutil/random_seed.h>
 #include <float.h>
 #include <math.h>
 

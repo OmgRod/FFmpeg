@@ -31,14 +31,14 @@
 #include "decode.h"
 #include "hwconfig.h"
 #include "refstruct.h"
-#include "libavutil/buffer.h"
-#include "libavutil/common.h"
-#include "libavutil/frame.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/hwcontext_drm.h"
-#include "libavutil/imgutils.h"
-#include "libavutil/log.h"
-#include "libavutil/mem.h"
+#include <ffmpeg/libavutil/buffer.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/hwcontext.h>
+#include <ffmpeg/libavutil/hwcontext_drm.h>
+#include <ffmpeg/libavutil/imgutils.h>
+#include <ffmpeg/libavutil/log.h>
+#include <ffmpeg/libavutil/mem.h>
 
 #define RECEIVE_FRAME_TIMEOUT   100
 #define FRAMEGROUP_MAX_FRAMES   16

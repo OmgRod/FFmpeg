@@ -25,7 +25,7 @@
  */
 
 #include "parser.h"
-#include "libavutil/bswap.h"
+#include <ffmpeg/libavutil/bswap.h>
 
 typedef struct DNxUcParseContext {
     ParseContext pc;

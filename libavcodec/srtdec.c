@@ -21,10 +21,10 @@
 
 #include "config_components.h"
 
-#include "libavutil/avstring.h"
-#include "libavutil/common.h"
-#include "libavutil/intreadwrite.h"
-#include "libavutil/parseutils.h"
+#include <ffmpeg/libavutil/avstring.h>
+#include <ffmpeg/libavutil/common.h>
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/parseutils.h>
 #include "avcodec.h"
 #include "ass.h"
 #include "codec_internal.h"

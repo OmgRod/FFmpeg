@@ -22,8 +22,8 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "libavutil/avassert.h"
-#include "libavutil/frame.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/frame.h>
 
 enum AVVideoEncParamsType {
     AV_VIDEO_ENC_PARAMS_NONE = -1,

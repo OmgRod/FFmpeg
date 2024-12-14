@@ -23,15 +23,15 @@
  * implementing a generic image processing filter using deep learning networks.
  */
 
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/avassert.h"
-#include "libavutil/imgutils.h"
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/imgutils.h>
 #include "filters.h"
 #include "dnn_filter_common.h"
 #include "video.h"
 #include "libswscale/swscale.h"
-#include "libavutil/time.h"
+#include <ffmpeg/libavutil/time.h>
 
 typedef struct DnnProcessingContext {
     const AVClass *class;

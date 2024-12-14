@@ -26,16 +26,16 @@
 #include <stdarg.h>
 
 #undef HAVE_AV_CONFIG_H
-#include "libavutil/cpu.h"
-#include "libavutil/pixdesc.h"
-#include "libavutil/lfg.h"
-#include "libavutil/sfc64.h"
-#include "libavutil/frame.h"
-#include "libavutil/opt.h"
-#include "libavutil/time.h"
-#include "libavutil/pixfmt.h"
-#include "libavutil/avassert.h"
-#include "libavutil/macros.h"
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/pixdesc.h>
+#include <ffmpeg/libavutil/lfg.h>
+#include <ffmpeg/libavutil/sfc64.h>
+#include <ffmpeg/libavutil/frame.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/time.h>
+#include <ffmpeg/libavutil/pixfmt.h>
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/macros.h>
 
 #include "libswscale/swscale.h"
 

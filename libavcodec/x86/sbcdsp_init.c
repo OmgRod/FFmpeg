@@ -29,10 +29,10 @@
  * SBC MMX optimization for some basic "building bricks"
  */
 
-#include "libavutil/attributes.h"
-#include "libavutil/cpu.h"
-#include "libavutil/x86/cpu.h"
-#include "libavcodec/sbcdsp.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/cpu.h>
+#include <ffmpeg/libavutil/x86/cpu.h>
+#include <ffmpeg/libavcodec/sbcdsp.h>
 
 void ff_sbc_analyze_4_mmx(const int16_t *in, int32_t *out, const int16_t *consts);
 void ff_sbc_analyze_8_mmx(const int16_t *in, int32_t *out, const int16_t *consts);

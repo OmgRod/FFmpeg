@@ -21,9 +21,9 @@
 #include <inttypes.h>
 #include <stdio.h>
 
-#include "libavutil/intreadwrite.h"
-#include "libavutil/mem.h"
-#include "libavutil/murmur3.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
+#include <ffmpeg/libavutil/mem.h>
+#include <ffmpeg/libavutil/murmur3.h>
 
 int main(void)
 {

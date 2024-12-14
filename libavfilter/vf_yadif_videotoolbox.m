@@ -22,10 +22,10 @@
 #include "filters.h"
 #include "metal/utils.h"
 #include "yadif.h"
-#include "libavutil/avassert.h"
-#include "libavutil/hwcontext.h"
-#include "libavutil/hwcontext_videotoolbox.h"
-#include "libavutil/objc.h"
+#include <ffmpeg/libavutil/avassert.h>
+#include <ffmpeg/libavutil/hwcontext.h>
+#include <ffmpeg/libavutil/hwcontext_videotoolbox.h>
+#include <ffmpeg/libavutil/objc.h>
 
 #include <assert.h>
 

@@ -20,10 +20,10 @@
 
 #include <VideoToolbox/VideoToolbox.h>
 
-#include "libavutil/hwcontext.h"
-#include "libavutil/hwcontext_videotoolbox.h"
-#include "libavutil/opt.h"
-#include "libavutil/pixdesc.h"
+#include <ffmpeg/libavutil/hwcontext.h>
+#include <ffmpeg/libavutil/hwcontext_videotoolbox.h>
+#include <ffmpeg/libavutil/opt.h>
+#include <ffmpeg/libavutil/pixdesc.h>
 
 #include "filters.h"
 #include "scale_eval.h"

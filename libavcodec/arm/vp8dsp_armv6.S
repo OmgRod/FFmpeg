@@ -52,7 +52,7 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "libavutil/arm/asm.S"
+#include <ffmpeg/libavutil/arm/asm.S>
 
 @ idct
 

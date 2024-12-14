@@ -27,13 +27,13 @@
 
 #include "aacdec_tab.h"
 
-#include "libavcodec/aac.h"
-#include "libavcodec/aacps.h"
-#include "libavcodec/aactab.h"
-#include "libavcodec/vlc.h"
+#include <ffmpeg/libavcodec/aac.h>
+#include <ffmpeg/libavcodec/aacps.h>
+#include <ffmpeg/libavcodec/aactab.h>
+#include <ffmpeg/libavcodec/vlc.h>
 
-#include "libavutil/attributes.h"
-#include "libavutil/thread.h"
+#include <ffmpeg/libavutil/attributes.h>
+#include <ffmpeg/libavutil/thread.h>
 
 const int8_t ff_tags_per_config[16] = { 0, 1, 1, 2, 3, 3, 4, 5, 0, 0, 0, 5, 5, 16, 5, 0 };
 

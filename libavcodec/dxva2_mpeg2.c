@@ -22,7 +22,7 @@
 
 #include "config_components.h"
 
-#include "libavutil/log.h"
+#include <ffmpeg/libavutil/log.h>
 
 #include "dxva2_internal.h"
 #include "hwaccel_internal.h"

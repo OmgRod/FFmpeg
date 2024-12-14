@@ -23,7 +23,7 @@
  * CRI ADX demuxer
  */
 
-#include "libavutil/intreadwrite.h"
+#include <ffmpeg/libavutil/intreadwrite.h>
 #include "avformat.h"
 #include "demux.h"
 #include "internal.h"

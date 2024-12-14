@@ -22,7 +22,7 @@
 #ifndef AVCODEC_DXV_H
 #define AVCODEC_DXV_H
 
-#include "libavutil/macros.h"
+#include <ffmpeg/libavutil/macros.h>
 
 typedef enum DXVTextureFormat {
     DXV_FMT_DXT1 = MKBETAG('D', 'X', 'T', '1'),
